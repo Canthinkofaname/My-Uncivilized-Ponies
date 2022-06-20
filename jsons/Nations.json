@@ -1,0 +1,60 @@
+[
+
+   {		
+  //nations		
+   "name": "Equestria",	
+	"leaderName": "Princess Celestia",		
+   "adjective": ["Equestrians"],		
+   "startBias": ["Avoid [Tundra]"],		
+   "preferredVictoryType": "Diplomatic", 
+		
+   "startIntroPart1": " YOofofo",		
+   "startIntroPart2": "hghghg", 		
+   "declaringWar": "You leave us no choice. You and your reign must end!",		
+   "attacked": "Why dont you choose an opponet thats your size?",		
+   "defeated": "This may be it for Equestria, but its impact on the world will forever remain!",		
+   "introduction": "Hello there! Would you care to visit and eat one of our delicous Green gem cake?", 		
+   "neutralHello": "Hello!",	
+   "hateHello": "I hope your here to a civil talk.", 		
+   "tradeRequest": "The Princess of Equestria in all her elegance would like to conduct a trade offer!", 		
+
+   "outerColor": [255,197,133],		
+   "innerColor": [254,255,189],
+		
+   "favoredReligion": "Alicornism",	
+	
+   "uniqueName": "Harmony",		
+   "uniques": [" [+1 Happiness] [in all cities]", "[+10]% Strength for cities <when attacking>"],		
+   "cities": ["Canterlot","Cloudsdale","Las Pegasus","Hayston","Fillydelphia","Sire's Hollow","Raspberry Grove","Vanhoover","Whitebell","Acornage",			
+   "Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",			
+   "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
+},
+ {			
+   "name": "Lunar Republic",	
+	"leaderName": "Princess Luna",		
+   "adjective": ["Lunarian"],		
+   "startBias": ["[Marsh]"],		
+   "preferredVictoryType": "Cultural", 
+		
+   "startIntroPart1": " YOofofo",		
+   "startIntroPart2": "hghghg", 		
+   "declaringWar": "Im fed up with your nonsense! Prepare to die!",		
+   "attacked": "Hah! You really think you can beat ME?!?!?!",		
+   "defeated": "This republic's end came sooner than i expected......",		
+   "introduction": "Didnt see you there! Would you be intrested in buying one of our nice and furnished bat caves?", 		
+   "neutralHello": "Greetings.",	
+   "hateHello": "What do YOU want?!", 		
+   "tradeRequest": "Come, it appears you have to put your signature on some weird trade agreement.", 		
+
+   "outerColor": [0,0,0],		
+   "innerColor": [255,255,255],
+		
+   "favoredReligion": "Alicornism",	
+	
+   "uniqueName": "Kingdom of the Bats",		
+   "uniques": ["[+10]% Strength for cities <when defending>"],		
+   "cities": ["Hayston","Bronclyn","Dappleshore","Summerfield","Albion","Bordo","Krasnoye","Chillwing","Trotterfield","Trotsylvania",			
+   "Hollow Shades","Manesbury","Baltimare","Horseshoe City","Horseshoe Bay","Canterbury","Stableside","Portland","Prance","Ponyville",			
+   "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
+},
+]
