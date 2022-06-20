@@ -1,0 +1,12 @@
+leader.jpg
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+LeaderIcons/Princess Celestia
+rotate: false 
+xy: 0, 0 
+size: 849, 1241
+orig: 849, 1241
+offset: 0, 0 
+index: -1
