@@ -1,5 +1,4 @@
 [
-
    {		
   //nations		
    "name": "Equestria",	
@@ -56,5 +55,33 @@
    "cities": ["Hayston","Bronclyn","Dappleshore","Summerfield","Albion","Bordo","Krasnoye","Chillwing","Trotterfield","Trotsylvania",			
    "Hollow Shades","Manesbury","Baltimare","Horseshoe City","Horseshoe Bay","Canterbury","Stableside","Portland","Prance","Ponyville",			
    "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
+},
+ {			
+   "name": "The Appleloosan Confederacy",	
+	"leaderName": "Silverstar",		
+   "adjective": ["Appleloosan"],		
+   "startBias": ["[Plains]"],		
+   "preferredVictoryType": "Cultural", 
+		
+   "startIntroPart1": "Welcome,Sir Silverstar,and take leadership of the Great Appleloosan Confederacy and make sure Equestria is under the right rule once more.",		
+   "startIntroPart2": "Do not let any foe stop the Confederacy once more becausse surely your Buckers will sway victory after victory over foreign and enemy lands. The Confederacy will rise once again!", 		
+   "declaringWar": "You and your abominable citizens have to die and ah'm not sorry for it!",		
+   "attacked": "Ah thought you were smarter than to go against the nation of the Freedom Fighters... Oh well!",		
+   "defeated": "Ah never thought this day would come..... Oh well. We will rise once again,remembering your evil actions once we do.",		
+   "introduction": "Howdy! Would yah like to visit Appleloosa? We're havin a festival and we promise the fun wont end till the cows come home!", 		
+   "neutralHello": "Howdy partner!",	
+   "hateHello": "What do you want you damn scalawag?!?!?!", 		
+   "tradeRequest": "Hey partner,would yah be up for this nice trade offer?", 		
+
+   "outerColor": [0,0,0],		
+   "innerColor": [255,255,255],
+		
+   "favoredReligion": "Christianity",	
+	
+   "uniqueName": "Patriotic Empire",		
+   "uniques": ["[+10]% Strength for [Melee] units"],		
+   "cities": ["Appleloosa","Trotgaron","Haystin","Foaledo","Jamtown","San Manetonio","Horston","Galloprey","Rosemarein","Marellas",			
+   "Lubbuck","Maredessa","Buckston","Maneton Rougue","New Mareleans","Marrahasse","Mareami","Bucksonville","Marelanta","Maregomery",			
+   "Little Buck","Balefire","Maneleigh","Fillyville","Buckphis","Marelotte","El Mareo","Maredo","Buckus Mari","Beaumount"],
 },
 ]
