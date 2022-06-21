@@ -1,0 +1,42 @@
+[
+{		
+"name": "Royal Marshal",		
+"unitType": "Sword",		
+"uniqueTo": "Equestria",		
+"replaces": "Swordsman",		
+"movement": 2,		
+"strength": 15,		
+"cost": 80,	
+"requiredTech": "Iron Working",	
+"requiredResource": "Iron",
+"obsoleteTech": "Steel",				
+"upgradesTo": "Royal Officer",
+"upgradesFrom": "Warrior",			
+"attackSound": "nonmetalhit"	
+},
+{		
+"name": "Royal Officer",		
+"unitType": "Sword",		
+"uniqueTo": "Equestria",		
+"replaces": "Longswordsman",		
+"movement": 2,		
+"strength": 23,		
+"cost": 125,		
+"requiredTech": "Steel",
+"requiredResource": "Iron",
+"obsoleteTech": "Gunpowder",				
+"upgradesTo": "Musketman",		
+"attackSound": "nonmetalhit"	
+},
+{		
+"name": "Magical Infantry",		
+"unitType": "Gunpowder",				
+"movement": 2,		
+"strength": 60,		
+"cost": 125,		
+"requiredTech": "Magical Theory",
+"obsoleteTech": "Plastics",				
+"upgradesTo": "Infantry",		
+"attackSound": "nonmetalhit"	
+},
+]
