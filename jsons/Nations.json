@@ -79,7 +79,7 @@
    "favoredReligion": "Christianity",	
 	
    "uniqueName": "Patriotic Empire",		
-   "uniques": ["[+10]% Strength for [Melee] units"],		
+   "uniques": ["[+10]% Strength for [Melee] units in [Plains]"],		
    "cities": ["Appleloosa","Trotgaron","Haystin","Foaledo","Jamtown","San Manetonio","Horston","Galloprey","Rosemarein","Marellas",			
    "Lubbuck","Maredessa","Buckston","Maneton Rougue","New Mareleans","Marrahasse","Mareami","Bucksonville","Marelanta","Maregomery",			
    "Little Buck","Balefire","Maneleigh","Fillyville","Buckphis","Marelotte","El Mareo","Maredo","Buckus Mari","Beaumount"],
