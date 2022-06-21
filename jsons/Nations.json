@@ -1,4 +1,5 @@
 [
+
    {		
   //nations		
    "name": "Equestria",	
@@ -57,7 +58,7 @@
    "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
 },
  {			
-   "name": "The Appleloosan Confederacy",	
+   "name": "Appleloosa",	
 	"leaderName": "Silverstar",		
    "adjective": ["Appleloosan"],		
    "startBias": ["[Plains]"],		
@@ -73,13 +74,13 @@
    "hateHello": "What do you want you damn scalawag?!?!?!", 		
    "tradeRequest": "Hey partner,would yah be up for this nice trade offer?", 		
 
-   "outerColor": [66, 135, 245],		
-   "innerColor": [245, 66, 66],
+   "outerColor": [186, 32, 15],		
+   "innerColor": [41, 20, 163],
 		
    "favoredReligion": "Christianity",	
 	
    "uniqueName": "Patriotic Empire",		
-  "uniques": ["[+10]% Strength <for [Melee] units> <when fighting in [Plains] tiles>"],				
+   "uniques": ["[+10]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>"],		
    "cities": ["Appleloosa","Trotgaron","Haystin","Foaledo","Jamtown","San Manetonio","Horston","Galloprey","Rosemarein","Marellas",			
    "Lubbuck","Maredessa","Buckston","Maneton Rougue","New Mareleans","Marrahasse","Mareami","Bucksonville","Marelanta","Maregomery",			
    "Little Buck","Balefire","Maneleigh","Fillyville","Buckphis","Marelotte","El Mareo","Maredo","Buckus Mari","Beaumount"],
