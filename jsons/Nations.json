@@ -73,8 +73,8 @@
    "hateHello": "What do you want you damn scalawag?!?!?!", 		
    "tradeRequest": "Hey partner,would yah be up for this nice trade offer?", 		
 
-   "outerColor": [0,0,0],		
-   "innerColor": [255,255,255],
+   "outerColor": [66, 135, 245],		
+   "innerColor": [245, 66, 66],
 		
    "favoredReligion": "Christianity",	
 	
