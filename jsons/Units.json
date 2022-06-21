@@ -39,4 +39,41 @@
 "upgradesTo": "Infantry",		
 "attackSound": "nonmetalhit"	
 },
+{		
+"name": "Bat Warrior",		
+"unitType": "Sword",		
+"uniqueTo": "Lunar Republic",		
+"replaces": "Warrior",		
+"movement": 2,		
+"strength": 10,		
+"cost": 50,		
+"requiredTech": "Agriculture",
+"obsoleteTech": "Steel",				
+"upgradesTo": "Swordsman",		
+"attackSound": "nonmetalhit"	
+},
+{		
+"name": "Magical Bat Infantry",		
+"unitType": "Sword",		
+"uniqueTo": "Lunar Republic",		
+"replaces": "Magical Infantry",		
+"movement": 2,		
+"strength": 62,		
+"cost": 135,		
+"requiredTech": "Magical Theory",
+"obsoleteTech": "Plastics",				
+"upgradesTo": "Modern Bat Infantry",		
+"attackSound": "nonmetalhit"	
+},
+{		
+"name": "Modern Bat Infantry",		
+"unitType": "Sword",		
+"uniqueTo": "Lunar Republic",		
+"replaces": "Infantry",		
+"movement": 2,		
+"strength": 73,		
+"cost": 400,		
+"requiredTech": "Plastics",					
+"attackSound": "nonmetalhit"	
+},
 ]
