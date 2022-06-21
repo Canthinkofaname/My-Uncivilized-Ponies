@@ -1,0 +1,14 @@
+[	
+{		
+"name": "Lunar Panels",		
+"replaces": "Solar Plant",		
+"uniqueTo": "Lunar Republic",
+"production": 7,		
+"percentStatBonus": {"production": 20},		
+"hurryCostModifier": 25,		
+"maintenance": 2,		
+"requiredBuilding": "Factory",		
+"uniques": ["Must be next to [Plains]", "Only available <in cities without a [Nuclear Plant]>",
+"requiredTech": "Ecology"	
+},
+]
