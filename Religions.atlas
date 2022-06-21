@@ -1,0 +1,19 @@
+Religions.png
+size: 200, 100
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ReligionIcons/Alicornism
+rotate: false 
+xy: 0, 0 
+size: 100, 100 
+orig: 100, 100 
+offset: 0, 0 
+index: -1
+ReligionIcons/Hiveism
+rotate: false 
+xy: 100, 0 
+size: 100, 100 
+orig: 100, 100 
+offset: 0, 0 
+index: -1
