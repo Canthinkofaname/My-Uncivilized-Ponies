@@ -24,3 +24,24 @@ size: 200, 200
 orig: 200, 200 
 offset: 0, 0 
 index: -1
+UnitIcons/Bat Warrior
+rotate: false 
+xy: 600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Magical Bat Infantry
+rotate: false 
+xy: 800, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Modern Bat Infantry
+rotate: false 
+xy: 1000, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
