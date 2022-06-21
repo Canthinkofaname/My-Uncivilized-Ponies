@@ -10,3 +10,10 @@ size: 849, 1241
 orig: 849, 1241
 offset: 0, 0 
 index: -1
+LeaderIcons/Princess Luna
+rotate: false 
+xy: 849, 0 
+size: 841, 1233
+orig: 841, 1233
+offset: 0, 0 
+index: -1
