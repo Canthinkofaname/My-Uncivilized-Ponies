@@ -1,0 +1,75 @@
+Units.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Royal Marshal
+rotate: false 
+xy: 0, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Royal Officer
+rotate: false 
+xy: 200, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Magical Infantry
+rotate: false 
+xy: 400, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Bat Warrior
+rotate: false 
+xy: 600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Magical Bat Infantry
+rotate: false 
+xy: 800, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Modern Bat Infantry
+rotate: false 
+xy: 1000, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Bucker
+rotate: false 
+xy: 1200, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Sheriff
+rotate: false 
+xy: 1400, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Great Alicorn
+rotate: false 
+xy: 1600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Freedom Fighter
+rotate: false 
+xy: 1800, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
