@@ -30,7 +30,7 @@
 },
 {		
 "name": "Magical Infantry",		
-"unitType": "Gunpowder",				
+"unitType": "GunpowderMagic",				
 "movement": 2,		
 "strength": 60,		
 "cost": 125,		
@@ -54,7 +54,7 @@
 },
 {		
 "name": "Magical Bat Infantry",		
-"unitType": "Gunpowder",		
+"unitType": "GunpowderMagic",		
 "uniqueTo": "Lunar Republic",		
 "replaces": "Magical Infantry",		
 "movement": 2,		
@@ -68,7 +68,8 @@
 {		
 "name": "Modern Bat Infantry",		
 "unitType": "Gunpowder",		
-"uniqueTo": "Lunar Republic",		
+"uniqueTo": "Lunar Republic",
+"upgradesFrom": "Great War Infantry",		
 "replaces": "Infantry",		
 "movement": 2,		
 "strength": 73,		
@@ -80,11 +81,50 @@
 "name": "Bucker",		
 "unitType": "Gunpowder",		
 "uniqueTo": "Appleloosa",		
-"replaces": "Musketman",		
+"replaces": "Musketman",	
+"upgradesTo": "Rifleman",
+"upgradesFrom": "Longswordsman",
 "movement": 2,		
 "strength": 26,		
 "cost": 170,		
 "requiredTech": "Gunpowder",					
+"attackSound": "nonmetalhit"	
+},
+{		
+"name": "Sheriff",		
+"unitType": "Gunpowder",		
+"uniqueTo": "Appleloosa",			
+"movement": 2,		
+"strength": 35,		
+"cost": 190,		
+"requiredTech": "Gunpowder",					
+"attackSound": "nonmetalhit"
+"uniques": ["Only available <after adopting [Discipline]>", "Only available <after adopting [Legalism]>"]
+},
+{		
+"name": "Great Alicorn",		
+"unitType": "RangedMagic",		
+"replaces": "Great General",
+"uniqueTo": "Equestria",
+"uniques": ["Can start an [8]-turn golden age", 
+"[+15]% Strength bonus for [Military] units within [2] tiles", 
+"Can construct [Citadel]",			
+"Great Person - [War]", "Unbuildable", "Uncapturable",
+],	
+"strength": 10
+"rangedStrength": 60	
+"movement": 4	
+},
+{		
+"name": "Freedom Fighter",		
+"unitType": "Gunpowder",		
+"uniqueTo": "Appleloosa",		
+"replaces": "Infantry",
+"upgradesFrom":	"Great War Infantry",	
+"movement": 2,		
+"strength": 75,		
+"cost": 400,		
+"requiredTech": "Plastics",					
 "attackSound": "nonmetalhit"	
 },
 ]
