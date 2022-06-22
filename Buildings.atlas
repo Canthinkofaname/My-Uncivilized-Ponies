@@ -1,6 +1,7 @@
 Buildings.png
 size: 2048, 2048
-format: RGBA8888filter: MipMapLinearLinear, MipMapLinearLinear
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Lunar Panels
 rotate: false 
