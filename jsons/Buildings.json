@@ -20,5 +20,15 @@
 "requiredTech": "Education",		
 "quote": "'Its not just about pushing ourselves,its about pushing ourselves in the right direction. ' - Spitfire"	
 },
+{		
+"name": "Orchard",		
+"replaces": "Granary",		
+"uniqueTo": "Appleloosa",
+"food": 3,				
+"maintenance": 1,		
+"requiredBuilding": "Factory",		
+"uniques": ["[+2] food from [Citrus] tiles [in this city]", "[+2] food from [Cotton] tiles [in this city]", "[+2] food from [Sugar] tiles [in this city]"],
+"requiredTech": "Calendar",
+},
 
 ]
