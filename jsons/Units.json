@@ -112,6 +112,7 @@
 "Great Person - [War]", "Unbuildable", "Uncapturable",
 ],	
 "strength": 10
+ "range": 2,
 "rangedStrength": 60	
 "movement": 4	
 },
