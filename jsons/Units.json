@@ -54,7 +54,7 @@
 },
 {		
 "name": "Magical Bat Infantry",		
-"unitType": "Sword",		
+"unitType": "Gunpowder",		
 "uniqueTo": "Lunar Republic",		
 "replaces": "Magical Infantry",		
 "movement": 2,		
@@ -67,13 +67,24 @@
 },
 {		
 "name": "Modern Bat Infantry",		
-"unitType": "Sword",		
+"unitType": "Gunpowder",		
 "uniqueTo": "Lunar Republic",		
 "replaces": "Infantry",		
 "movement": 2,		
 "strength": 73,		
 "cost": 400,		
 "requiredTech": "Plastics",					
+"attackSound": "nonmetalhit"	
+},
+{		
+"name": "Bucker",		
+"unitType": "Gunpowder",		
+"uniqueTo": "Appleloosa",		
+"replaces": "Musketman",		
+"movement": 2,		
+"strength": 26,		
+"cost": 170,		
+"requiredTech": "Gunpowder",					
 "attackSound": "nonmetalhit"	
 },
 ]
