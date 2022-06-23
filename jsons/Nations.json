@@ -117,11 +117,31 @@
    "favoredReligion": "Hiveism",	
 	
    "uniqueName": "Bitter Queen",		
-   "uniques": ["Starts with [Ancient Changeling Tech]", "[+10]% Strength <for [Sword] units> <when fighting in [Foreign] tiles>", "[+10 Production] [in all cities] <when at war>", "[+10]% Strength <for [Gunpowder] units> <when fighting in [Foreign] tiles>"],		
+   "uniques": ["Starts with [Ancient Changeling Tech]", "[+10]% Strength <for [Sword] units> <when fighting in [Foreign] tiles>", "[+10]% [Production] [in all cities] <when at war>", "[+10]% Strength <for [Gunpowder] units> <when fighting in [Foreign] tiles>"],		
    "cities": ["Vesalipolis","Vraks","Soryth","Dirtysium","Sicarus","Antax","Gardis","Kladisum","Lyctida","Gorak",			
    "Aglossata","Neverwarm Point","Sorrow Forest","Morkaberg","Svarm","Volistad","Phantine","Hoorornd","Munling","Chrysalin",			
    "Changelingburg","Saxalis","Churvaria","Chrysaaland"],
 },
+{		
+"name": "Stalliongrad",		
+"leaderName": "Altidiya Revoltsova",		
+"adjective": ["Stalligradian"],
+"startIntroPart1": "Lead Stalliongrad!",		"startIntroPart2": "bruh",		
+"declaringWar": "I cannot wait until you grow even mightier. Therefore, prepare for war!",		
+"attacked": "Corrupted villain! We will bring you into the ground!",		
+"defeated": "Stalliongrad has been destroyed. I weep for the future generations.",		
+"introduction": "Privet. In the name of the great Stalligradian people, I give you a warm welcome.",	
+	"neutralHello": "Privet.",		
+ "hateHello": "What does the devil need?",		
+"tradeRequest": "If you accept this,i'll let you listen to some Katyusha for a while!",	
+"outerColor": [173,41,9],		
+"innerColor": [237,245,35],		
+"favoredReligion": "Christianity",		
+"uniqueName": "The Collective",		
+"uniques": ["[+30]% Production [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>"],		
+"cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown"]
+	}, 
+//CS
 {		
    "name": "Ponyville",		
    "adjective": ["Ponvillians"],		

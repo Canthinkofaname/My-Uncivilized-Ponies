@@ -110,10 +110,20 @@
 "[+15]% Strength bonus for [Military] units within [2] tiles", 
 "Can construct [Citadel]",			
 "Great Person - [War]", "Unbuildable", "Uncapturable",
+//Era Strength
+"[+50]% Strength <during the [Classical era]>",
+"[+100]% Strength <during the [Medieval era]>",
+"[+150]% Strength <during the [Renaissance era]>",
+"[+200]% Strength <during the [Industrial era]>",
+"[+250]% Strength <during the [Modern era]>",
+"[+300]% Strength <during the [Atomic era]>",
+"[+350]% Strength <during the [Information era]>",
+"[+400]% Strength <during the [Future era]>",
+
 ],	
 "strength": 10,
 "range": 2,
-"rangedStrength": 60,
+"rangedStrength": 18,
 "movement": 4,
 },
 {		
@@ -150,6 +160,14 @@
 "cost": 270,	
 "requiredTech": "Rifling",					
 "attackSound": "nonmetalhit"	
-"uniques": ["Invisible to non-adjacent units", "Ignores Zone of Control", "May enter foreign tiles without open borders"]
+"uniques": [
+"Invisible to non-adjacent units", 
+"Ignores Zone of Control", 
+"May enter foreign tiles without open borders", 
+"[+10]% Strength <after adopting [Tactical Infiltration]>", 
+"[+1] Movement <after adopting [Tactical Infiltration]>", 
+"[+1] Movement <after adopting [Targeted Insertion]>", 
+"Only available <after adopting [Infiltrater Company]>"
+]
 },
 ]
