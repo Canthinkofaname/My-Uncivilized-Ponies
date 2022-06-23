@@ -1,0 +1,57 @@
+[
+{		
+"columnNumber": 10,		
+"era": "Industrial era",		
+"techCost": 1600,		
+"buildingCost": 300,		
+"wonderCost": 750,		
+"techs": [			
+
+{				
+"name": "Magical Theory",				
+"row": 5,				
+"prerequisites": ["Scientific Theory","Industrialization"],				
+"quote": "'Magic is the true wonder of the world' - Twilight Sparkle",		
+},
+
+]
+
+},
+{
+"columnNumber": 11,		
+"era": "Modern era",		
+"techCost": 3100,		
+"buildingCost": 500,		
+"wonderCost": 1060,		
+"techs": [			
+
+{				
+"name": "Replaceable Parts",				
+"row": 4,				
+"prerequisites": ["Electricity","Steam Power", "Magical Theory"],			
+	"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"			
+},
+
+]
+
+},
+{
+"columnNumber": 0,		
+"era": "Ancient era",		
+"techCost": 20,		
+"buildingCost": 40,				
+"techs": [			
+
+{				
+"name": "Ancient Changeling Tech",				
+"row": 7,						
+	"quote": "' 'Queen' Chrysalis has a good ring to it,doesnt it?' - Queen Chrysalis",
+"uniques": ["Only available <before discovering [Agriculture]>"]	
+},
+
+]
+
+},
+ 
+
+]
