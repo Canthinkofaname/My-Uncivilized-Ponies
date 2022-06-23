@@ -1,0 +1,60 @@
+[
+{ 
+"name": "Infiltration", 
+"era": "Ancient era",
+
+ "priorities": 
+{ 
+"Neutral": 50,
+ "Cultural": 0,
+ "Diplomatic": 0, 
+"Domination": 40, 
+"Scientific": 10
+ }, 
+"uniques": ["[+2 Production] [in capital] <when at war>", "Only available <after discovering [Ancient Changeling Tech]>", "Only available <after discovering [Rifling]>"],
+"civilopediaText": [{ "text": "Unlocks Infiltrators" }]
+ "policies": [
+{
+ "name": "Infiltrater Company", 
+"uniques": [ "[+15]% Production when constructing [Infiltrator] units [in all cities]", "[+1 Happiness] per [10] population [in all cities]"], 
+"row": 1, 
+"column": 2,
+},
+//Strat Branch
+{
+ "name": "Strategic Infiltration", 
+"uniques": [ "[-5]% Production when constructing [Infiltrator] units [in all cities]", "Increases Sight of Infiltrator Units", "[+1] Sight for [Infiltrator] units", "Only available <before adopting [Tactical Infiltration]>"], 
+"row": 2, 
+"column": 1,
+"requires": ["Infiltrater Company"],
+},
+{
+ "name": "Chameleon Cloaks", 
+"uniques": [ "[-5]% Production when constructing [Infiltrator] units [in all cities]", "[+15]% Strength <when fighting in [Forest] tiles>", "[+15]% Strength <when fighting in [Jungle] tiles>", "[+1] Sight for [all] units"], 
+"row": 2, 
+"column": 2,
+"requires": ["Strategic Infiltration"],
+},
+//Tactical Branch
+{
+ "name": "Tactical Infiltration", 
+"uniques": [ "[+10]% Production when constructing [Infiltrator] units [in all cities]", "Strengthens Infiltrator Units", "Only available <before adopting [Strategic Infiltration]>"], 
+"row": 3, 
+"column": 1,
+"requires": ["Infiltrater Company"],
+},
+{
+ "name": "Targeted Insertion", 
+"uniques": ["[+5]% Production when constructing [Infiltrator] units [in all cities]", "Increases Mobility of Infiltrator Units"], 
+"row": 3, 
+"column": 2,
+"requires": ["Tactical Infiltration"],
+},
+{ 
+"name": "Infiltration Complete", 
+"uniques": [ "[+15]% growth [in all cities]",
+"Provides a [Aqueduct] in your first [4] cities for free"],
+},
+]
+}
+]
