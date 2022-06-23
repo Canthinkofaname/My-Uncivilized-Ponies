@@ -31,3 +31,10 @@ size: 100, 100
 orig: 100, 100
 offset: 0, 0 
 index: -1
+NationIcons/Stalliongrad
+rotate: false 
+xy: 400, 0
+size: 100, 100
+orig: 100, 100
+offset: 0, 0 
+index: -1
