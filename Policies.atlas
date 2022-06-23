@@ -1,0 +1,12 @@
+Policies.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+PolicyIcons/Infiltrater Company
+rotate: false 
+xy: 0, 0 
+size: 50, 50 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
