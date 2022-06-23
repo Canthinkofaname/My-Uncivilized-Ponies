@@ -1,0 +1,42 @@
+Policies.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+PolicyIcons/Infiltrater Company
+rotate: false 
+xy: 0, 0 
+size: 50, 50 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+PolicyIcons/Strategic Infiltration
+rotate: false 
+xy: 50, 0 
+size: 50, 50 
+orig: 50, 50
+offset: 0, 0 
+index: -1
+PolicyIcons/Chameleon Cloaks
+rotate: false 
+xy: 100, 0 
+size: 50, 50 
+orig: 50, 50
+offset: 0, 0 
+index: -1
+PolicyIcons/Tactical Infiltration
+rotate: false 
+xy: 150, 0 
+size: 50, 50 
+orig: 50, 50
+offset: 0, 0 
+index: -1
+PolicyIcons/Targeted Insertion
+rotate: false 
+xy: 200, 0 
+size: 50, 50 
+orig: 50, 50
+offset: 0, 0 
+index: -1
+
+
