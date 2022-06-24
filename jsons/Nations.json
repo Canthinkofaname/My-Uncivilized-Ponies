@@ -1,7 +1,6 @@
 [
-
-   {		
-  //nations		
+//nations
+   {
    "name": "Equestria",	
 	"leaderName": "Princess Celestia",		
    "adjective": ["Equestrians"],		
@@ -29,6 +28,7 @@
    "Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",			
    "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
 },
+//Lunar Republic
  {			
    "name": "Lunar Republic",	
 	"leaderName": "Princess Luna",		
@@ -66,6 +66,7 @@
    "Hollow Shades","Manesbury","Baltimare","Horseshoe City","Horseshoe Bay","Canterbury","Stableside","Portland","Prance","Ponyville",			
    "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
 },
+//Appleloosa
  {			
    "name": "Appleloosa",	
 	"leaderName": "Silverstar",		
@@ -94,6 +95,7 @@
    "Lubbuck","Maredessa","Buckston","Maneton Rougue","New Mareleans","Marrahasse","Mareami","Bucksonville","Marelanta","Maregomery",			
    "Little Buck","Balefire","Maneleigh","Fillyville","Buckphis","Marelotte","El Mareo","Maredo","Buckus Mari","Beaumount"],
 },
+//Changeling Lands
  {			
    "name": "Changeling Lands",	
 	"leaderName": "Queen Chrysalis",		
@@ -122,25 +124,32 @@
    "Aglossata","Neverwarm Point","Sorrow Forest","Morkaberg","Svarm","Volistad","Phantine","Hoorornd","Munling","Chrysalin",			
    "Changelingburg","Saxalis","Churvaria","Chrysaaland"],
 },
-{		
-"name": "Stalliongrad",		
-"leaderName": "Altidiya Revoltsova",		
+//Stalliongrad
+{
+"name": "Stalliongrad",
+"leaderName": "Altidiya Revoltsova and Vasiliy Pentsushenko",
 "adjective": ["Stalligradian"],
-"startIntroPart1": "Lead Stalliongrad!",		"startIntroPart2": "bruh",		
-"declaringWar": "I cannot wait until you grow even mightier. Therefore, prepare for war!",		
-"attacked": "Corrupted villain! We will bring you into the ground!",		
-"defeated": "Stalliongrad has been destroyed. I weep for the future generations.",		
-"introduction": "Privet. In the name of the great Stalligradian people, I give you a warm welcome.",	
-	"neutralHello": "Privet.",		
- "hateHello": "What does the devil need?",		
-"tradeRequest": "If you accept this,i'll let you listen to some Katyusha for a while!",	
-"outerColor": [173,41,9],		
-"innerColor": [237,245,35],		
-"favoredReligion": "Christianity",		
-"uniqueName": "The Collective",		
-"uniques": ["[+30]% Production [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>"],		
-"cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown"]
-	}, 
+
+"startIntroPart1": "Lead Stalliongrad!",
+"startIntroPart2": "bruh",
+"declaringWar": "I cannot wait until you grow even mightier. Therefore, prepare for war!",
+"attacked": "Corrupted villain! We will bring you into the ground!",
+"defeated": "Stalliongrad has been destroyed. I weep for the future generations.",
+"introduction": "Privet. In the name of the great Stalligradian people, I give you a warm welcome.",
+"neutralHello": "Privet.",
+"hateHello": "What does the devil need?",		
+"tradeRequest": "If you accept this, I'll let you listen to some Katyusha for a while!",
+	
+"outerColor": [173,41,9],
+"innerColor": [237,245,35],
+
+"favoredReligion": "Christianity",
+
+"uniqueName": "The Collective",
+"uniques": ["[+30]% Production [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>"],
+"cities": ["Stalliongrad", "Konzan","Zayask", "Zlatotsvet", "Hoofbeat Town", "Caramel Marks", "Krasivsk", "Altytown", "Stavropon", "Petershoof", "Ravenskoye"]
+},
+
 //CS
 {		
    "name": "Ponyville",		
