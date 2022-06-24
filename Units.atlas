@@ -87,3 +87,10 @@ size: 200, 200
 orig: 200, 200 
 offset: 0, 0 
 index: -1
+UnitIcons/Stallioneer
+rotate: false 
+xy: 2400, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
