@@ -30,5 +30,58 @@
 "uniques": ["[+2] food from [Citrus] tiles [in this city]", "[+2] food from [Cotton] tiles [in this city]", "[+2] food from [Sugar] tiles [in this city]"],
 "requiredTech": "Calendar",
 },
+{ 		
+      "name": "Propaganda",
+      "cost": 150,
+      "uniqueTo": "Stalliongrad", 		
+      "maintenance": 1,
+ 		"requiredTech": "Radio",
+ 		"uniques": ["Only available <in cities without a [Industrial Relocation]>", "Destroyed when the city is captured", 
+      "[-10]% Unhappiness from [Population] [in all cities]", "[+1 Happiness] [in all cities]",
+      "[-2 Happiness] [in all cities] <with [15]% chance>", "Can only be built [in capital]"] 
+},
+{ 		
+"name": "Industrial Relocation",
+ "cost": 150,
+ "uniqueTo": "Stalliongrad",
+ 		"production": -2,
+ 		"percentStatBonus": {"production": 5},
+ 		"maintenance": 2, 		
+      "requiredTech": "Industrialization",
+ 		"uniques": ["Only available <in cities without a [Propaganda]>",
+ "Can only be built [in capital]",
+ "Destroyed when the city is captured",
+ "[+10]% [Production] [in all cities]"
+        ] 
+},
+{
+ 		"name": "Stalliongrad Tank Factories",
+ "cost": 400,
+ "uniqueTo": "Stalliongrad",
+ 		"production": 4,
+ 		"maintenance": 3,
+ 		"requiredTech": "Replaceable Parts",
+ 		"uniques": ["Only available <in cities with a [Propaganda]>",
+ "Destroyed when the city is captured",
+ "[+10]% [Production] [in all cities]",
+ "[+15]% Production when constructing [Armored] units [in all cities]",
+ "[-20]% maintenance costs <for [Armored] units>"
+     ] 
+},
+{ 		
+"name": "Railway Innovation",
+ "cost": 200,
+ "uniqueTo": "Stalliongrad",
+ 		"production": 3,
+ 		"percentStatBonus": {"production": 30},
+ 		"maintenance": 3,
+ 		"requiredTech": "Industrialization",
+ 		"uniques": ["Only available <in cities with a [Industrial Relocation]>",
+ "Destroyed when the city is captured",
+ "[+10]% [Production] [in all cities]",
+ "Free [Great Scientist] appears",
+ "[-30]% maintenance on road & railroads"
+    ] 
+},
 
 ]
