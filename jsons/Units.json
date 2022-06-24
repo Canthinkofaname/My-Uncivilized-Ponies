@@ -98,7 +98,7 @@
 "strength": 35,		
 "cost": 190,		
 "requiredTech": "Gunpowder",					
-"attackSound": "nonmetalhit",
+"attackSound": "nonmetalhit"
 "uniques": ["Only available <after adopting [Discipline]>", "Only available <after adopting [Legalism]>"]
 },
 {		
@@ -123,7 +123,7 @@
 ],	
 "strength": 10,
 "range": 2,
-"rangedStrength": 18,
+"rangedStrength": 8,
 "movement": 4,
 },
 {		
@@ -159,24 +159,28 @@
 "strength": 39,		
 "cost": 270,	
 "requiredTech": "Rifling",					
-"attackSound": "nonmetalhit",	
-"uniques": ["Invisible to non-adjacent units", "Ignores Zone of Control","May enter foreign tiles without open borders",
-"[+10]% Strength <after adopting [Tactical Infiltration]>",
-"[+1] Movement <after adopting [Tactical Infiltration]>",
-"[+1] Movement <after adopting [Targeted Insertion]>",
-"Only available <after adopting [Infiltrater Company]>"]
+"attackSound": "nonmetalhit"	
+"uniques": [
+"Invisible to non-adjacent units", 
+"Ignores Zone of Control", 
+"May enter foreign tiles without open borders", 
+"[+10]% Strength <after adopting [Tactical Infiltration]>", 
+"[+1] Movement <after adopting [Tactical Infiltration]>", 
+"[+1] Movement <after adopting [Targeted Insertion]>", 
+"Only available <after adopting [Infiltrater Company]>"
+]
 },
-{
-		"name": "Stallioneer",
-		"unitType": "Gunpowder",
-		"replaces": "Musketman",
-		"uniqueTo": "Stalliongrad",
-		"movement": 3,
-		"strength": 26,
-		"cost": 150,
-		"requiredTech": "Gunpowder",
-		"upgradesTo": "Rifleman",
-		"obsoleteTech": "Rifling",
-		"attackSound": "shot"
+{ 		
+"name": "Stallioneer", 		
+"unitType": "Gunpowder", 
+"replaces": "Musketman", 
+"uniqueTo": "Stalliongrad", 		
+"movement": 3,
+"strength": 26, 		
+"cost": 150, 		
+"requiredTech": "Gunpowder", 		
+"upgradesTo": "Rifleman", 		
+"obsoleteTech": "Rifling", 		
+"attackSound": "shot" 	
 }
 ]
