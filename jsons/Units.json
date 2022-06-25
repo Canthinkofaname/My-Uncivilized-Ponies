@@ -36,7 +36,8 @@
 "cost": 365,		
 "requiredTech": "Magical Theory",
 "obsoleteTech": "Plastics",				
-"upgradesTo": "Infantry",		
+"upgradesTo": "Infantry",	
+"upgradesFrom": "Rifleman",		
 "attackSound": "nonmetalhit"	
 },
 {		
