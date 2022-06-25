@@ -1,0 +1,186 @@
+[
+
+   {		
+  //nations		
+   "name": "Equestria",	
+	"leaderName": "Princess Celestia",		
+   "adjective": ["Equestrians"],		
+   "startBias": ["Avoid [Tundra]"],		
+   "preferredVictoryType": "Diplomatic", 
+		
+   "startIntroPart1": "Lead the lands of Equestria,Celestia,Into harmony and Prosperity",		
+   "startIntroPart2": "You great royal guards will always be at your side and your citizens will be strong and brave against their foes.", 		
+   "declaringWar": "You leave us no choice. You and your reign must end!",		
+   "attacked": "Why dont you choose an opponet thats your size?",		
+   "defeated": "This may be it for Equestria, but its impact on the world will forever remain!",		
+   "introduction": "Hello there! Would you care to visit and eat one of our delicous Green gem cake?", 		
+   "neutralHello": "Hello!",	
+   "hateHello": "I hope your here to a civil talk.", 		
+   "tradeRequest": "The Princess of Equestria in all her elegance would like to conduct a trade offer!", 		
+
+   "outerColor": [255,197,133],		
+   "innerColor": [254,255,189],
+		
+   "favoredReligion": "Alicornism",	
+	
+   "uniqueName": "Harmony",		
+   "uniques": [" [+1 Happiness] [in all cities]", "[+10]% Strength for cities <when attacking>"],		
+   "cities": ["Canterlot","Cloudsdale","Las Pegasus","Hayston","Fillydelphia","Sire's Hollow","Raspberry Grove","Vanhoover","Whitebell","Acornage",			
+   "Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",			
+   "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
+},
+ {			
+   "name": "Lunar Republic",	
+	"leaderName": "Princess Luna",		
+   "adjective": ["Lunarian"],		
+   "startBias": ["[Marsh]"],		
+   "preferredVictoryType": "Cultural", 
+		
+   "startIntroPart1": "Lead the lands of the night,Princess Luna,As your batponies triumph over your foes,never experiencing a single defeat.",		
+   "startIntroPart2": "Princess of the Night,you are the only hope for the species of the batponies just as your lands are a safehaven for the outcasts of other nations. Do not let your citizens down! Lead with all your might,for the fight of Equality.", 		
+   "declaringWar": "Im fed up with your nonsense! Prepare to die!",		
+   "attacked": "Hah! You really think you can beat ME?!?!?!",		
+   "defeated": "This republic's end came sooner than i expected......",		
+   "introduction": "Didnt see you there! Would you be intrested in buying one of our nice and furnished bat caves?", 		
+   
+   "neutralHello": "Do they say hello in these types of situations?",	
+   "hateHello": "Hmph.",  		
+   "afterPeace": "Im glad we could agree to bring peace to both of our nations", 		
+   "neutralLetsHearIt": ["If you must show me."],		
+   "neutralNo": ["No no, too much trouble.","No!","Not good enough."],		
+   "neutralYes": ["Okay.","Fine.","Accepted."], 	
+   "hateLetsHearIt": ["Talk.","So?","Speak!"],		
+   "hateNo": ["That's unacceptable!","A thousand times no!","Never!"],		
+   "hateYes": ["Oh… Fine, okay."],	
+
+   "tradeRequest": "Come, it appears you have to put your signature on some weird trade agreement.", 	
+
+   "outerColor": [0,0,0],		
+   "innerColor": [255,255,255],
+		
+   "favoredReligion": "Alicornism",	
+	
+   "uniqueName": "Kingdom of the Bats",		
+   "uniques": ["[+10]% Strength for cities <when defending>"],		
+   "cities": ["Hayston","Bronclyn","Dappleshore","Summerfield","Albion","Bordo","Krasnoye","Chillwing","Trotterfield","Trotsylvania",			
+   "Hollow Shades","Manesbury","Baltimare","Horseshoe City","Horseshoe Bay","Canterbury","Stableside","Portland","Prance","Ponyville",			
+   "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
+},
+ {			
+   "name": "Appleloosa",	
+	"leaderName": "Silverstar",		
+   "adjective": ["Appleloosan"],		
+   "startBias": ["[Plains]"],		
+   "preferredVictoryType": "Cultural", 
+		
+   "startIntroPart1": "Welcome,Sir Silverstar,and take leadership of the Great Appleloosan Confederacy and make sure Equestria is under the right rule once more.",		
+   "startIntroPart2": "Do not let any foe stop the Confederacy once more becausse surely your Buckers will sway victory after victory over foreign and enemy lands. The Confederacy will rise once again!", 		
+   "declaringWar": "You and your abominable citizens have to die and ah'm not sorry for it!",		
+   "attacked": "Ah thought you were smarter than to go against the nation of the Freedom Fighters... Oh well!",		
+   "defeated": "Ah never thought this day would come..... Oh well. We will rise once again,remembering your evil actions once we do.",		
+   "introduction": "Howdy! Would yah like to visit Appleloosa? We're havin a festival and we promise the fun wont end till the cows come home!", 		
+   "neutralHello": "Howdy partner!",	
+   "hateHello": "What do you want you damn scalawag?!?!?!", 		
+   "tradeRequest": "Hey partner,would yah be up for this nice trade offer?", 		
+
+   "outerColor": [192,3,44],		
+   "innerColor": [0,35,104],
+		
+   "favoredReligion": "Christianity",	
+	
+   "uniqueName": "Patriotic Empire",		
+   "uniques": ["[+10]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>"],		
+   "cities": ["Appleloosa","Trotgaron","Haystin","Foaledo","Jamtown","San Manetonio","Horston","Galloprey","Rosemarein","Marellas",			
+   "Lubbuck","Maredessa","Buckston","Maneton Rougue","New Mareleans","Marrahasse","Mareami","Bucksonville","Marelanta","Maregomery",			
+   "Little Buck","Balefire","Maneleigh","Fillyville","Buckphis","Marelotte","El Mareo","Maredo","Buckus Mari","Beaumount"],
+},
+ {			
+   "name": "Changeling Lands",	
+	"leaderName": "Queen Chrysalis",		
+   "adjective": ["Changelings"],		
+   "startBias": ["[Plains]"],		
+   "preferredVictoryType": "Domination", 
+		
+   "startIntroPart1": "Queen Chrysalis,You have proven yourself to be a strategic and intelligent leader. Your changelings have been proven to be a unrelentless powerful army,and your government ruled by the one and true queen",		
+   "startIntroPart2": "Do not let any of your blashpemous foes get in the way of you and your plans,to unite the world....'Peacefully'...and to make sure your changelings have a home everywhere. See? Your not that bad of a villain!", 		
+   "declaringWar": "Your lands look quite nice...Such a shame my army is about to plunder it.",		
+   "attacked": "Oh-Ho? I was getting quite bored....",		
+   "defeated": "My lands! My empire! What have you done?!?!?!?!?!",		
+   "introduction": "What is it? I have no time for greetings.", 		
+   "neutralHello": "Move along.",	
+   "hateHello": "You dare stand in my prescence?", 		
+   "tradeRequest": "Take this trade offer.", 		
+
+   "outerColor": [14, 153, 18],		
+   "innerColor": [10, 37, 105],
+		
+   "favoredReligion": "Hiveism",	
+	
+   "uniqueName": "Bitter Queen",		
+   "uniques": ["Starts with [Ancient Changeling Tech]", "[+10]% Strength <for [Sword] units> <when fighting in [Foreign] tiles>", "[+10]% [Production] [in all cities] <when at war>", "[+10]% Strength <for [Gunpowder] units> <when fighting in [Foreign] tiles>"],		
+   "cities": ["Vesalipolis","Vraks","Soryth","Dirtysium","Sicarus","Antax","Gardis","Kladisum","Lyctida","Gorak",			
+   "Aglossata","Neverwarm Point","Sorrow Forest","Morkaberg","Svarm","Volistad","Phantine","Hoorornd","Munling","Chrysalin",			
+   "Changelingburg","Saxalis","Churvaria","Chrysaaland"],
+},
+{		
+"name": "Stalliongrad",		
+"leaderName": "Altidiya Revoltsova",		
+"adjective": ["Stalligradian"],
+"startIntroPart1": "Lead Stalliongrad,Revoltsova,and Bring justice and order to the entire world! The world shall know the true pain of what those pitiful Equestrians did to us!",		"startIntroPart2": "Lady Revoltsova,Can your Union stand the test of time? Will your troops step back at the moment of truth? And most importantly,Will your Civilization stand the test of time?",		
+"declaringWar": "I cannot wait until you grow even mightier. Therefore, prepare for war!",		
+"attacked": "Corrupted villain! We will bring you into the ground!",		
+"defeated": "Stalliongrad has been destroyed. I weep for the future generations.",		
+"introduction": "Privet. In the name of the great Stalligradian people, I give you a warm welcome.",	
+	"neutralHello": "Privet.",		
+ "hateHello": "What does the devil need?",		
+"tradeRequest": "If you accept this,i'll let you listen to some Katyusha for a while!",	
+"outerColor": [173,41,9],		
+"innerColor": [237,245,35],		
+"favoredReligion": "Christianity",		
+"uniqueName": "The Collective",		
+"uniques": ["[+30]% Production [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>"],		
+"cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown","Ravenskoye","Stavropon","Tailney","Saint Petershoof","Altytown","Red Wheat","Novnikovo","Korki","Sovyenok","Zayatsk","Griffimsk"]
+	}, 
+{		
+"name": "The Crystal Empire",		
+"leaderName": "Princess Mi Amore Candenza",		
+"adjective": ["Crystalllians"],
+"startIntroPart1": "Dear Candence,Your Empire has fought and won many struggles versus the forces of evil and the shadows of night. You have taken care of your citizens as your citizens have taken care of you. Make sure nobody hurts you,your empire,or your citizens,Princess Candence,Through any means!", "startIntroPart2": "Princess Candence,Your friends will become your foes,and your foes will become your friends. Will you be able to catch who'll betray you first? Will your diplomatic charms help you in this struggle?.......Will your empire stand the test...... of time? ",
+"declaringWar": "My citizens call for action. You need to be reprimanded!",	
+"attacked": "Did the changelings send you here?",		
+"defeated": "The empire is in distraught. Is this it?",		
+"introduction": "Come! Do you have any gems? I'll be willing to trade for them!",	
+	"neutralHello": "Yes?",		
+ "hateHello": "Speak!",		
+"tradeRequest": "I'll offer you this!",	
+"outerColor": [206, 20, 219],		
+"innerColor": [255,255,255],		
+"favoredReligion": "Alicornism",		
+"uniqueName": "Crystallization",		
+"uniques": ["[+10]% Production [in all cities] <with [Gems]>", "[+1 Happiness] [in all cities] <with [Gems]>" ]
+"cities": ["Crystal City","Rainbow Falls","Rubrum","Porridge Town","Quebuck","Snowybury","Hedgewards","Canterine","Evergreen","Saraneighvo","Emeraldtop","Ponytown"]
+	}, 
+//CS
+{		
+   "name": "Ponyville",		
+   "adjective": ["Ponvillians"],		
+   "cityStateType": "Cultured", 		
+   "declaringWar": "The atrocious actions you have commited on this world need to be amended.",		
+   "attacked": "Your attacking us?! Ha! i bet this campaign wont even last 5 turns!",		
+   "defeated": "Well,i guess no great and amazing alicorn came to save us this time,huh......",		
+   "outerColor": [0, 0, 0],		
+   "innerColor": [219, 200, 77],		
+   "cities": ["Ponyville"]
+	},
+{		
+   "name": "Las Pegasus",		
+   "adjective": ["Las Pegasi"],		
+   "cityStateType": "Mercantile", 		
+   "declaringWar": "It was nice while it lasted.",		
+   "attacked": "Maybe we could bribe you with our amazing treasury?",		
+   "defeated": "Please,make sure our citizens are safe!",		
+   "outerColor": [0, 0, 0],		
+   "innerColor": [71, 135, 204],	
+   "cities": ["Las Pegasus"]
+	},
+]
