@@ -1,6 +1,7 @@
 [
-//nations
-   {
+
+   {		
+  //nations		
    "name": "Equestria",	
 	"leaderName": "Princess Celestia",		
    "adjective": ["Equestrians"],		
@@ -28,7 +29,6 @@
    "Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",			
    "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
 },
-//Lunar Republic
  {			
    "name": "Lunar Republic",	
 	"leaderName": "Princess Luna",		
@@ -66,7 +66,6 @@
    "Hollow Shades","Manesbury","Baltimare","Horseshoe City","Horseshoe Bay","Canterbury","Stableside","Portland","Prance","Ponyville",			
    "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
 },
-//Appleloosa
  {			
    "name": "Appleloosa",	
 	"leaderName": "Silverstar",		
@@ -95,7 +94,6 @@
    "Lubbuck","Maredessa","Buckston","Maneton Rougue","New Mareleans","Marrahasse","Mareami","Bucksonville","Marelanta","Maregomery",			
    "Little Buck","Balefire","Maneleigh","Fillyville","Buckphis","Marelotte","El Mareo","Maredo","Buckus Mari","Beaumount"],
 },
-//Changeling Lands
  {			
    "name": "Changeling Lands",	
 	"leaderName": "Queen Chrysalis",		
@@ -124,32 +122,44 @@
    "Aglossata","Neverwarm Point","Sorrow Forest","Morkaberg","Svarm","Volistad","Phantine","Hoorornd","Munling","Chrysalin",			
    "Changelingburg","Saxalis","Churvaria","Chrysaaland"],
 },
-//Stalliongrad
-{
-"name": "Stalliongrad",
-"leaderName": "Altidiya Revoltsova and Vasiliy Pentsushenko",
+{		
+"name": "Stalliongrad",		
+"leaderName": "Altidiya Revoltsova",		
 "adjective": ["Stalligradian"],
-
-"startIntroPart1": "Lead Stalliongrad!",
-"startIntroPart2": "bruh",
-"declaringWar": "I cannot wait until you grow even mightier. Therefore, prepare for war!",
-"attacked": "Corrupted villain! We will bring you into the ground!",
-"defeated": "Stalliongrad has been destroyed. I weep for the future generations.",
-"introduction": "Privet. In the name of the great Stalligradian people, I give you a warm welcome.",
-"neutralHello": "Privet.",
-"hateHello": "What does the devil need?",		
-"tradeRequest": "If you accept this, I'll let you listen to some Katyusha for a while!",
-	
-"outerColor": [173,41,9],
-"innerColor": [237,245,35],
-
-"favoredReligion": "Christianity",
-
-"uniqueName": "The Collective",
-"uniques": ["[+30]% Production [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>"],
-"cities": ["Stalliongrad", "Konzan","Zayask", "Zlatotsvet", "Hoofbeat Town", "Caramel Marks", "Krasivsk", "Altytown", "Stavropon", "Petershoof", "Ravenskoye"]
-},
-
+"startIntroPart1": "Lead Stalliongrad,Revoltsova,and Bring justice and order to the entire world! The world shall know the true pain of what those pitiful Equestrians did to us!",		"startIntroPart2": "Lady Revoltsova,Can your Union stand the test of time? Will your troops step back at the moment of truth? And most importantly,Will your Civilization stand the test of time?",		
+"declaringWar": "I cannot wait until you grow even mightier. Therefore, prepare for war!",		
+"attacked": "Corrupted villain! We will bring you into the ground!",		
+"defeated": "Stalliongrad has been destroyed. I weep for the future generations.",		
+"introduction": "Privet. In the name of the great Stalligradian people, I give you a warm welcome.",	
+	"neutralHello": "Privet.",		
+ "hateHello": "What does the devil need?",		
+"tradeRequest": "If you accept this,i'll let you listen to some Katyusha for a while!",	
+"outerColor": [173,41,9],		
+"innerColor": [237,245,35],		
+"favoredReligion": "Christianity",		
+"uniqueName": "The Collective",		
+"uniques": ["[+30]% Production [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>"],		
+"cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown"]
+	}, 
+{		
+"name": "The Crystal Empire",		
+"leaderName": "Princess Mi Amore Candenza",		
+"adjective": ["Crystalllians"],
+"startIntroPart1": "Dear Candence,Your Empire has fought and won many struggles versus the forces of evil and the shadows of night. You have taken care of your citizens as your citizens have taken care of you. Make sure nobody hurts you,your empire,or your citizens,Princess Candence,Through any means!", "startIntroPart2": "Princess Candence,Your friends will become your foes,and your foes will become your friends. Will you be able to catch who'll betray you first? Will your diplomatic charms help you in this struggle?.......Will your empire stand the test...... of time? ",
+"declaringWar": "My citizens call for action. You need to be reprimanded!",	
+"attacked": "Did the changelings send you here?",		
+"defeated": "The empire is in distraught. Is this it?",		
+"introduction": "Come! Do you have any gems? I'll be willing to trade for them!",	
+	"neutralHello": "Yes?",		
+ "hateHello": "Speak!",		
+"tradeRequest": "I'll offer you this!",	
+"outerColor": [206, 20, 219],		
+"innerColor": [255,255,255],		
+"favoredReligion": "Alicornism",		
+"uniqueName": "Crystallization",		
+"uniques": ["[+10]% Production [in all cities] <with [Gems]>", "[+1 Happiness] [in all cities] <with [Gems]>" ]
+"cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown"]
+	}, 
 //CS
 {		
    "name": "Ponyville",		
