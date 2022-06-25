@@ -139,7 +139,7 @@
 "favoredReligion": "Christianity",		
 "uniqueName": "The Collective",		
 "uniques": ["[+30]% Production [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>"],		
-"cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown"]
+"cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown","Ravenskoye","Stavropon","Tailney"."Saint Petershoof","Altytown","Red Wheat","Novnikovo","Korki","Sovyenok","Zayatsk","Griffimsk"]
 	}, 
 {		
 "name": "The Crystal Empire",		
@@ -158,7 +158,7 @@
 "favoredReligion": "Alicornism",		
 "uniqueName": "Crystallization",		
 "uniques": ["[+10]% Production [in all cities] <with [Gems]>", "[+1 Happiness] [in all cities] <with [Gems]>" ]
-"cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown"]
+"cities": ["Crystal City","Rainbow Falls","Rubrum","Porridge Town","Quebuck","Snowybury","Hedgewards","Canterine","Evergreen","Saraneighvo","Emeraldtop","Ponytown"]
 	}, 
 //CS
 {		
