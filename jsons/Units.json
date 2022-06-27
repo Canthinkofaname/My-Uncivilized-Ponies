@@ -34,6 +34,7 @@
 "movement": 2,		
 "strength": 60,		
 "cost": 365,		
+"requiredResource": "Magic Crystals",	
 "requiredTech": "Magical Theory",
 "obsoleteTech": "Plastics",				
 "upgradesTo": "Infantry",	
@@ -57,7 +58,8 @@
 "name": "Magical Bat Infantry",		
 "unitType": "GunpowderMagic",		
 "uniqueTo": "Lunar Republic",		
-"replaces": "Magical Infantry",		
+"replaces": "Magical Infantry",
+"requiredResource": "Magic Crystals",		
 "movement": 2,		
 "strength": 62,		
 "cost": 135,		
@@ -157,13 +159,12 @@
 "uniqueTo": "Changeling Lands",	
 "upgradesFrom": "Rifleman",	
 "movement": 3,	
-"strength": 39,		
+"strength": 35,		
 "cost": 270,	
 "requiredTech": "Rifling",					
 "attackSound": "nonmetalhit"	
 "uniques": [
 "Invisible to non-adjacent units", 
-"Ignores Zone of Control", 
 "May enter foreign tiles without open borders", 
 "[+10]% Strength <after adopting [Tactical Infiltration]>", 
 "[+1] Movement <after adopting [Tactical Infiltration]>", 
@@ -183,5 +184,16 @@
 "upgradesTo": "Rifleman", 		
 "obsoleteTech": "Rifling", 		
 "attackSound": "shot" 	
-}
+},
+	{		
+"name": "Great Earth Pony",		
+"unitType": "Civilian",		
+"uniques": ["Can start an [8]-turn golden age", 
+"Can construct [Sweet Apple Acre]", 
+"Great Person - [Gold]", 
+"Unbuildable", 
+"Uncapturable"
+],		
+"movement": 2	
+},
 ]
