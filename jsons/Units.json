@@ -29,6 +29,21 @@
 "attackSound": "nonmetalhit"	
 },
 {		
+"name": "Crystal Guard",		
+"unitType": "Sword",		
+"uniqueTo": "The Crystal Empire",		
+"replaces": "Swordsman",		
+"movement": 2,		
+"strength": 20,		
+"cost": 110,	
+"requiredTech": "Iron Working",	
+"requiredResource": "Gems",
+"obsoleteTech": "Steel",				
+"upgradesTo": "Longswordsman",
+"upgradesFrom": "Warrior",			
+"attackSound": "nonmetalhit"	
+},
+{		
 "name": "Magical Infantry",		
 "unitType": "GunpowderMagic",				
 "movement": 2,		
