@@ -67,4 +67,5 @@
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["Only available <in cities with a [Propaganda]>", "Destroyed when the city is captured", "[+15]% Production when constructing [Armored] units [in all cities]", "[-20]% maintenance costs <for [Armored] units>"]
 }
+
 ]

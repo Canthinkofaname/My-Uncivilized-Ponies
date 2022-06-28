@@ -87,3 +87,24 @@ size: 200, 200
 orig: 200, 200 
 offset: 0, 0 
 index: -1
+UnitIcons/Stallioneer
+rotate: false 
+xy: 2400, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Great Earth Pony
+rotate: false 
+xy: 2600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Crystal Guard
+rotate: false 
+xy: 2800, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1

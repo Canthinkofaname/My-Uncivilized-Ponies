@@ -24,3 +24,31 @@ size: 200, 200
 orig: 200, 200 
 offset: 0, 0 
 index: -1
+BuildingIcons/Propaganda
+rotate: false 
+xy: 600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+BuildingIcons/Industrial Relocation
+rotate: false 
+xy: 800, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+BuildingIcons/Stalliongrad Tank Factories
+rotate: false 
+xy: 1000, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+BuildingIcons/Railway Innovation
+rotate: false 
+xy: 1200, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1

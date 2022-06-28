@@ -11,7 +11,7 @@
 "Domination": 40, 
 "Scientific": 10
  }, 
-"uniques": ["[+2 Production] [in capital] <when at war>", "Only available <after discovering [Ancient Changeling Tech]>", "Only available <after discovering [Rifling]>"],
+"uniques": ["[+2 Production] [in capital] <when at war>", "Only available <after discovering [Ancient Changeling Tech]>"],
 "civilopediaText": [{ "text": "Unlocks Infiltrators" }]
  "policies": [
 {
