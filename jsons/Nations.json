@@ -1,35 +1,36 @@
 [
 //nations
-   {
-   "name": "Equestria",	
-	"leaderName": "Princess Celestia",		
-   "adjective": ["Equestrians"],		
-   "startBias": ["Avoid [Tundra]"],		
-   "preferredVictoryType": "Diplomatic", 
-		
-   "startIntroPart1": "Lead the lands of Equestria,Celestia,Into harmony and Prosperity",		
-   "startIntroPart2": "You great royal guards will always be at your side and your citizens will be strong and brave against their foes.", 		
-   "declaringWar": "You leave us no choice. You and your reign must end!",		
-   "attacked": "Why dont you choose an opponet thats your size?",		
-   "defeated": "This may be it for Equestria, but its impact on the world will forever remain!",		
-   "introduction": "Hello there! Would you care to visit and eat one of our delicous Green gem cake?", 		
-   "neutralHello": "Hello!",	
-   "hateHello": "I hope your here to a civil talk.", 		
-   "tradeRequest": "The Princess of Equestria in all her elegance would like to conduct a trade offer!", 		
+{
+	"name": "Equestria",
+	"leaderName": "Princess Celestia",
+	"adjective": ["Equestrians"],
+	"startBias": ["Avoid [Tundra]"],
+	"preferredVictoryType": "Diplomatic",
 
-   "outerColor": [255,197,133],		
-   "innerColor": [254,255,189],
-		
-   "favoredReligion": "Alicornism",	
-	
-   "uniqueName": "Harmony",		
-   "uniques": [" [+1 Happiness] [in all cities]", "[+10]% Strength for cities <when attacking>"],		
-   "cities": ["Canterlot","Cloudsdale","Las Pegasus","Hayston","Fillydelphia","Sire's Hollow","Raspberry Grove","Vanhoover","Whitebell","Acornage",			
-   "Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",			
-   "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
+	"startIntroPart1": "Lead the lands of Equestria,Celestia, into Harmony and Prosperity",
+	"startIntroPart2": "You great royal guards will always be at your side and your citizens will be strong and brave against their foes.",
+	"declaringWar": "You leave us no choice. You and your reign must end!",
+	"attacked": "Why dont you choose an opponet thats your size?",
+	"defeated": "This may be it for Equestria, but its impact on the world will forever remain!",
+	"introduction": "Hello there! Would you care to visit and eat one of our delicous Green gem cake?",
+	"neutralHello": "Hello!",
+	"hateHello": "I hope your here to a civil talk.",
+	"tradeRequest": "The Princess of Equestria in all her elegance would like to conduct a trade offer!",
+
+	"outerColor": [255,197,133],
+	"innerColor": [254,255,189],
+
+	"favoredReligion": "Alicornism",
+
+	"uniqueName": "Harmony",
+	"uniques": ["[+1 Happiness] [in all cities]",
+		    "[+10]% Strength for cities <when attacking>"],
+	"cities": ["Canterlot","Cloudsdale","Las Pegasus","Hayston","Fillydelphia","Sire's Hollow","Raspberry Grove","Vanhoover","Whitebell","Acornage",
+		   "Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",
+		   "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
 },
 //Lunar Republic
- {			
+{
    "name": "Lunar Republic",	
 	"leaderName": "Princess Luna",		
    "adjective": ["Lunarian"],		
