@@ -162,7 +162,7 @@
 "innerColor": [255,255,255],		
 "favoredReligion": "Alicornism",		
 "uniqueName": "Crystallization",		
-"uniques": ["[+10]% Production [in all cities] <with [Gems]>", "[+1 Happiness] [in all cities] <with [Gems]>" ]
+"uniques": ["[+10]% Production [in all cities] <with [Gems]>", "[+1 Happiness] [in all cities] <with [Gems]>" ],
 "cities": ["Crystal City","Rainbow Falls","Rubrum","Porridge Town","Quebuck","Snowybury","Hedgewards","Canterine","Evergreen","Saraneighvo","Emeraldtop","Ponytown"]
 	}, 
 //CS
