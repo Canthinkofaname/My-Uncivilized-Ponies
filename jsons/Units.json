@@ -116,7 +116,7 @@
 "strength": 35,		
 "cost": 190,		
 "requiredTech": "Gunpowder",					
-"attackSound": "nonmetalhit"
+"attackSound": "nonmetalhit",
 "uniques": ["Only available <after adopting [Discipline]>", "Only available <after adopting [Legalism]>"]
 },
 {		
@@ -177,6 +177,7 @@
 "strength": 35,		
 "cost": 270,	
 "requiredTech": "Rifling",					
+
 "attackSound": "nonmetalhit"	
 "uniques": [
 "Invisible to non-adjacent units", 

@@ -1,70 +1,96 @@
-[	
-{		
-"name": "Lunar Panels",		
-"replaces": "Solar Plant",		
-"uniqueTo": "Lunar Republic",
-"production": 7,		
-"percentStatBonus": {"production": 20},			
-"maintenance": 2,		
-"requiredBuilding": "Factory",		
-"uniques": ["Must be next to [Plains]", "Only available <in cities without a [Nuclear Plant]>"],
-"requiredTech": "Ecology",
-},
-	{		
-"name": "Wonderbolt Academy",		
-"culture": 2,		
-"isWonder": true,		
-"greatPersonPoints": {"Great Engineer": 1},		
-"uniques": ["[+5]% [Culture] [in all cities]", 
-"[+15]% Production when constructing [Air] units [in all cities]","[+1 Culture] per [2] population [in this city]","[+1 Science] [in this city]"],		
-"requiredTech": "Education",		
-"quote": "'Its not just about pushing ourselves,its about pushing ourselves in the right direction. ' - Spitfire"	
-},
-{		
-"name": "Orchard",		
-"replaces": "Granary",		
-"uniqueTo": "Appleloosa",
-"food": 3,				
-"maintenance": 1,		
-"requiredBuilding": "Factory",		
-"uniques": ["[+2] food from [Citrus] tiles [in this city]", "[+2] food from [Cotton] tiles [in this city]", "[+2] food from [Sugar] tiles [in this city]"],
-"requiredTech": "Calendar",
-},
+[
 {
-		"name": "Industrial Relocation",
-		"cost": 150,
-		"uniqueTo": "Stalliongrad",
-		"production": -2,
-		"percentStatBonus": {"production": 5},
-		"maintenance": 2,
-		"requiredTech": "Industrialization",
-		"uniques": ["Only available <in cities without a [Propaganda]>", "Can only be built [in capital]", "Destroyed when the city is captured", "[+10]% [Production] [in all cities]"]
+	"name": "Lunar Panels",
+	"replaces": "Solar Plant",
+	"uniqueTo": "Lunar Republic",
+	"production": 7,
+	"percentStatBonus": {"production": 20},
+	"maintenance": 2,
+	"requiredBuilding": "Factory",
+	"uniques": ["Must be next to [Plains]",
+		    "Only available <in cities without a [Nuclear Plant]>"],
+	"requiredTech": "Ecology"
 },
+
 {
-		"name": "Railway Innovation",
-		"cost": 200,
-		"uniqueTo": "Stalliongrad",
-		"production": 3,
-		"percentStatBonus": {"production": 30},
-		"maintenance": 3,
-		"requiredTech": "Industrialization",
-		"uniques": ["Only available <in cities with a [Industrial Relocation]>", "Destroyed when the city is captured", "[+10]% [Production] [in all cities]", "Free [Great Scientist] appears", "[-30]% maintenance on road & railroads"]
+	"name": "Wonderbolt Academy",
+	"culture": 2,
+	"isWonder": true,
+	"greatPersonPoints": {"Great Engineer": 1},
+	"uniques": ["[+5]% [Culture] [in all cities]",
+		    "[+15]% Production when constructing [Air] units [in all cities]",
+		    "[+1 Culture] per [2] population [in this city]","[+1 Science] [in this city]"],
+	"requiredTech": "Education",
+	"quote": "'Its not just about pushing ourselves, it's about pushing ourselves in the right direction.' - Spitfire"
 },
+
 {
-		"name": "Propaganda",
-		"cost": 100,
-		"uniqueTo": "Stalliongrad",
-		"maintenance": 1,
-		"requiredTech": "Radio",
-		"uniques": ["Only available <in cities without a [Industrial Relocation]>", "Destroyed when the city is captured", "[-10]% Unhappiness from [Population] [in all cities]", "[+1 Happiness] [in all cities]", "[-2 Happiness] [in all cities] <with [15]% chance>", "Can only be built [in capital]"]
+	"name": "Orchard",
+	"replaces": "Granary",
+	"uniqueTo": "Appleloosa",
+	"food": 3,
+	"maintenance": 1,
+	"requiredBuilding": "Factory",
+	"uniques": ["[+2] food from [Citrus] tiles [in this city]",
+		    "[+2] food from [Cotton] tiles [in this city]",
+		    "[+2] food from [Sugar] tiles [in this city]"],
+	"requiredTech": "Calendar"
 },
+
 {
-		"name": "Stalliongrad Tank Factories",
-		"cost": 400,
-		"uniqueTo": "Stalliongrad",
-		"production": 4,
-		"maintenance": 3,
-		"requiredTech": "Replaceable Parts",
-		"uniques": ["Only available <in cities with a [Propaganda]>", "Destroyed when the city is captured", "[+15]% Production when constructing [Armored] units [in all cities]", "[-20]% maintenance costs <for [Armored] units>"]
+	"name": "Industrial Relocation",
+	"cost": 150,
+	"uniqueTo": "Stalliongrad",
+	"production": -2,
+	"percentStatBonus": {"production": 5},
+	"maintenance": 2,
+	"requiredTech": "Industrialization",
+	"uniques": ["Only available <in cities without a [Propaganda]>",
+		    "Can only be built [in capital]",
+		    "Destroyed when the city is captured",
+		    "[+10]% [Production] [in all cities]"]
+},
+
+{
+	"name": "Railway Innovation",
+	"cost": 200,
+	"uniqueTo": "Stalliongrad",
+	"production": 3,
+	"percentStatBonus": {"production": 30},
+	"maintenance": 3,
+	"requiredTech": "Industrialization",
+	"uniques": ["Only available <in cities with a [Industrial Relocation]>",
+		    "Destroyed when the city is captured",
+		    "[+10]% [Production] [in all cities]",
+		    "Free [Great Scientist] appears",
+		    "[-30]% maintenance on road & railroads"]
+},
+
+{
+	"name": "Propaganda",
+	"cost": 100,
+	"uniqueTo": "Stalliongrad",
+	"maintenance": 1,
+	"requiredTech": "Radio",
+	"uniques": ["Only available <in cities without a [Industrial Relocation]>",
+		    "Destroyed when the city is captured",
+		    "[-10]% Unhappiness from [Population] [in all cities]",
+		    "[+1 Happiness] [in all cities]",
+		    "[-2 Happiness] [in all cities] <with [15]% chance>",
+		    "Can only be built [in capital]"]
+},
+
+{
+	"name": "Stalliongrad Tank Factories",
+	"cost": 400,
+	"uniqueTo": "Stalliongrad",
+	"production": 4,
+	"maintenance": 3,
+	"requiredTech": "Replaceable Parts",
+	"uniques": ["Only available <in cities with a [Propaganda]>",
+		    "Destroyed when the city is captured",
+		    "[+15]% Production when constructing [Armored] units [in all cities]",
+		    "[-20]% maintenance costs <for [Armored] units>"]
 }
+
 ]
