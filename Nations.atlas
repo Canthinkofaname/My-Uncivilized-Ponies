@@ -45,3 +45,24 @@ size: 100, 100
 orig: 100, 100
 offset: 0, 0 
 index: -1
+NationIcons/Olenia
+rotate: false 
+xy: 600, 0
+size: 100, 100
+orig: 100, 100
+offset: 0, 0 
+index: -1
+NationIcons/Our Town
+rotate: false 
+xy: 700, 0
+size: 100, 100
+orig: 100, 100
+offset: 0, 0 
+index: -1
+NationIcons/Polar Bear Communities
+rotate: false 
+xy: 800, 0
+size: 100, 100
+orig: 100, 100
+offset: 0, 0 
+index: -1

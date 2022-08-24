@@ -38,5 +38,39 @@ size: 50, 50
 orig: 50, 50
 offset: 0, 0 
 index: -1
-
+PolicyIcons/Friendship
+rotate: false 
+xy: 250, 0 
+size: 50, 50 
+orig: 50, 50
+offset: 0, 0 
+index: -1
+PolicyIcons/Cultural Harmonizing
+rotate: false 
+xy: 300, 0 
+size: 50, 50 
+orig: 50, 50
+offset: 0, 0 
+index: -1
+PolicyIcons/Religous Harmonizing
+rotate: false 
+xy: 350, 0 
+size: 50, 50 
+orig: 50, 50
+offset: 0, 0 
+index: -1
+PolicyIcons/Cultural Amalgamation
+rotate: false 
+xy: 400, 0 
+size: 50, 50 
+orig: 50, 50
+offset: 0, 0 
+index: -1
+PolicyIcons/Religous Acceptance & Tolerance
+rotate: false 
+xy: 450, 0 
+size: 50, 50 
+orig: 50, 50
+offset: 0, 0 
+index: -1
 

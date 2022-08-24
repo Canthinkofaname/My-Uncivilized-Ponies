@@ -108,3 +108,31 @@ size: 200, 200
 orig: 200, 200 
 offset: 0, 0 
 index: -1
+UnitIcons/Crystallizer
+rotate: false 
+xy: 3000, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Raider
+rotate: false 
+xy: 3200, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Olenian Warrior
+rotate: false 
+xy: 3400, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Fallskärmsjägarna
+rotate: false 
+xy: 3600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1

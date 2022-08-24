@@ -24,3 +24,17 @@ size: 70, 54
 orig: 70, 54
 offset: 0, 0 
 index: -1
+TileSets/FantasyHex/Tiles/Crystal Drill
+rotate: false 
+xy: 192, 0
+size: 64, 54
+orig: 64, 54
+offset: 0, 0 
+index: -1
+TileSets/FantasyHex/Tiles/Castle of the Two Sisters
+rotate: false 
+xy: 320, 0
+size: 74, 64
+orig: 64, 54
+offset: 0, 0 
+index: -1

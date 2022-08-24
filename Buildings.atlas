@@ -52,3 +52,38 @@ size: 200, 200
 orig: 200, 200 
 offset: 0, 0 
 index: -1
+BuildingIcons/Crystal Maker
+rotate: false 
+xy: 1600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+BuildingIcons/Starlights House
+rotate: false 
+xy: 2200, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+BuildingIcons/Igloo
+rotate: false 
+xy: 2000, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+BuildingIcons/Crystal Heart
+rotate: false 
+xy: 2400, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+BuildingIcons/Shining's Shield
+rotate: false 
+xy: 1800, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
