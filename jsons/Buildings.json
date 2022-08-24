@@ -1,96 +1,154 @@
-[
-{
-	"name": "Lunar Panels",
-	"replaces": "Solar Plant",
-	"uniqueTo": "Lunar Republic",
-	"production": 7,
-	"percentStatBonus": {"production": 20},
-	"maintenance": 2,
-	"requiredBuilding": "Factory",
-	"uniques": ["Must be next to [Plains]",
-		    "Only available <in cities without a [Nuclear Plant]>"],
-	"requiredTech": "Ecology"
+[	
+{		
+"name": "Lunar Panels",	
+"cost":500
+"replaces": "Solar Plant",		
+"uniqueTo": "Lunar Republic",
+"production": 7,		
+"percentStatBonus": {"production": 20},			
+"maintenance": 2,		
+"requiredBuilding": "Factory",		
+"uniques": ["Must be next to [Plains]", "Only available <in cities without a [Nuclear Plant]>"],
+"requiredTech": "Ecology",
 },
-
-{
-	"name": "Wonderbolt Academy",
-	"culture": 2,
-	"isWonder": true,
-	"greatPersonPoints": {"Great Engineer": 1},
-	"uniques": ["[+5]% [Culture] [in all cities]",
-		    "[+15]% Production when constructing [Air] units [in all cities]",
-		    "[+1 Culture] per [2] population [in this city]","[+1 Science] [in this city]"],
-	"requiredTech": "Education",
-	"quote": "'Its not just about pushing ourselves, it's about pushing ourselves in the right direction.' - Spitfire"
+	{		
+"name": "Wonderbolt Academy",		
+"culture": 2,		
+"isWonder": true,		
+"greatPersonPoints": {"Great Engineer": 1},		
+"uniques": ["[+5]% [Culture] [in all cities]", 
+"[+15]% Production when constructing [Air] units [in all cities]","[+1 Culture] per [2] population [in this city]","[+1 Science] [in this city]"],		
+"requiredTech": "Education",		
+"quote": "'Its not just about pushing ourselves,its about pushing ourselves in the right direction. ' - Spitfire"	
 },
-
-{
-	"name": "Orchard",
-	"replaces": "Granary",
-	"uniqueTo": "Appleloosa",
-	"food": 3,
-	"maintenance": 1,
-	"requiredBuilding": "Factory",
-	"uniques": ["[+2] food from [Citrus] tiles [in this city]",
-		    "[+2] food from [Cotton] tiles [in this city]",
-		    "[+2] food from [Sugar] tiles [in this city]"],
-	"requiredTech": "Calendar"
+{		
+"name": "Orchard",		
+"replaces": "Granary",		
+"uniqueTo": "Appleloosa",
+"food": 3,				
+"maintenance": 1,		
+"requiredBuilding": "Factory",		
+"uniques": ["[+2] food from [Citrus] tiles [in this city]", "[+2] food from [Cotton] tiles [in this city]", "[+2] food from [Sugar] tiles [in this city]"],
+"requiredTech": "Calendar",
 },
-
-{
-	"name": "Industrial Relocation",
-	"cost": 150,
-	"uniqueTo": "Stalliongrad",
-	"production": -2,
-	"percentStatBonus": {"production": 5},
-	"maintenance": 2,
-	"requiredTech": "Industrialization",
-	"uniques": ["Only available <in cities without a [Propaganda]>",
-		    "Can only be built [in capital]",
-		    "Destroyed when the city is captured",
-		    "[+10]% [Production] [in all cities]"]
+{ 		
+      "name": "Propaganda",
+      "cost": 150,
+      "uniqueTo": "Stalliongrad", 		
+      "maintenance": 1,
+ 		"requiredTech": "Radio",
+ 		"uniques": ["Only available <in cities without a [Industrial Relocation]>", "Destroyed when the city is captured", 
+      "[-10]% Unhappiness from [Population] [in all cities]", "[+1 Happiness] [in all cities]",
+      "[-2 Happiness] [in all cities] <with [15]% chance>", "Can only be built [in capital]"] 
 },
-
-{
-	"name": "Railway Innovation",
-	"cost": 200,
-	"uniqueTo": "Stalliongrad",
-	"production": 3,
-	"percentStatBonus": {"production": 30},
-	"maintenance": 3,
-	"requiredTech": "Industrialization",
-	"uniques": ["Only available <in cities with a [Industrial Relocation]>",
-		    "Destroyed when the city is captured",
-		    "[+10]% [Production] [in all cities]",
-		    "Free [Great Scientist] appears",
-		    "[-30]% maintenance on road & railroads"]
+{ 		
+"name": "Industrial Relocation",
+ "cost": 150,
+ "uniqueTo": "Stalliongrad",
+ 		"production": -2,
+ 		"percentStatBonus": {"production": 5},
+ 		"maintenance": 2, 		
+      "requiredTech": "Industrialization",
+ 		"uniques": ["Only available <in cities without a [Propaganda]>",
+ "Can only be built [in capital]",
+ "Destroyed when the city is captured",
+ "[+10]% [Production] [in all cities]"
+        ] 
 },
-
 {
-	"name": "Propaganda",
-	"cost": 100,
-	"uniqueTo": "Stalliongrad",
-	"maintenance": 1,
-	"requiredTech": "Radio",
-	"uniques": ["Only available <in cities without a [Industrial Relocation]>",
-		    "Destroyed when the city is captured",
-		    "[-10]% Unhappiness from [Population] [in all cities]",
-		    "[+1 Happiness] [in all cities]",
-		    "[-2 Happiness] [in all cities] <with [15]% chance>",
-		    "Can only be built [in capital]"]
+ 		"name": "Stalliongrad Tank Factories",
+ "cost": 400,
+ "uniqueTo": "Stalliongrad",
+ 		"production": 4,
+ 		"maintenance": 3,
+ 		"requiredTech": "Replaceable Parts",
+ 		"uniques": ["Only available <in cities with a [Propaganda]>",
+ "Destroyed when the city is captured",
+ "[+10]% [Production] [in all cities]",
+ "[+15]% Production when constructing [Armored] units [in all cities]",
+ "[-20]% maintenance costs <for [Armored] units>"
+     ] 
 },
-
-{
-	"name": "Stalliongrad Tank Factories",
-	"cost": 400,
-	"uniqueTo": "Stalliongrad",
-	"production": 4,
-	"maintenance": 3,
-	"requiredTech": "Replaceable Parts",
-	"uniques": ["Only available <in cities with a [Propaganda]>",
-		    "Destroyed when the city is captured",
-		    "[+15]% Production when constructing [Armored] units [in all cities]",
-		    "[-20]% maintenance costs <for [Armored] units>"]
-}
+{ 		
+"name": "Railway Innovation",
+ "cost": 200,
+ "uniqueTo": "Stalliongrad",
+ 		"production": 3,
+ 		"percentStatBonus": {"production": 30},
+ 		"maintenance": 3,
+ 		"requiredTech": "Industrialization",
+ 		"uniques": ["Only available <in cities with a [Industrial Relocation]>",
+ "Destroyed when the city is captured",
+ "[+10]% [Production] [in all cities]",
+ "Free [Great Scientist] appears",
+ "[-30]% maintenance on road & railroads"
+    ] 
+},
+{ 		
+"name": "Crystal Maker",
+ "cost": 130,
+ "uniqueTo": "The Crystal Empire",
+ 		"percentStatBonus": {"production": 30},
+ 		"maintenance": 3,
+ 		"requiredTech": "Engineering",
+ 		"uniques": ["Provides [2] [Gems]",
+ "Destroyed when the city is captured",
+  "Must have an owned [Crystal Drill] within [2] tiles"
+    ] 
+},
+{ 		
+"name": "Crystal Heart",
+ "cost": 170,
+ "uniqueTo": "The Crystal Empire",
+ 		"happiness": 1,
+ 		"maintenance": 2, 		
+      "requiredTech": "Engineering",
+ 		"uniques": [
+        "Provides [4] [Gems]",
+  "Must have an owned [Crystal Drill] within [3] tiles",
+ "Can only be built [in capital]",
+ "[+1 Happiness] [in all cities]",
+ "[+10]% [Production] [in all cities]"
+        ] 
+},
+{ 		
+"name": "Starlights House",
+ "cost": 130,
+ "uniqueTo": "Our Town",
+ 		"happiness": 3,
+        "gold": 1,
+ 		"maintenance": 2, 		
+      "requiredTech": "Construction",
+ 		"uniques": [
+ "Can only be built [in capital]",
+ "[+10]% [Production] [in all cities]",
+ "Destroyed when the city is captured",
+        ] 
+},
+{ 		
+"name": "Igloo",
+ "cost": 125,
+ "uniqueTo": "Polar Bear Communities",
+ 		"production": 1,
+        "food": 1,
+ 		"maintenance": 1,
+ 		"requiredTech": "Engineering",
+ 		"uniques": [
+        "Destroyed when the city is captured",
+    ] 
+},
+{ 		
+"name": "Shining's Shield",
+ "cost": 345,
+ "uniqueTo": "Equestria",
+ 		"maintenance": 2,
+        "cityStrength": 10,
+		"cityHealth": 35,
+ 		"requiredTech": "Magical Theory",
+ 		"uniques": [
+        "Destroyed when the city is captured",
+        "Can only be built [in capital]",
+    ] 
+},
 
 ]

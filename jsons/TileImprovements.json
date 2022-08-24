@@ -11,4 +11,15 @@
 "Pillaging this improvement yields approximately [+20 Gold]",
      ]
 },
+{		
+"name": "Crystal Drill",		
+"terrainsCanBeBuiltOn": ["Land"],		
+"production": 1
+"turnsToBuild": 5
+"uniqueTo": "The Crystal Empire",
+"uniques": [ "Removes removable features when built",
+"Provides [1] [Gems]",
+     ]
+},
+ 
 ]

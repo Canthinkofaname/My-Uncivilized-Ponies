@@ -1,36 +1,35 @@
 [
-//nations
-{
-	"name": "Equestria",
-	"leaderName": "Princess Celestia",
-	"adjective": ["Equestrians"],
-	"startBias": ["Avoid [Tundra]"],
-	"preferredVictoryType": "Diplomatic",
 
-	"startIntroPart1": "Lead the lands of Equestria,Celestia, into Harmony and Prosperity",
-	"startIntroPart2": "You great royal guards will always be at your side and your citizens will be strong and brave against their foes.",
-	"declaringWar": "You leave us no choice. You and your reign must end!",
-	"attacked": "Why dont you choose an opponet thats your size?",
-	"defeated": "This may be it for Equestria, but its impact on the world will forever remain!",
-	"introduction": "Hello there! Would you care to visit and eat one of our delicous Green gem cake?",
-	"neutralHello": "Hello!",
-	"hateHello": "I hope your here to a civil talk.",
-	"tradeRequest": "The Princess of Equestria in all her elegance would like to conduct a trade offer!",
+   {		
+  //nations		
+   "name": "Equestria",	
+	"leaderName": "Princess Celestia",		
+   "adjective": ["Equestrians"],		
+   "startBias": ["Avoid [Tundra]"],		
+   "preferredVictoryType": "Diplomatic", 
+		
+   "startIntroPart1": "Lead the lands of Equestria,Celestia,Into harmony and Prosperity",		
+   "startIntroPart2": "You great royal guards will always be at your side and your citizens will be strong and brave against their foes.", 		
+   "declaringWar": "You leave us no choice. You and your reign must end!",		
+   "attacked": "Why dont you choose an opponet thats your size?",		
+   "defeated": "This may be it for Equestria, but its impact on the world will forever remain!",		
+   "introduction": "Hello there! Would you care to visit and eat one of our delicous Green gem cake?", 		
+   "neutralHello": "Hello!",	
+   "hateHello": "I hope your here to a civil talk.", 		
+   "tradeRequest": "The Princess of Equestria in all her elegance would like to conduct a trade offer!", 		
 
-	"outerColor": [255,197,133],
-	"innerColor": [254,255,189],
-
-	"favoredReligion": "Alicornism",
-
-	"uniqueName": "Harmony",
-	"uniques": ["[+1 Happiness] [in all cities]",
-		    "[+10]% Strength for cities <when attacking>"],
-	"cities": ["Canterlot","Cloudsdale","Las Pegasus","Hayston","Fillydelphia","Sire's Hollow","Raspberry Grove","Vanhoover","Whitebell","Acornage",
-		   "Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",
-		   "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
+   "outerColor": [255,197,133],		
+   "innerColor": [254,255,189],
+		
+   "favoredReligion": "Alicornism",	
+	
+   "uniqueName": "Harmony",		
+   "uniques": [" [+1 Happiness] [in all cities]", "[+10]% Strength for cities <when attacking>"],		
+   "cities": ["Canterlot","Cloudsdale","Las Pegasus","Hayston","Fillydelphia","Sire's Hollow","Raspberry Grove","Vanhoover","Whitebell","Acornage",			
+   "Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",			
+   "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
 },
-//Lunar Republic
-{
+ {			
    "name": "Lunar Republic",	
 	"leaderName": "Princess Luna",		
    "adjective": ["Lunarian"],		
@@ -67,7 +66,6 @@
    "Hollow Shades","Manesbury","Baltimare","Horseshoe City","Horseshoe Bay","Canterbury","Stableside","Portland","Prance","Ponyville",			
    "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
 },
-//Appleloosa
  {			
    "name": "Appleloosa",	
 	"leaderName": "Silverstar",		
@@ -96,7 +94,6 @@
    "Lubbuck","Maredessa","Buckston","Maneton Rougue","New Mareleans","Marrahasse","Mareami","Bucksonville","Marelanta","Maregomery",			
    "Little Buck","Balefire","Maneleigh","Fillyville","Buckphis","Marelotte","El Mareo","Maredo","Buckus Mari","Beaumount"],
 },
-//Changeling Lands
  {			
    "name": "Changeling Lands",	
 	"leaderName": "Queen Chrysalis",		
@@ -120,17 +117,16 @@
    "favoredReligion": "Hiveism",	
 	
    "uniqueName": "Bitter Queen",		
-   "uniques": ["Starts with [Ancient Changeling Tech]", "[+10]% Strength <for [Sword] units> <when fighting in [Foreign] tiles>", "[+10]% [Production] [in all cities] <when at war>", "[+10]% Strength <for [Gunpowder] units> <when fighting in [Foreign] tiles>"],		
+   "uniques": ["Starts with [Ancient Changeling Tech]", "[+10]% Strength <for [Sword] units> <when fighting in [Foreign] tiles>", "[+10]% [Production] [in all cities] <when at war>", "[+5]% Strength <for [Gunpowder] units> <when fighting in [Foreign] tiles>"],		
    "cities": ["Vesalipolis","Vraks","Soryth","Dirtysium","Sicarus","Antax","Gardis","Kladisum","Lyctida","Gorak",			
    "Aglossata","Neverwarm Point","Sorrow Forest","Morkaberg","Svarm","Volistad","Phantine","Hoorornd","Munling","Chrysalin",			
    "Changelingburg","Saxalis","Churvaria","Chrysaaland"],
 },
-//Stalliongrad
-{
-"name": "Stalliongrad",
-"leaderName": "Altidiya Revoltsova and Vasiliy Pentsushenko",
+{		
+"name": "Stalliongrad",		
+"leaderName": "Altidiya Revoltsova",		
 "adjective": ["Stalligradian"],
-
+"startBias": ["[Plains]"],	
 "startIntroPart1": "Lead Stalliongrad,Revoltsova,and Bring justice and order to the entire world! The world shall know the true pain of what those pitiful Equestrians did to us!",		"startIntroPart2": "Lady Revoltsova,Can your Union stand the test of time? Will your troops step back at the moment of truth? And most importantly,Will your Civilization stand the test of time?",		
 "declaringWar": "I cannot wait until you grow even mightier. Therefore, prepare for war!",		
 "attacked": "Corrupted villain! We will bring you into the ground!",		
@@ -147,10 +143,13 @@
 "cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown","Ravenskoye","Stavropon","Tailney","Saint Petershoof","Altytown","Red Wheat","Novnikovo","Korki","Sovyenok","Zayatsk","Griffimsk"]
 	}, 
 {		
-"name": "The Crystal Empire",		
+"name": "The Crystal Empire",
+"startBias": ["[Plains]"],	
 "leaderName": "Princess Mi Amore Candenza",		
 "adjective": ["Crystalllians"],
-"startIntroPart1": "Dear Candence,Your Empire has fought and won many struggles versus the forces of evil and the shadows of night. You have taken care of your citizens as your citizens have taken care of you. Make sure nobody hurts you,your empire,or your citizens,Princess Candence,Through any means!", "startIntroPart2": "Princess Candence,Your friends will become your foes,and your foes will become your friends. Will you be able to catch who'll betray you first? Will your diplomatic charms help you in this struggle?.......Will your empire stand the test...... of time? ",
+"startIntroPart1": "Dear Candence,Your Empire has fought and won many struggles versus the forces of evil and the shadows of night. You have taken care of your citizens as your citizens have taken care of you. Make sure nobody hurts you,your empire,or your citizens,Princess Candence,Through any means!",
+
+"startIntroPart2": "Princess Candence,Your friends will become your foes,and your foes will become your friends. Will you be able to catch who'll betray you first? Will your diplomatic charms help you in this struggle?.......Will your empire stand the test...... of time? ",
 "declaringWar": "My citizens call for action. You need to be reprimanded!",	
 "attacked": "Did the changelings send you here?",		
 "defeated": "The empire is in distraught. Is this it?",		
@@ -162,8 +161,77 @@
 "innerColor": [255,255,255],		
 "favoredReligion": "Alicornism",		
 "uniqueName": "Crystallization",		
-"uniques": ["[+10]% Production [in all cities] <with [Gems]>", "[+1 Happiness] [in all cities] <with [Gems]>" ],
+"uniques": ["[+10]% Production [in all cities] <with [Gems]>", "[+1 Happiness] [in all cities] <with [Gems]>" ]
 "cities": ["Crystal City","Rainbow Falls","Rubrum","Porridge Town","Quebuck","Snowybury","Hedgewards","Canterine","Evergreen","Saraneighvo","Emeraldtop","Ponytown"]
+	},
+    {		
+"name": "Olenia",		
+"leaderName": "King Johan The Djävulen",		
+"adjective": ["Olenians"],
+"startBias": ["[Tundra]"],	
+"startIntroPart1": "King Johan,Your kingdom has gone a long way,making way through the most desperate and harshest struggles known to deerkind. Despite this,your citizens and vikings fought many battles with honor and valor till the day they met their end.",
+
+"startIntroPart2": "However,Olenia has shrunken in landsize throughout the years. Corrupt Kings were sworn into power. Powerful foes and enemies were starting to become a threat. Olenia was in disarray! Can you power through this struggle and save Olenia? Can Olenia.....Stand the test of time?",
+
+"declaringWar": "My vikings call for war! You shall be their sacrifice!",	
+"attacked": "Out with the bluff! If you really mean war,come fight with us in the Hjortland!",		
+"defeated": "The empire was already collapsing anyways......",		
+"introduction": "Välkommen! Would you like to play Varpa in a nearby city? Its plenty fun!",	
+	"neutralHello": "Hej!",		
+ "hateHello": "Lämna detta ögonblick!",		
+"tradeRequest": "Look at all the items im offering! You want it...right?",	
+"outerColor": [160, 220, 232],		
+"innerColor": [162, 167, 168],		
+"favoredReligion": "Hinduism",		
+"uniqueName": "Och vidare, Olenia!",		
+"uniques": ["[+12]% Strength <for [Sword] units> <before the [Renaissance era]>"]
+"cities": ["Hjortland","Endräkt","Seaddle","Älgstad","Hejna","Mantyreek","Vaverfront","Sitz","Equadoe","Goldenshor","Kesäpuoli","Sakara","Luxbucht","Oslott","Elksburg","Isham","Cervus","Hirvikaupunki","Hovenhamn","Snollinga","Svenholm"]
+	}, 
+ {		
+"name": "Our Town",		
+"leaderName": "Starlight Glimmer",		
+"adjective": ["Equalist"],
+"startBias": ["[Plains]"],	
+"startIntroPart1": "Starlight Glimmer,you have led your town into believing your lies of a society where all people are equal. How long can you hold out until they find out and how long can you hold on to office. How long can you hold out against outside forces and hostility,and how long can you hold out againt capitalism. Starlight glimmer....Can you stand the test of time?",
+
+"startIntroPart2": "...Can you?",
+
+"declaringWar": "Your hierachic ways is trechary! Let me purge it,and make it equal!",		
+"attacked": "You dare try to attack me?!?! I'll put you back in your place!",		
+"defeated": "The dream was nice while it lasted.....",
+"introduction": "Why Hello!",	
+	"neutralHello": "Hey.",		
+ "hateHello": "Regret your actions yet?",		
+"tradeRequest": "I think this is a fairly equal trade.",	
+"outerColor": [252,252,252],	 
+"innerColor": [80,84,109],		
+"favoredReligion": "Equalism",		
+"uniqueName": "Down with the Hierachy!",		
+"uniques": ["[+12]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>", "[+12]% Strength <for [GunpowderMagic] units> <when fighting in [Friendly] tiles>"]
+"cities": ["Our Town","Nash gorod","My Town","Starlight's Town","Glimmer's Town","Your Town","Equal Town","Our Village","My Village","Sunset's Town","Trixie's Trailer","Equal Village","Gorod Starlayt","Gorod Glimmera","Nobody's Town","Ravnyy","Mine.","Hideout","Not Your Town","Everybody's Town","Basic Town"]
+	}, 
+     {		
+"name": "Polar Bear Communities",		
+"leaderName": "Paw Wellington",		
+"adjective": ["Polar Bearian"],
+"startBias": ["[Tundra]"],	
+"startIntroPart1": "King Johan,Your kingdom has gone a long way,making way through the most desperate and harshest struggles known to deerkind. Despite this,your citizens and vikings fought many battles with honor and valor till the day they met their end.",
+
+"startIntroPart2": "However,Olenia has shrunken in landsize throughout the years. Corrupt Kings were sworn into power. Powerful foes and enemies were starting to become a threat. Olenia was in disarray! Can you power through this struggle and save Olenia? Can Olenia.....Stand the test of time?",
+
+"declaringWar": "The Polar Bears have made their stance clear: Your reign has to stop.",		
+"attacked": "Your efforts will be in vain,Us polar bears know how to fight in the cold.",		
+"defeated": "This!...This cannot be possible!",	
+"introduction": "Hello! Would you like to rest in one of our local igloos?",	
+	"neutralHello": "Greetings!",		
+ "hateHello": "Its all in vain.",		
+"tradeRequest": "Come! Participate in this trade we have requested of you!",	
+"outerColor": [31,73,125],	 
+"innerColor": [255,255,255],		
+"favoredReligion": "Christianity",		
+"uniqueName": "Polar Bear Temper",		
+"uniques": ["[+20]% Strength <for [Military] units> <when fighting in [Tundra] tiles>", "[+20]% Strength <for [Military] units> <when fighting in [Snow] tiles>"]
+"cities": ["Mathair Fearainn","Polarhill","Pawtovik","Winteryearbypaw","Pawrtic","Polskcow","Coldlaska","Hyper Pawrea","Polarberia","Saint Petersbearg","Winter-on-Don","Chilsk","Wintmara","Paznhy Clavgorod","Beaonezh","Snorilsk","Furchi","Flufbent","Furza","Winta","Santangelsk"]
 	}, 
 //CS
 {		
@@ -188,4 +256,71 @@
    "innerColor": [71, 135, 204],	
    "cities": ["Las Pegasus"]
 	},
+    {		
+   "name": "Baltimare",		
+   "adjective": ["Baltimarians"],		
+   "cityStateType": "Maritime", 		
+   "declaringWar": "Your foul ways need to be amended!",		
+   "attacked": "Come get it!",		
+   "defeated": "Crooked Ruler! You will live the last years of your life in pain and misery!",		
+   "outerColor": [0, 0, 0],		
+   "innerColor": [168, 68, 50],	
+   "cities": ["Baltimore"]
+	},
+   //RECOLOR
+   {		
+   "name": "Whitebell",		
+   "adjective": ["White Bellers"],		
+   "cityStateType": "Cultured", 		
+   "declaringWar": "Your foul ways need to be amended!",		
+   "attacked": "Take one step into our territory and you will meet your end!",		
+   "defeated": "Do you hear it? The funeral bells ring....",		
+   "outerColor": [0, 0, 0],		
+   "innerColor": [168, 68, 50],	
+   "cities": ["Whitebell"]
+	},
+    {		
+   "name": "Cloudsdale",		
+   "adjective": ["Clouddalian"],		
+   "cityStateType": "Militaristic", 		
+   "declaringWar": "The thunder strikes. It is time for your collapse.",		
+   "attacked": "Hmph.",		
+   "defeated": "You made a big mistake....",		
+   "outerColor": [0, 0, 0],		
+   "innerColor": [168, 68, 50],	
+   "cities": ["Cloudsdale"]
+	},
+    {		
+   "name": "Maretropolis",		
+   "adjective": ["Maretropolian"],		
+   "cityStateType": "Mercantile", 		
+   "declaringWar": "Your deeds shall be judged by our army! Prepare to die!",		
+   "attacked": "You buffoon! You'll regret this!",		
+   "defeated": "The skyscrapers fall.... Maretropolis has fallen.",		
+   "outerColor": [0, 0, 0],		
+   "innerColor": [168, 68, 50],	
+   "cities": ["Maretropolis"]
+	},
+  {
+  "name": "Starlight's Town",		
+   "adjective": ["Equalist"],		
+   "cityStateType": "Militaristic", 		
+   "declaringWar": "Your hierachic ways is treachary! Let me purge it,and make it equal!",		
+   "attacked": "You dare try to attack me?!?! I'll put you back in your place!",		
+   "defeated": "The dream was nice while it lasted.....",		
+   "outerColor": [0, 0, 0],		
+   "innerColor": [168, 68, 50],	
+   "cities": ["Starlight's Town"]
+    },
+    {
+    "name": "Pony Town",		
+   "adjective": ["Ponies"],		
+   "cityStateType": "Cultured", 		
+   "declaringWar": "We have done everything we can to avoid this,but you have pushed us over the edge. Prepare for collapse.",		
+   "attacked": "We hope we can sort this out in a peaceful manner.",		
+   "defeated": "We wont be sad that its over,but glad that it lasted.",		
+   "outerColor": [0, 0, 0],		
+   "innerColor": [168, 68, 50],	
+   "cities": ["Pony Town"]
+   },
 ]

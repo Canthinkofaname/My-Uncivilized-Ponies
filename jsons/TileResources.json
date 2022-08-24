@@ -5,7 +5,7 @@
 "revealedBy": "Mining",		
 "terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Snow","Tundra"], // Hill only if plains or grassland		
 "production": 1,		
-"improvement": "Quarry",		
+  "improvedBy": ["Mine", "Crystal Drill"],		
 "improvementStats": {"production": 1},	
 	"uniques": ["Guaranteed with Strategic Balance resource option",				
 	"Generated with weight [100] <in [Featureless] [Grassland] tiles>",					
@@ -33,4 +33,19 @@
 "Doesn't generate naturally <in [Tundra] tiles>"
 ]	
 },
+{
+		"name": "Gems",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
+		"gold": 3,
+		"improvedBy": ["Mine", "Crystal Drill"],
+		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
+					"Generated with weight [20] <in [Jungle] Regions>",
+					"Generated with weight [15] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"
+                    ],
+	},
 ]

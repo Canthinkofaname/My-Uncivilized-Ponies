@@ -21,7 +21,7 @@
 "replaces": "Longswordsman",		
 "movement": 2,		
 "strength": 23,		
-"cost": 125,		
+"cost": 135,		
 "requiredTech": "Steel",
 "requiredResource": "Iron",
 "obsoleteTech": "Gunpowder",				
@@ -116,7 +116,7 @@
 "strength": 35,		
 "cost": 190,		
 "requiredTech": "Gunpowder",					
-"attackSound": "nonmetalhit",
+"attackSound": "nonmetalhit"
 "uniques": ["Only available <after adopting [Discipline]>", "Only available <after adopting [Legalism]>"]
 },
 {		
@@ -177,7 +177,6 @@
 "strength": 35,		
 "cost": 270,	
 "requiredTech": "Rifling",					
-
 "attackSound": "nonmetalhit"	
 "uniques": [
 "Invisible to non-adjacent units", 
@@ -211,5 +210,61 @@
 "Uncapturable"
 ],		
 "movement": 2	
+},
+{		
+"name": "Crystallizer",		
+"unitType": "GunpowderMagic",		
+"uniqueTo": "The Crystal Empire",		
+"replaces": "Magical Infantry",
+"requiredResource": "Gems",		
+"movement": 2,		
+"strength": 63,		
+"cost": 400,		
+"requiredTech": "Magical Theory",
+"obsoleteTech": "Plastics",				
+"upgradesTo": "Infantry",		
+"attackSound": "nonmetalhit"	
+},
+{		
+"name": "Raider",		
+"unitType": "Sword",		
+"uniqueTo": "Olenia",	
+"uniques": ["[+10]% Strength bonus for [Wounded] units within [1] tiles"],
+"replaces": "Swordsman",		
+"movement": 3,		
+"strength": 11,		
+"cost": 56,	
+"requiredTech": "Iron Working",	
+"requiredResource": "Iron",
+"obsoleteTech": "Steel",				
+"upgradesTo": "Olenian Warrior",
+"upgradesFrom": "Warrior",			
+"attackSound": "nonmetalhit"	
+},
+{		
+"name": "Olenian Warrior",		
+"unitType": "Sword",		
+"uniqueTo": "Olenia",		
+"replaces": "Longswordsman",		
+"movement": 3,		
+"strength": 22,		
+"cost": 150,		
+"requiredTech": "Steel",
+"requiredResource": "Iron",
+"obsoleteTech": "Gunpowder",				
+"upgradesTo": "Musketman",		
+"attackSound": "nonmetalhit"	
+},
+{		
+"name": "Fallskärmsjägarna",		
+"unitType": "Gunpowder",		
+"uniqueTo": "Olenia",		
+"replaces": "Paratrooper",		
+"movement": 2,		
+"strength": 70,		
+"cost": 390,		
+"requiredTech": "Radar",
+"uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
+"attackSound": "shot"
 },
 ]

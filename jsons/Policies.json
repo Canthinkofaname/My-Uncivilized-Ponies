@@ -56,5 +56,67 @@
 "Provides a [Aqueduct] in your first [4] cities for free"],
 },
 ]
+
+}
+
+//Harmony 
+{
+"name": "Harmony",
+"era": "Medieval era",
+
+"priorities": 
+{ 
+"Neutral": 50,
+ "Cultural": 10,
+ "Diplomatic": 40, 
+"Domination": 0, 
+"Scientific": 0
+ },
+ "uniques": ["[+1 Happiness] [in capital] <when not at war>", "Only available <after discovering [Philosophy]>"],
+"civilopediaText": [{ "text": "Policy branch focused on peace" }]
+ "policies": [
+//Culture Path
+ {
+ "name": "Friendship", 
+"uniques": [ "[-2]% Production when constructing [Military] units [in all cities]", "[+1 Happiness] per [4] population [in all cities]<when not at war>"], 
+ "row": 2,
+ "column": 4, //3
+},
+{
+ "name": "Cultural Harmonizing", 
+"uniques": ["[+1 Culture] [in capital]", "[+1 Happiness] per [8] population [in all cities]", "Only available <before adopting [Religous Harmonizing]>"],
+"row": 2,
+"column": 2,
+ "requires": ["Friendship"],
+},
+{
+ "name": "Cultural Amalgamation", 
+"uniques": ["[+1 Culture] [in all cities]", "Only available <before adopting [Religous Harmonizing]>"],
+  "row": 2, //5
+  "column": 4, //4
+ 
+ "requires": ["Cultural Harmonizing"],
+},
+{
+ "name": "Religous Harmonizing", 
+"uniques": ["[+1 Happiness, +1 Faith] in all cities in which the majority religion is a major religion", "[+1 Faith] [in all cities]", "Only available <before adopting [Cultural Harmonizing]>"], 
+  "row": 4, //4
+  "column": 6, //3
+  "requires": ["Friendship"],
+},
+{
+ "name": "Religous Acceptance & Tolerance", 
+"uniques": ["[+1 Faith] [in annexed cities]", "[+1 Happiness] [in all non-occupied cities]", "Only available <before adopting [Cultural Harmonizing]>"], 
+   "row": 2, //2
+   "column": 8,   //5
+ "requires": ["Religous Harmonizing"],
+},
+{ 
+"name": "Harmony Complete", 
+"uniques": [ "[+15]% growth [in all cities]",
+],
+},
+
+ ]
 }
 ]

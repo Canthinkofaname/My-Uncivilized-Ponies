@@ -1,0 +1,19 @@
+[
+{  
+"name": "Castle of the Two Sisters",
+ "type": "NaturalWonder",
+     "faith": 2,
+     "happiness": 1,
+     "culture": 3,
+    "occursOn": ["Grassland"],
+   "uniques": ["Must be adjacent to [1] [Grassland] tiles",			
+     "Must be adjacent to [0] [Marsh] tiles",			
+     "Must be adjacent to [0] [Desert] tiles",			
+     "Must be adjacent to [0] [Elevated] tiles"],
+     "turnsInto": "Grassland",
+     "impassable": true,
+     "unbuildable": true,
+     "weight": 10
+//254
+},
+]
