@@ -136,3 +136,24 @@ size: 200, 200
 orig: 200, 200 
 offset: 0, 0 
 index: -1
+UnitIcons/Tundra Bear
+rotate: false 
+xy: 4000, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Arctic Killer
+rotate: false 
+xy: 4200, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Walrus
+rotate: false 
+xy: 4400, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1

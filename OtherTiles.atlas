@@ -1,4 +1,4 @@
-OtherTiles.png
+OtherTiles2.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -36,5 +36,12 @@ rotate: false
 xy: 320, 0
 size: 74, 64
 orig: 64, 54
+offset: 0, 0 
+index: -1
+TileSets/FantasyHex/Tiles/Cod
+rotate: false 
+xy: 459, 0
+size: 32, 28
+orig: 32, 28
 offset: 0, 0 
 index: -1
