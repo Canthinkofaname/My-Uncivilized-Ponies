@@ -124,7 +124,7 @@
 "unitType": "RangedMagic",		
 "replaces": "Great General",
 "uniqueTo": "Equestria",
-"uniques": ["Can start an [8]-turn golden age", "[-15]% Strength <vs [Magic] units>", "[-15]% Strength <vs [MagicGunpowder] units>" 
+"uniques": ["Can start an [8]-turn golden age", "[-15]% Strength <vs [Magic] units>", "[-15]% Strength <vs [MagicGunpowder] units>", "Can not be bought" 
 "[+15]% Strength bonus for [Military] units within [2] tiles", 
 "Can construct [Citadel]",			
 "Great Person - [War]", "Unbuildable", "Uncapturable",
@@ -266,5 +266,43 @@
 "requiredTech": "Radar",
 "uniques": ["May Paradrop up to [5] tiles from inside friendly territory", "Never appears as a Barbarian unit"],
 "attackSound": "shot"
+},
+{		
+"name": "Tundra Bear",		
+"unitType": "Sword",		
+"uniqueTo": "Polar Bear Communities",				
+"movement": 2,		
+"strength": 15,		
+"cost": 70,		
+"requiredTech": "Calendar",
+"obsoleteTech": "Civil Service",				
+"upgradesTo": "Pikeman",		
+"attackSound": "nonmetalhit",
+"uniques": ["[+8]% Strength <when fighting in [Tundra] tiles>"]
+},
+{		
+"name": "Arctic Killer",		
+"unitType": "GunpowderMagic",		
+"uniqueTo": "Polar Bear Communities",				
+"movement": 2,		
+"strength": 65,		
+"cost": 385,		
+"requiredTech": "Magical Theory",
+"obsoleteTech": "Plastics",				
+"upgradesTo": "Infantry",		
+"attackSound": "nonmetalhit",
+"uniques": ["[+12]% Strength <when fighting in [Snow] tiles>", "[+8]% Strength <when fighting in [Tundra] tiles>"]
+},
+{		
+"name": "Walrus",		
+"unitType": "Sword",				
+"movement": 1,		
+"strength": 15,		
+"cost": 75,		
+"requiredResource": "Fish",	
+"requiredTech": "Basic Fishing",
+"obsoleteTech": "Steel",				
+"upgradesTo": "Longswordsman",		
+"attackSound": "nonmetalhit"	
 },
 ]

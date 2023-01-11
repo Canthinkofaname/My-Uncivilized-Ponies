@@ -220,7 +220,7 @@
 "startIntroPart2": "However,Olenia has shrunken in landsize throughout the years. Corrupt Kings were sworn into power. Powerful foes and enemies were starting to become a threat. Olenia was in disarray! Can you power through this struggle and save Olenia? Can Olenia.....Stand the test of time?",
 
 "declaringWar": "The Polar Bears have made their stance clear: Your reign has to stop.",		
-"attacked": "Your efforts will be in vain,Us polar bears know how to fight in the cold.",		
+"attacked": "Your efforts will be in vain,us polar bears know how to fight in the cold!",		
 "defeated": "This!...This cannot be possible!",	
 "introduction": "Hello! Would you like to rest in one of our local igloos?",	
 	"neutralHello": "Greetings!",		
@@ -230,7 +230,7 @@
 "innerColor": [255,255,255],		
 "favoredReligion": "Christianity",		
 "uniqueName": "Polar Bear Temper",		
-"uniques": ["[+20]% Strength <for [Military] units> <when fighting in [Tundra] tiles>", "[+20]% Strength <for [Military] units> <when fighting in [Snow] tiles>"]
+"uniques": ["[+10]% Strength <for [Military] units> <when fighting in [Tundra] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Snow] tiles>"]
 "cities": ["Mathair Fearainn","Polarhill","Pawtovik","Winteryearbypaw","Pawrtic","Polskcow","Coldlaska","Hyper Pawrea","Polarberia","Saint Petersbearg","Winter-on-Don","Chilsk","Wintmara","Paznhy Clavgorod","Beaonezh","Snorilsk","Furchi","Flufbent","Furza","Winta","Santangelsk"]
 	}, 
 //CS

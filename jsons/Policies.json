@@ -5,10 +5,10 @@
 
  "priorities": 
 { 
-"Neutral": 50,
+"Neutral": 40,
  "Cultural": 0,
  "Diplomatic": 0, 
-"Domination": 40, 
+"Domination": 50, 
 "Scientific": 10
  }, 
 "uniques": ["[+2 Production] [in capital] <when at war>", "Only available <after discovering [Ancient Changeling Tech]>"],
@@ -18,21 +18,21 @@
  "name": "Infiltrater Company", 
 "uniques": [ "[+15]% Production when constructing [Infiltrator] units [in all cities]", "[+1 Happiness] per [10] population [in all cities]"], 
 "row": 1, 
-"column": 2,
+"column": 3,
 },
 //Strat Branch
 {
  "name": "Strategic Infiltration", 
 "uniques": [ "[-5]% Production when constructing [Infiltrator] units [in all cities]", "Increases Sight of Infiltrator Units", "[+1] Sight for [Infiltrator] units", "Only available <before adopting [Tactical Infiltration]>"], 
-"row": 2, 
+"row": 3, 
 "column": 1,
 "requires": ["Infiltrater Company"],
 },
 {
  "name": "Chameleon Cloaks", 
 "uniques": [ "[-5]% Production when constructing [Infiltrator] units [in all cities]", "[+15]% Strength <when fighting in [Forest] tiles>", "[+15]% Strength <when fighting in [Jungle] tiles>", "[+1] Sight for [all] units"], 
-"row": 2, 
-"column": 2,
+"row": 5, 
+"column": 1,
 "requires": ["Strategic Infiltration"],
 },
 //Tactical Branch
@@ -40,14 +40,14 @@
  "name": "Tactical Infiltration", 
 "uniques": [ "[+10]% Production when constructing [Infiltrator] units [in all cities]", "Strengthens Infiltrator Units", "Only available <before adopting [Strategic Infiltration]>"], 
 "row": 3, 
-"column": 1,
+"column": 5,
 "requires": ["Infiltrater Company"],
 },
 {
  "name": "Targeted Insertion", 
 "uniques": ["[+5]% Production when constructing [Infiltrator] units [in all cities]", "Increases Mobility of Infiltrator Units"], 
-"row": 3, 
-"column": 2,
+"row": 5, 
+"column": 5,
 "requires": ["Tactical Infiltration"],
 },
 { 
@@ -66,9 +66,9 @@
 
 "priorities": 
 { 
-"Neutral": 50,
+"Neutral": 40,
  "Cultural": 10,
- "Diplomatic": 40, 
+ "Diplomatic": 50, 
 "Domination": 0, 
 "Scientific": 0
  },
@@ -79,7 +79,7 @@
  {
  "name": "Friendship", 
 "uniques": [ "[-2]% Production when constructing [Military] units [in all cities]", "[+1 Happiness] per [4] population [in all cities]<when not at war>"], 
- "row": 2,
+ "row": 1,
  "column": 4, //3
 },
 {
@@ -92,23 +92,23 @@
 {
  "name": "Cultural Amalgamation", 
 "uniques": ["[+1 Culture] [in all cities]", "Only available <before adopting [Religous Harmonizing]>"],
-  "row": 2, //5
-  "column": 4, //4
+  "row": 4, //5
+  "column": 2, //4
  
  "requires": ["Cultural Harmonizing"],
 },
 {
  "name": "Religous Harmonizing", 
 "uniques": ["[+1 Happiness, +1 Faith] in all cities in which the majority religion is a major religion", "[+1 Faith] [in all cities]", "Only available <before adopting [Cultural Harmonizing]>"], 
-  "row": 4, //4
+  "row": 2, //4
   "column": 6, //3
   "requires": ["Friendship"],
 },
 {
  "name": "Religous Acceptance & Tolerance", 
 "uniques": ["[+1 Faith] [in annexed cities]", "[+1 Happiness] [in all non-occupied cities]", "Only available <before adopting [Cultural Harmonizing]>"], 
-   "row": 2, //2
-   "column": 8,   //5
+   "row": 4, //2
+   "column": 6,   //5
  "requires": ["Religous Harmonizing"],
 },
 { 

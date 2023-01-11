@@ -48,4 +48,12 @@
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"
                     ],
 	},
+    	{
+		"name": "Cod",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles> <in [Tundra] Regions>",]
+	},
 ]

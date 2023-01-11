@@ -150,5 +150,16 @@
         "Can only be built [in capital]",
     ] 
 },
+{ 		
+"name": "Arctic Fishing Dock",
+ "cost": 65,
+ 		"maintenance": 1,
+        "food": 1,
+ 		"requiredTech": "Basic Fishing",
+ 		"uniques": [
+        "Destroyed when the city is captured",
+        "Provides [1] [Fish]"
+    ] 
+},
 
 ]
