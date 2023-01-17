@@ -1,19 +1,66 @@
-[
-{  
-"name": "Castle of the Two Sisters",
- "type": "NaturalWonder",
-     "faith": 2,
-     "happiness": 1,
-     "culture": 3,
-    "occursOn": ["Grassland"],
-   "uniques": ["Must be adjacent to [1] [Grassland] tiles",			
+[   
+    {
+      "name": "Mount Olympus",
+     "type": "NaturalWonder",
+     "faith": 7,
+     "happiness": 2,
+    "occursOn": ["Plains","Grassland"],
+   "uniques": ["Must be adjacent to [0] [Coast] tiles",			
      "Must be adjacent to [0] [Marsh] tiles",			
      "Must be adjacent to [0] [Desert] tiles",			
-     "Must be adjacent to [0] [Elevated] tiles"],
-     "turnsInto": "Grassland",
+     "Must be adjacent to [1] to [2] [Elevated] tiles"],
+     "turnsInto": "Mountain",
      "impassable": true,
      "unbuildable": true,
      "weight": 10
-//254
+    },
+ {  
+"name": "Labyrinth of the Minotaur",
+ "type": "NaturalWonder",
+     "faith": 2,
+     "happiness": -1,
+     "culture": 3,
+     "gold": 2,
+    "occursOn": ["Plains","Grassland"],
+   "uniques": ["Must be adjacent to [1] [Coast] tiles",			
+     "Must be adjacent to [0] [Marsh] tiles",			
+     "Must be adjacent to [0] [Desert] tiles",			
+     "Must be adjacent to [0] [Elevated] tiles"],
+     "turnsInto": "Mountain",
+     "impassable": true,
+     "unbuildable": true,
+     "weight": 10
+
+},
+ {  
+"name": "Dead Sea",
+ "type": "NaturalWonder",
+     "faith": 5,
+     "happiness": 1,
+     "culture": 2,
+     "gold": 1,
+    "occursOn": ["Desert"],
+   "uniques": ["Must be adjacent to [0] [Coast] tiles",			
+     "Must be adjacent to [0] [Marsh] tiles",			
+     "Must be adjacent to [6] [Desert] tiles",			
+     "Must be adjacent to [0] [Elevated] tiles",
+     ],                                                                 
+     "turnsInto": "Lakes",
+     "impassable": false,
+     "unbuildable": true,
+     "weight": 10
+
+},
+	{		
+"name": "Xeric Shrubland",		
+"type": "TerrainFeature",		
+"food": 2,	
+"production": 1,
+"movementCost": 1,		
+"defenceBonus": -0.1,		
+"occursOn": ["Desert"],		
+"uniques": [ "Considered [Food] when determining start locations",	
+"Must be adjacent to [1] [Flood plains] tiles",	
+"Considered [Desirable] when determining start locations <in [Desert] Regions>"],
 },
 ]

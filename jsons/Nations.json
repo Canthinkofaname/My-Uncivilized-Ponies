@@ -1,326 +1,228 @@
 [
+  
 
-   {		
-  //nations		
-   "name": "Equestria",	
-	"leaderName": "Princess Celestia",		
-   "adjective": ["Equestrians"],		
-   "startBias": ["Avoid [Tundra]"],		
-   "preferredVictoryType": "Diplomatic", 
-		
-   "startIntroPart1": "Lead the lands of Equestria,Celestia,Into harmony and Prosperity",		
-   "startIntroPart2": "You great royal guards will always be at your side and your citizens will be strong and brave against their foes.", 		
-   "declaringWar": "You leave us no choice. You and your reign must end!",		
-   "attacked": "Why dont you choose an opponet thats your size?",		
-   "defeated": "This may be it for Equestria, but its impact on the world will forever remain!",		
-   "introduction": "Hello there! Would you care to visit and eat one of our delicous Green gem cake?", 		
-   "neutralHello": "Hello!",	
-   "hateHello": "I hope your here to a civil talk.", 		
-   "tradeRequest": "The Princess of Equestria in all her elegance would like to conduct a trade offer!", 		
+{ 
+  //your mom
+      "name": "Sparta",
+      "leaderName": "Gorgo",
+      "adjective": ["Spartans"],
+      "startBias": ["Grassland", "Plains","Coast"],
+      "preferredVictoryType": "Domination",   
 
-   "outerColor": [255,197,133],		
-   "innerColor": [254,255,189],
-		
-   "favoredReligion": "Alicornism",	
-	
-   "uniqueName": "Harmony",		
-   "uniques": [" [+1 Happiness] [in all cities]", "[+10]% Strength for cities <when attacking>"],		
-   "cities": ["Canterlot","Cloudsdale","Las Pegasus","Hayston","Fillydelphia","Sire's Hollow","Raspberry Grove","Vanhoover","Whitebell","Acornage",			
-   "Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",			
-   "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
+      "startIntroPart1": "Lead Sparta to greatness and glory as you spread your empire with your great Hoplites And Krypteias.",
+      "startIntroPart2": "Have no worries,as Ares shall support your empire and destroy your foes and enemies as your empire prospers and flourishes.",
+
+      "declaringWar": "Ares shall help us in battle! Prepare yourselves!",
+      "attacked": "You think you can beat us glorious Spartans? We have the support of Ares,The God of War!.",
+      "defeated": "Ares has abandoned us. Sparta is defeated....",
+      "introduction": "Welcome to Sparta,Home of Warmongerers and Honorable Hoplites. Want to come to a nearby city to duel?",
+     
+      "neutralHello": "Are you prepared for suprise invasions?",
+      "hateHello": "You will be destroyed.",
+      
+      "tradeRequest": "Would you like to trade?",
+      
+       "outerColor": [242,66,17],		
+       "innerColor": [242, 205, 17], 
+       "favoredReligion": "Paganism",
+       "uniqueName": "Queen of Sparta", 
+       "uniques": ["[Great General] is earned [10]% faster", "+[1] [Production] from [Barracks] [in all cities] <when at war>", "+[3] [Culture] from [Barracks] [in all cities]", "+[1] [Production],+[1] [Culture] [in all cities] <when at war>"],
+       
+       "cities": ["Sparta","Argos","Olympia","Megalopolis","Phigalia","Epidaurus","Stymphalos","Tegea","Thuria","Gorgos","Pharae","Aulon","Tyros"],
+       
+
 },
- {			
-   "name": "Lunar Republic",	
-	"leaderName": "Princess Luna",		
-   "adjective": ["Lunarian"],		
-   "startBias": ["[Marsh]"],		
-   "preferredVictoryType": "Cultural", 
-		
-   "startIntroPart1": "Lead the lands of the night,Princess Luna,As your batponies triumph over your foes,never experiencing a single defeat.",		
-   "startIntroPart2": "Princess of the Night,you are the only hope for the species of the batponies just as your lands are a safehaven for the outcasts of other nations. Do not let your citizens down! Lead with all your might,for the fight of Equality.", 		
-   "declaringWar": "Im fed up with your nonsense! Prepare to die!",		
-   "attacked": "Hah! You really think you can beat ME?!?!?!",		
-   "defeated": "This republic's end came sooner than i expected......",		
-   "introduction": "Didnt see you there! Would you be intrested in buying one of our nice and furnished bat caves?", 		
-   
-   "neutralHello": "Do they say hello in these types of situations?",	
-   "hateHello": "Hmph.",  		
-   "afterPeace": "Im glad we could agree to bring peace to both of our nations", 		
-   "neutralLetsHearIt": ["If you must show me."],		
-   "neutralNo": ["No no, too much trouble.","No!","Not good enough."],		
-   "neutralYes": ["Okay.","Fine.","Accepted."], 	
-   "hateLetsHearIt": ["Talk.","So?","Speak!"],		
-   "hateNo": ["That's unacceptable!","A thousand times no!","Never!"],		
-   "hateYes": ["Oh… Fine, okay."],	
+ { 
+  //Macedon
+      "name": "Macedon",
+      "leaderName": "Alexander the Great",
+      "adjective": ["Macedonians"],
+      "startBias": ["Grassland", "Plains"],
+      "preferredVictoryType": "Domination",   
 
-   "tradeRequest": "Come, it appears you have to put your signature on some weird trade agreement.", 	
+      "startIntroPart1": "You have lead Great campaigns against your enemies and foes for the expansion and wealth of your empire with your overwhelming Phalanxes,Tactic,and quick thinking.",
+      "startIntroPart2": "You have been through many struggles,but this struggle will test the true strength,loyalty,and glory of your army and empire. Will you win it,or will you just die,laying in your death bed?.",
 
-   "outerColor": [0,0,0],		
-   "innerColor": [255,255,255],
-		
-   "favoredReligion": "Alicornism",	
-	
-   "uniqueName": "Kingdom of the Bats",		
-   "uniques": ["[+10]% Strength for cities <when defending>"],		
-   "cities": ["Hayston","Bronclyn","Dappleshore","Summerfield","Albion","Bordo","Krasnoye","Chillwing","Trotterfield","Trotsylvania",			
-   "Hollow Shades","Manesbury","Baltimare","Horseshoe City","Horseshoe Bay","Canterbury","Stableside","Portland","Prance","Ponyville",			
-   "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
-},
- {			
-   "name": "Appleloosa",	
-	"leaderName": "Silverstar",		
-   "adjective": ["Appleloosan"],		
-   "startBias": ["[Plains]"],		
-   "preferredVictoryType": "Cultural", 
-		
-   "startIntroPart1": "Welcome,Sir Silverstar,and take leadership of the Great Appleloosan Confederacy and make sure Equestria is under the right rule once more.",		
-   "startIntroPart2": "Do not let any foe stop the Confederacy once more becausse surely your Buckers will sway victory after victory over foreign and enemy lands. The Confederacy will rise once again!", 		
-   "declaringWar": "You and your abominable citizens have to die and ah'm not sorry for it!",		
-   "attacked": "I thought you were smarter than to go against the nation of the Freedom Fighters... Oh well!",		
-   "defeated": "I never thought this day would come..... Oh well. We will rise once again,remembering your evil actions once we do.",		
-   "introduction": "Howdy! Would yah like to visit Appleloosa? We're havin a festival and we promise the fun won't end 'till the cows come home!", 		
-   "neutralHello": "Howdy partner!",	
-   "hateHello": "What do you want you damn scalawag?!?!?!", 		
-   "tradeRequest": "Hey partner,would yah be up for this nice trade offer?", 		
+      "declaringWar": "It seems it is time to launch another campaign.",
+      "attacked": "Your launch a war against me,Alexander the Great,The leader who has never lost a battle? This war will go as quickly as your realization this war was a horrible,horrible mistake. .",
+      "defeated": "I guess this is the end of my campaign. Take care of my citizens for me.",
+      "introduction": "Why hello! Im sure you heard of me? The Undefeated Champion? The City-sate Destroyer? And most importantly,Alexander the Great.",
+     
+      "neutralHello": "Hmm?",
+      "hateHello": "Are you regretting your decisions yet?",
+      
+      "tradeRequest": "Come and trade with the Greatest leader in the world",
+      
+       "outerColor": [84, 84, 99],		
+       "innerColor": [191, 204, 45], 
+       "favoredReligion": "Hellenism",
+       "uniqueName": "Short Life of Glory", 
+       "uniques": ["Great General provides double combat bonus","Receive free [Great General] when you discover [Bronze Working]", "[Great General] is earned [5]% faster","+[10]% [Production],+[10]% [Food] from [Barracks] [in captial]","[+1] Movement <for [Great General] units>"],
+       "cities": ["Pella","Dion","Pydna","Methoni","Olynthus","Dodona","Aegae","Dicaea","Larissa","Philippi","Neapolis","Amphipolis","Scione"],
+       },
 
-   "outerColor": [192,3,44],		
-   "innerColor": [0,35,104],
-		
-   "favoredReligion": "Christianity",	
-	
-   "uniqueName": "Patriotic Empire",		
-   "uniques": ["[+10]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>","[+1 Happiness] [in all cities] <with [Apples]>"],		
-   "cities": ["Appleloosa","Trotgaron","Haystin","Foaledo","Jamtown","San Manetonio","Horston","Galloprey","Rosemarein","Marellas",			
-   "Lubbuck","Maredessa","Buckston","Maneton Rougue","New Mareleans","Marrahasse","Mareami","Bucksonville","Marelanta","Maregomery",			
-   "Little Buck","Balefire","Maneleigh","Fillyville","Buckphis","Marelotte","El Mareo","Maredo","Buckus Mari","Beaumount"],
-},
- {			
-   "name": "Changeling Lands",	
-	"leaderName": "Queen Chrysalis",		
-   "adjective": ["Changelings"],		
-   "startBias": ["[Plains]"],		
-   "preferredVictoryType": "Domination", 
-		
-   "startIntroPart1": "Queen Chrysalis,You have proven yourself to be a strategic and intelligent leader. Your changelings have been proven to be a unrelentless powerful army,and your government ruled by the one and true queen",		
-   "startIntroPart2": "Do not let any of your blashpemous foes get in the way of you and your plans,to unite the world....'Peacefully'...and to make sure your changelings have a home everywhere. See? Your not that bad of a villain!", 		
-   "declaringWar": "Your lands look quite nice...Such a shame my army is about to plunder it.",		
-   "attacked": "Oh-Ho? I was getting quite bored....",		
-   "defeated": "My lands! My empire! What have you done?!?!?!?!?!",		
-   "introduction": "What is it? I have no time for greetings.", 		
-   "neutralHello": "Move along.",	
-   "hateHello": "You dare stand in my presence?", 		
-   "tradeRequest": "Take this trade offer.", 		
+       { 
+         "name": "Crete",
+      "leaderName": "Minos",
+      "adjective": ["Cretans"],
+      "startBias": ["Coast"],
+      "preferredVictoryType": "Diplomatic",   
 
-   "outerColor": [14, 153, 18],		
-   "innerColor": [10, 37, 105],
-		
-   "favoredReligion": "Hiveism",	
-	
-   "uniqueName": "Bitter Queen",		
-   "uniques": ["Starts with [Ancient Changeling Tech]", "[+10]% Strength <for [Sword] units> <when fighting in [Foreign] tiles>", "[+10]% [Production] [in all cities] <when at war>", "[+5]% Strength <for [Gunpowder] units> <when fighting in [Foreign] tiles>"],		
-   "cities": ["Vesalipolis","Vraks","Soryth","Dirtysium","Sicarus","Antax","Gardis","Kladisum","Lyctida","Gorak",			
-   "Aglossata","Neverwarm Point","Sorrow Forest","Morkaberg","Svarm","Volistad","Phantine","Hoorornd","Munling","Chrysalin",			
-   "Changelingburg","Saxalis","Churvaria","Chrysaaland"],
-},
-{		
-"name": "Stalliongrad",		
-"leaderName": "Altidiya Revoltsova",		
-"adjective": ["Stalligradian"],
-"startBias": ["[Plains]"],	
-"startIntroPart1": "Lead Stalliongrad,Revoltsova,and Bring justice and order to the entire world! The world shall know the true pain of what those pitiful Equestrians did to us!",		"startIntroPart2": "Lady Revoltsova,Can your Union stand the test of time? Will your troops step back at the moment of truth? And most importantly,Will your Civilization stand the test of time?",		
-"declaringWar": "I cannot wait until you grow even mightier. Therefore, prepare for war!",		
-"attacked": "Corrupted villain! We will bring you into the ground!",		
-"defeated": "Stalliongrad has been destroyed. I weep for the future generations.",		
-"introduction": "Privet. In the name of the great Stalligradian people, I give you a warm welcome.",	
-	"neutralHello": "Privet.",		
- "hateHello": "What does the devil need?",		
-"tradeRequest": "If you accept this,i'll let you listen to some Katyusha for a while!",	
-"outerColor": [173,41,9],		
-"innerColor": [237,245,35],		
-"favoredReligion": "Christianity",		
-"uniqueName": "The Collective",		
-"uniques": ["[+30]% Production [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>"],		
-"cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown","Ravenskoye","Stavropon","Tailney","Saint Petershoof","Altytown","Red Wheat","Novnikovo","Korki","Sovyenok","Zayatsk","Griffimsk"]
-	}, 
-{		
-"name": "The Crystal Empire",
-"startBias": ["[Plains]"],	
-"leaderName": "Princess Mi Amore Candenza",		
-"adjective": ["Crystalllians"],
-"startIntroPart1": "Dear Candence,Your Empire has fought and won many struggles versus the forces of evil and the shadows of night. You have taken care of your citizens as your citizens have taken care of you. Make sure nobody hurts you,your empire,or your citizens,Princess Candence,Through any means!",
+      "startIntroPart1": "Son of Zeus,Lead Crete to the mastery of trade and war with your great and powerful Platno's Clusters and Cretan Archers",
+      "startIntroPart2": "Destroy anybody who dares to stand in your path of taking whats your and Honor Zeus's name.",
 
-"startIntroPart2": "Princess Candence,Your friends will become your foes,and your foes will become your friends. Will you be able to catch who'll betray you first? Will your diplomatic charms help you in this struggle?.......Will your empire stand the test...... of time? ",
-"declaringWar": "My citizens call for action. You need to be reprimanded!",	
-"attacked": "Did the changelings send you here?",		
-"defeated": "The empire is in distraught. Is this it?",		
-"introduction": "Come! Do you have any gems? I'll be willing to trade for them!",	
-	"neutralHello": "Yes?",		
- "hateHello": "Speak!",		
-"tradeRequest": "I'll offer you this!",	
-"outerColor": [206, 20, 219],		
-"innerColor": [255,255,255],		
-"favoredReligion": "Alicornism",		
-"uniqueName": "Crystallization",		
-"uniques": ["[+10]% Production [in all cities] <with [Gems]>", "[+1 Happiness] [in all cities] <with [Gems]>" ]
-"cities": ["Crystal City","Rainbow Falls","Rubrum","Porridge Town","Quebuck","Snowybury","Hedgewards","Canterine","Evergreen","Saraneighvo","Emeraldtop","Ponytown"]
-	},
-    {		
-"name": "Olenia",		
-"leaderName": "King Johan The Djävulen",		
-"adjective": ["Olenians"],
-"startBias": ["[Tundra]"],	
-"startIntroPart1": "King Johan,Your kingdom has gone a long way,making way through the most desperate and harshest struggles known to deerkind. Despite this,your citizens and vikings fought many battles with honor and valor till the day they met their end.",
+      "declaringWar": "You scoundrels shall pay for your actions!",
+      "attacked": "Ha! You actually think you can beat the King of Europe! Come try for yourself..",
+      "defeated": "It seems i should be joining Hades in the underworld.....",
+      "introduction": "Hello stranger. Im sure you've heard of me,The Son of Zeus,Ruler of Crete,King of the Gods,And the embodiment of all of Europa! Would you like to come by my island for a visit?",
+     
+      "neutralHello": "What does thou need with the King of Gods?",
+      "hateHello": "Do not waste my time.",
+      
+      "tradeRequest": "Be grateful for having the oppurtunity to trade with the Son of Zeus.",
+      
+       "outerColor": [50, 127, 168],		
+       "innerColor": [27, 203, 209], 
+       "favoredReligion": "Hellenism",
+       "uniqueName": "King of Europa", 
+       "uniques": ["[+10]% [Gold],[+10]% [Culture] from [Water] tiles [in capital]", "Enables embarkation for land units <starting from the [Ancient era]>"],
+       
+       "cities": ["Chania","Chryssi","Heraklion","Nikolaos","Plakias","Sitia","Paleochorria","Tsoutsouros","Timpaki","Agios","Zakros","Chora Sfakion","Kissamos"],
+       
 
-"startIntroPart2": "However,Olenia has shrunken in landsize throughout the years. Corrupt Kings were sworn into power. Powerful foes and enemies were starting to become a threat. Olenia was in disarray! Can you power through this struggle and save Olenia? Can Olenia.....Stand the test of time?",
 
-"declaringWar": "My vikings call for war! You shall be their sacrifice!",	
-"attacked": "Out with the bluff! If you really mean war,come fight with us in the Hjortland!",		
-"defeated": "The empire was already collapsing anyways......",		
-"introduction": "Välkommen! Would you like to play Varpa in a nearby city? Its plenty fun!",	
-	"neutralHello": "Hej!",		
- "hateHello": "Lämna detta ögonblick!",		
-"tradeRequest": "Look at all the items im offering! You want it...right?",	
-"outerColor": [160, 220, 232],		
-"innerColor": [162, 167, 168],		
-"favoredReligion": "Hinduism",		
-"uniqueName": "Och vidare, Olenia!",		
-"uniques": ["[+12]% Strength <for [Sword] units> <before the [Renaissance era]>"]
-"cities": ["Hjortland","Endräkt","Seaddle","Älgstad","Hejna","Mantyreek","Vaverfront","Sitz","Equadoe","Goldenshor","Kesäpuoli","Sakara","Luxbucht","Oslott","Elksburg","Isham","Cervus","Hirvikaupunki","Hovenhamn","Snollinga","Svenholm"]
-	}, 
- {		
-"name": "Our Town",		
-"leaderName": "Starlight Glimmer",		
-"adjective": ["Equalist"],
-"startBias": ["[Plains]"],	
-"startIntroPart1": "Starlight Glimmer,you have led your town into believing your lies of a society where all people are equal. How long can you hold out until they find out and how long can you hold on to office. How long can you hold out against outside forces and hostility,and how long can you hold out againt capitalism. Starlight glimmer....Can you stand the test of time?",
+       },
 
-"startIntroPart2": "...Can you?",
+      { 
+         "name": "Timurids",
+      "leaderName": "Timur",
+      "adjective": ["Timurids"],
+      "startBias": ["Grassland"],
+      "preferredVictoryType": "Cultural",   
 
-"declaringWar": "Your hierachic ways is trechary! Let me purge it,and make it equal!",		
-"attacked": "You dare try to attack me?!?! I'll put you back in your place!",		
-"defeated": "The dream was nice while it lasted.....",
-"introduction": "Why Hello!",	
-	"neutralHello": "Hey.",		
- "hateHello": "Regret your actions yet?",		
-"tradeRequest": "I think this is a fairly equal trade.",	
-"outerColor": [252,252,252],	 
-"innerColor": [80,84,109],		
-"favoredReligion": "Equalism",		
-"uniqueName": "Down with the Hierachy!",		
-"uniques": ["[+12]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>", "[+12]% Strength <for [GunpowderMagic] units> <when fighting in [Friendly] tiles>"]
-"cities": ["Our Town","Nash gorod","My Town","Starlight's Town","Glimmer's Town","Your Town","Equal Town","Our Village","My Village","Sunset's Town","Trixie's Trailer","Equal Village","Gorod Starlayt","Gorod Glimmera","Nobody's Town","Ravnyy","Mine.","Hideout","Not Your Town","Everybody's Town","Basic Town"]
-	}, 
-     {		
-"name": "Polar Bear Communities",		
-"leaderName": "Paw Wellington",		
-"adjective": ["Polar Bearian"],
-"startBias": ["[Tundra]"],	
-"startIntroPart1": "King Johan,Your kingdom has gone a long way,making way through the most desperate and harshest struggles known to deerkind. Despite this,your citizens and vikings fought many battles with honor and valor till the day they met their end.",
+      "startIntroPart1": "Divide and Conquer with your great Turkoman Cavalry as your citizens flourish in a golden age with the great mounments and art,King Timur",
+      "startIntroPart2": "Your lands will know no ends with your thousands of vassels will shield you from your Rivals. Lead your empire to greatness,and make sure Turk Culture is known throughout Asia.",
 
-"startIntroPart2": "However,Olenia has shrunken in landsize throughout the years. Corrupt Kings were sworn into power. Powerful foes and enemies were starting to become a threat. Olenia was in disarray! Can you power through this struggle and save Olenia? Can Olenia.....Stand the test of time?",
+      "declaringWar": "Our empire calls for new vassels!",
+      "attacked": "Ha! You think you'll make a dent in our empire with all of our puppet cities?.",
+      "defeated": "Curse you! The Timurid empire falls,but its effect on the world will last forever!",
+      "introduction": "Hello Stranger. I'll make it quick,dont mess with us and we wont puppet your cities.",
+     
+      "neutralHello": "Well?",
+      "hateHello": "You disgust me.",
+      
+      "tradeRequest": "How about you come make a trade with our vassels?",
+      
+       "outerColor": [0, 0, 0]  		
+       "innerColor": [209, 45, 27], 
+       "favoredReligion": "Islam",
+       "uniqueName": "Civilized Nomads", 
+       "uniques": ["[+10]% [Production],[+5]% [Culture] when producing [Mounted] unis [in this citiy]"],
+       
+       "cities": ["Samarkand","Isfahand","Shiraz","Qazvin","Zaranj","Tashkent","Bukhara","Merv","Khujand","Herat","Kabul","Ghazni","Qandahar"],
+       
 
-"declaringWar": "The Polar Bears have made their stance clear: Your reign has to stop.",		
-"attacked": "Your efforts will be in vain,us polar bears know how to fight in the cold!",		
-"defeated": "This!...This cannot be possible!",	
-"introduction": "Hello! Would you like to rest in one of our local igloos?",	
-	"neutralHello": "Greetings!",		
- "hateHello": "Its all in vain.",		
-"tradeRequest": "Come! Participate in this trade we have requested of you!",	
-"outerColor": [31,73,125],	 
-"innerColor": [255,255,255],		
-"favoredReligion": "Christianity",		
-"uniqueName": "Polar Bear Temper",		
-"uniques": ["[+10]% Strength <for [Military] units> <when fighting in [Tundra] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Snow] tiles>"]
-"cities": ["Mathair Fearainn","Polarhill","Pawtovik","Winteryearbypaw","Pawrtic","Polskcow","Coldlaska","Hyper Pawrea","Polarberia","Saint Petersbearg","Winter-on-Don","Chilsk","Wintmara","Paznhy Clavgorod","Beaonezh","Snorilsk","Furchi","Flufbent","Furza","Winta","Santangelsk"]
-	}, 
-//CS
-{		
-   "name": "Ponyville",		
-   "adjective": ["Ponvillians"],		
-   "cityStateType": "Cultured", 		
-   "declaringWar": "The atrocious actions you have commited on this world need to be amended.",		
-   "attacked": "Your attacking us?! Ha! i bet this campaign wont even last 5 turns!",		
-   "defeated": "Well,i guess no great and amazing alicorn came to save us this time,huh......",		
-   "outerColor": [0, 0, 0],		
-   "innerColor": [219, 200, 77],		
-   "cities": ["Ponyville"]
-	},
-{		
-   "name": "Las Pegasus",		
-   "adjective": ["Las Pegasi"],		
-   "cityStateType": "Mercantile", 		
-   "declaringWar": "It was nice while it lasted.",		
-   "attacked": "Maybe we could bribe you with our amazing treasury?",		
-   "defeated": "Please,make sure our citizens are safe!",		
-   "outerColor": [0, 0, 0],		
-   "innerColor": [71, 135, 204],	
-   "cities": ["Las Pegasus"]
-	},
-    {		
-   "name": "Baltimare",		
-   "adjective": ["Baltimarians"],		
-   "cityStateType": "Maritime", 		
-   "declaringWar": "Your foul ways need to be amended!",		
-   "attacked": "Come get it!",		
-   "defeated": "Crooked Ruler! You will live the last years of your life in pain and misery!",		
-   "outerColor": [0, 0, 0],		
-   "innerColor": [168, 68, 50],	
-   "cities": ["Baltimore"]
-	},
-   //RECOLOR
-   {		
-   "name": "Whitebell",		
-   "adjective": ["White Bellers"],		
-   "cityStateType": "Cultured", 		
-   "declaringWar": "Your foul ways need to be amended!",		
-   "attacked": "Take one step into our territory and you will meet your end!",		
-   "defeated": "Do you hear it? The funeral bells ring....",		
-   "outerColor": [0, 0, 0],		
-   "innerColor": [168, 68, 50],	
-   "cities": ["Whitebell"]
-	},
-    {		
-   "name": "Cloudsdale",		
-   "adjective": ["Clouddalian"],		
-   "cityStateType": "Militaristic", 		
-   "declaringWar": "The thunder strikes. It is time for your collapse.",		
-   "attacked": "Hmph.",		
-   "defeated": "You made a big mistake....",		
-   "outerColor": [0, 0, 0],		
-   "innerColor": [168, 68, 50],	
-   "cities": ["Cloudsdale"]
-	},
-    {		
-   "name": "Maretropolis",		
-   "adjective": ["Maretropolian"],		
-   "cityStateType": "Mercantile", 		
-   "declaringWar": "Your deeds shall be judged by our army! Prepare to die!",		
-   "attacked": "You buffoon! You'll regret this!",		
-   "defeated": "The skyscrapers fall.... Maretropolis has fallen.",		
-   "outerColor": [0, 0, 0],		
-   "innerColor": [168, 68, 50],	
-   "cities": ["Maretropolis"]
-	},
-  {
-  "name": "Starlight's Town",		
-   "adjective": ["Equalist"],		
-   "cityStateType": "Militaristic", 		
-   "declaringWar": "Your hierachic ways is treachary! Let me purge it,and make it equal!",		
-   "attacked": "You dare try to attack me?!?! I'll put you back in your place!",		
-   "defeated": "The dream was nice while it lasted.....",		
-   "outerColor": [0, 0, 0],		
-   "innerColor": [168, 68, 50],	
-   "cities": ["Starlight's Town"]
-    },
+
+       },   
+        { 
+         "name": "Lydia",
+      "leaderName": "Gyges",
+      "adjective": ["Lydians"],
+      "startBias": ["Plains", "Grassland"],
+      "preferredVictoryType": "Cultural",   
+
+      "startIntroPart1": "Come,Gyges of Lydia, and share your unique culture with the world",
+      "startIntroPart2": "Rule the medditearean with your great merchants and dominate the trade networs with your bountiful gold deposits",
+
+      "declaringWar": "You have to perish for the greater good of our empire!",
+      "attacked": "Come and get it. If you can.....",
+      "defeated": "The greek gods have striked again!",
+      "introduction": "Hello stranger! Come visit the Capital of Gold Currency",
+     
+      "neutralHello": "Hello there?",
+      "hateHello": "Curse you!",
+      
+      "tradeRequest": "Please,let us do trade",
+      
+       "outerColor": [227, 204, 226]  		
+       "innerColor": [181, 53, 204], 
+      
+        "favoredReligion": "Tengriism",
+
+       "uniqueName": "Gods of Gold", 
+       "uniques": ["[+10]% [Gold] [in all coastal cities]", "[+20]% [Gold] [in capital]", "[-30]% [Gold] [in all cities] <when at war>"],
+       
+       "cities": ["Sardis","Troy","Hallicarnassus","Miletus","Ephesus","Smyma","Cyme","Phocaea","Apasa","Ialysus","Kos","Knidos","Eythrai"],
+       
+
+
+       },   
     {
-    "name": "Pony Town",		
-   "adjective": ["Ponies"],		
-   "cityStateType": "Cultured", 		
-   "declaringWar": "We have done everything we can to avoid this,but you have pushed us over the edge. Prepare for collapse.",		
-   "attacked": "We hope we can sort this out in a peaceful manner.",		
-   "defeated": "We wont be sad that its over,but glad that it lasted.",		
-   "outerColor": [0, 0, 0],		
-   "innerColor": [168, 68, 50],	
-   "cities": ["Pony Town"]
-   },
+    "name": "Assyria",
+      "leaderName": "Sennacherib",
+          "adjective": ["Assyrians"],
+      "startBias": ["Plains", "Grassland"],
+         "preferredVictoryType": "Domination",   
+
+              "startIntroPart1": "Come,Sennacherib of Assyria, and share your unique culture with the world",
+           "startIntroPart2": "Rule the Fertile crescent with your great and advanced Iron Unique Units and make your Assyrian War Machine dominate the world with its Iron Weapons",
+
+           "declaringWar": "Its time for you and your wicked citizens to die!",
+      "attacked": "Come and get it. If you can.....",
+      "defeated": "The greek gods have striked again!",
+      "introduction": "Hello! I reccomend you do not anger us. Otherwise,our War machine will shred you down to smitherines.",
+     
+      "neutralHello": "Hello there?",
+      "hateHello": "Curse you!",
+      
+      "tradeRequest": "Please,let us do trade",
+      
+       "outerColor": [191, 129, 6],  		
+       "innerColor": [176, 73, 9], 
+      
+        "favoredReligion": "Christianity",
+
+       "uniqueName": "The Assyrian War Machine", 
+       "uniques": ["[+10]% [Production] from [Barracks] [in capital]", "[+10]% [Production],[-30]% [Gold] [in all cities] <when at war>","[+30]% [Production] when constructing [Melee] units [in all cities]"],
+
+       "cities": ["Ninevah","Nimrud","Ashur","Dur-Sharrukin","Haran","Cahlah","Arbela","Arrapakha","Opis","Gozan","Sippar","Til Barship","Samal"],       
+},
+ {
+    "name": "Pontus",
+      "leaderName": "Mithridates VI",
+          "adjective": ["Pontians"],
+      "startBias": ["Plains", "Grassland", "Coast"],
+         "preferredVictoryType": "Domination",   
+
+              "startIntroPart1": "Hail,Mithridates VI of Pontus, and show your atonishing millitaristic bravery and unique culture with the world",
+           "startIntroPart2": "Rule the Black sea and Turkey with your Leukaspidai and Pantodapoi and ensure Pontus's Safety once and for all",
+
+           "declaringWar": "You are a threat to our civlization! You have to die!",
+      "attacked": "Ha! Good luck destroying the Black Sea Civilization",
+      "defeated": "Those ratched romans helped you didnt they!",
+      "introduction": "Hello! Come visit our famous coasts,we invite you to drink some of our fine wine!",
+     
+      "neutralHello": "What can i do for you?",
+      "hateHello": "You'll spend your last days in our prisons!",
+      
+      "tradeRequest": "Please,let us do trade",
+      
+       "outerColor": [97, 102, 97]  		
+       "innerColor": [60, 64, 60], 
+      
+        "favoredReligion": "Tengriism",
+
+       "uniqueName": "Emperor of the Black Sea", 
+       "uniques": ["[+2 Production] from [coast] tiles [in all cities]", 
+       "[+10]% [Production] [in all coastal cities]"],
+
+       "cities": ["Sinope","Amasya","Ordu","Trapezus","Samsun","Bafra","Tokat","Rize","Bathys","Nicopolis","Cytorus","Amastris","Carusus"],       
+},
+
+
+
+
+
+
+
 ]
