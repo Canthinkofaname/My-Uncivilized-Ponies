@@ -1,11 +1,25 @@
-[ 
-  {
-      "name": "Gas Deposit",
-		"food": 1,  
-     "culture": 1,  
-     	"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
-		"turnsToBuild": 7,
-		"techRequired": "Biology",
-     "shortcutKey": "G",
-    },
+[
+	
+// Great Person improvements	
+{		
+"name": "Sweet Apple Acre",		
+"terrainsCanBeBuiltOn": ["Land"],		
+"food": 8,
+"happiness": 1,		
+"uniques": [ "Great Improvement", 
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+20 Gold]",
+     ]
+},
+{		
+"name": "Crystal Drill",		
+"terrainsCanBeBuiltOn": ["Land"],		
+"production": 1
+"turnsToBuild": 5
+"uniqueTo": "The Crystal Empire",
+"uniques": [ "Removes removable features when built",
+"Provides [1] [Gems]",
+     ]
+},
+ 
 ]
