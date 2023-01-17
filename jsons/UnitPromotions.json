@@ -1,0 +1,32 @@
+[
+
+{		
+
+
+"name": "Phalanx",	
+"uniques": ["[+12]% Strength"],
+
+
+},
+{		
+
+
+"name": "Adjacency I",	
+"prerequisites": ["Phalanx"],
+"unitTypes": ["Sword"],
+"uniques": ["[10]% Strength bonus for [Melee] units within [1] tiles"],
+
+
+},
+{		
+
+
+"name": "Adjacency II",	
+"prerequisites": ["Adjacency I"],
+"unitTypes": ["Sword"],
+"uniques": ["[10]% Strength bonus for [Melee] units within [1] tiles"],
+
+
+},
+
+]

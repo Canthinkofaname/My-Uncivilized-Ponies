@@ -40,8 +40,8 @@
       "startBias": ["Grassland", "Plains"],
       "preferredVictoryType": "Domination",   
 
-      "startIntroPart1": "You have lead Great campaigns against your enemies and foes for the expansion and wealth of your empire with your overwhelming Phalanxes,Tactic,and quick thinking.",
-      "startIntroPart2": "You have been through many struggles,but this struggle will test the true strength,loyalty,and glory of your army and empire. Will you win it,or will you just die,laying in your death bed?.",
+      "startIntroPart1": "You have lead Great campaigns against your enemies and foes for the expansion and wealth of your empire with your overwhelming Phalanxes,Tactics,and quick thinking.",
+      "startIntroPart2": "You have been through many struggles,but this struggle will test the true strength,loyalty,and glory of your army and empire. Will you make it through this struggle, or will you lose against the test of time?",
 
       "declaringWar": "It seems it is time to launch another campaign.",
       "attacked": "Your launch a war against me,Alexander the Great,The leader who has never lost a battle? This war will go as quickly as your realization this war was a horrible,horrible mistake. .",
@@ -69,7 +69,7 @@
       "preferredVictoryType": "Diplomatic",   
 
       "startIntroPart1": "Son of Zeus,Lead Crete to the mastery of trade and war with your great and powerful Platno's Clusters and Cretan Archers",
-      "startIntroPart2": "Destroy anybody who dares to stand in your path of taking whats your and Honor Zeus's name.",
+      "startIntroPart2": "Destroy anybody who dares to stand in your path of taking whats yours, and,most importantly, Honor the king of Olympia, Zeus's name.",
 
       "declaringWar": "You scoundrels shall pay for your actions!",
       "attacked": "Ha! You actually think you can beat the King of Europe! Come try for yourself..",
@@ -100,8 +100,8 @@
       "startBias": ["Grassland"],
       "preferredVictoryType": "Cultural",   
 
-      "startIntroPart1": "Divide and Conquer with your great Turkoman Cavalry as your citizens flourish in a golden age with the great mounments and art,King Timur",
-      "startIntroPart2": "Your lands will know no ends with your thousands of vassels will shield you from your Rivals. Lead your empire to greatness,and make sure Turk Culture is known throughout Asia.",
+      "startIntroPart1": "Divide and Conquer with your great Turkoman Cavalry as your citizens flourish in a golden age with the great monuments and art that you've built,King Timur",
+      "startIntroPart2": "Your lands will know no ends as your thousands of vessels will shield you from your Rivals. Lead your empire to greatness,and make sure Turk Culture is known throughout Asia.",
 
       "declaringWar": "Our empire calls for new vassels!",
       "attacked": "Ha! You think you'll make a dent in our empire with all of our puppet cities?.",
@@ -131,18 +131,18 @@
       "startBias": ["Plains", "Grassland"],
       "preferredVictoryType": "Cultural",   
 
-      "startIntroPart1": "Come,Gyges of Lydia, and share your unique culture with the world",
-      "startIntroPart2": "Rule the medditearean with your great merchants and dominate the trade networs with your bountiful gold deposits",
+      "startIntroPart1": "Come, Gyges, and share your unique culture with the world",
+      "startIntroPart2": "Venture the medditearean with your great merchants and dominate the trade networks with your bountiful gold deposits.",
 
       "declaringWar": "You have to perish for the greater good of our empire!",
       "attacked": "Come and get it. If you can.....",
       "defeated": "The greek gods have striked again!",
       "introduction": "Hello stranger! Come visit the Capital of Gold Currency",
      
-      "neutralHello": "Hello there?",
+      "neutralHello": "Hello there.",
       "hateHello": "Curse you!",
       
-      "tradeRequest": "Please,let us do trade",
+      "tradeRequest": "Valuable trade offer,isn't it?",
       
        "outerColor": [227, 204, 226]  		
        "innerColor": [181, 53, 204], 
@@ -164,18 +164,18 @@
       "startBias": ["Plains", "Grassland"],
          "preferredVictoryType": "Domination",   
 
-              "startIntroPart1": "Come,Sennacherib of Assyria, and share your unique culture with the world",
-           "startIntroPart2": "Rule the Fertile crescent with your great and advanced Iron Unique Units and make your Assyrian War Machine dominate the world with its Iron Weapons",
+              "startIntroPart1": "Siege after siege, You've come far, King Sennacherib. Your chariots, and your Sickleswordsmen will march and conquer anybody who dares to defy your power.",
+           "startIntroPart2": "Rule the Fertile crescent with your great and advanced Iron Unique Units and make your Assyrian War Machine dominate the world.",
 
-           "declaringWar": "Its time for you and your wicked citizens to die!",
-      "attacked": "Come and get it. If you can.....",
-      "defeated": "The greek gods have striked again!",
-      "introduction": "Hello! I reccomend you do not anger us. Otherwise,our War machine will shred you down to smitherines.",
+           "declaringWar": "I cut my foe's throats like lambs. Your throat, is next on my list.",
+      "attacked": "You dare oppose me? I will lock you up in Jerusalem like i did with Hezekiah!",
+      "defeated": "Has Nisroch left me? How could this happen?",
+      "introduction": "Welcome! Come take a look at our vast empire, ",
      
-      "neutralHello": "Hello there?",
+      "neutralHello": "Yes?",
       "hateHello": "Curse you!",
       
-      "tradeRequest": "Please,let us do trade",
+      "tradeRequest": "Come forth, and accept this trade.",
       
        "outerColor": [191, 129, 6],  		
        "innerColor": [176, 73, 9], 
@@ -213,7 +213,7 @@
         "favoredReligion": "Tengriism",
 
        "uniqueName": "Emperor of the Black Sea", 
-       "uniques": ["[+2 Production] from [coast] tiles [in all cities]", 
+       "uniques": ["[+2 Production] from [Coastal] tiles [in all cities]", 
        "[+10]% [Production] [in all coastal cities]"],
 
        "cities": ["Sinope","Amasya","Ordu","Trapezus","Samsun","Bafra","Tokat","Rize","Bathys","Nicopolis","Cytorus","Amastris","Carusus"],       

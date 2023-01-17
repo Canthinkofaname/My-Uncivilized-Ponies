@@ -1,59 +1,27 @@
 [
-	{		
-"name": "Magic Crystals",		
-"resourceType": "Strategic",		
-"revealedBy": "Mining",		
-"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Snow","Tundra"], // Hill only if plains or grassland		
-"production": 1,		
-  "improvedBy": ["Mine", "Crystal Drill"],		
-"improvementStats": {"production": 1},	
-	"uniques": ["Guaranteed with Strategic Balance resource option",				
-	"Generated with weight [100] <in [Featureless] [Grassland] tiles>",					
-"Generated with weight [100] <in [Featureless] [Plains] tiles>",					
-"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in [Snow] [Hill] tiles> ",		
-			"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",				
-	"Minor deposits generated with weight [100] <in [Grassland] tiles>",					
-"Minor deposits generated with weight [20] <in [Grassland] tiles> <in tiles without [Fresh Water]>",				
-	"Minor deposits generated with weight [30] <in [Plains] tiles>"],	
-	"majorDepositAmount": {"sparse": 4, "default": 4, "abundant": 6},		
-"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}	
-
-},
-	{		
-"name": "Apples",		
-"resourceType": "Bonus",		
-"terrainsCanBeFoundOn": ["Forest","Grassland"]
-"food": 2,		
-"improvement": "Plantation",		
-"uniques": [
-"Generated on every [7] tiles <in [Featureless] [Grassland] tiles>",			
-"Generated with weight [5] <in [Forest] Regions>",										
-"Generated with weight [5] <in [Hybrid] Regions>",					
-"Generated near City States with weight [15]",					
-"Doesn't generate naturally <in [Tundra] tiles>"
-]	
-},
-{
-		"name": "Gems",
-		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Jungle","Forest","Hill"],
-		"gold": 3,
-		"improvedBy": ["Mine", "Crystal Drill"],
-		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
-					"Generated with weight [20] <in [Jungle] Regions>",
-					"Generated with weight [15] <in [Hill] Regions>",
-					"Generated with weight [5] <in [Grassland] Regions>",
-					"Generated with weight [5] <in [Hybrid] Regions>",
-					"Generated near City States with weight [10]",
-					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"
-                    ],
-	},
-    	{
-		"name": "Cod",
+   {
+      "name": "Natural Gas",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Coast"],
-		"food": 1,
-		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles> <in [Tundra] Regions>",]
+		"terrainsCanBeFoundOn": ["Grassland","Plains","Coast","Desert"],
+      "food": 1,
+      "production": 1,
+      "science": 1,
+     	"improvement": "Gas Deposit",
+		"revealedBy": "Biology",
+      "improvementStats": {"production": 1},
+      "uniques": ["Generated on every [18] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>", "Generated on every [18] tiles <in [Featureless] [Coast] tiles>",
+					"Generated on every [22] tiles <in [Featureless] [Plains] tiles>", "Generated on every [12] tiles <in [Featureless] [Desert] tiles>"],
 	},
+    {
+      "name": "Bronze",
+		"resourceType": "Strategic",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+      "production": 1,
+     	"improvement": "Mine",
+		"revealedBy": "Bronze Working",
+      "improvementStats": {"production": 1},
+      "uniques": ["Generated on every [18] tiles <in [Featureless] [Grassland] tiles> <in [Hill] Regions>",
+					"Generated on every [22] tiles <in [Featureless] [Plains] tiles>"],
+	},
+
 ]
