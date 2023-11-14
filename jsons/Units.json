@@ -45,14 +45,41 @@
 },
 {		
 "name": "Magical Infantry",		
-"unitType": "GunpowderMagic",				
+"unitType": "Gunpowder",				
 "movement": 2,		
-"strength": 60,		
-"cost": 365,		
+"strength": 80,		
+"cost": 415,		
+"requiredResource": "Magic Crystals",	
+"requiredTech": "Plastics",
+"obsoleteTech": "Mobile Tactics",				
+"upgradesTo": "Mechanized Infantry",	
+"upgradesFrom": "Magical Rifleman",		
+"attackSound": "nonmetalhit"	
+},
+{		
+"name": "Great War Unicorn",		
+"unitType": "Gunpowder",				
+"movement": 2,		
+"strength": 40,		
+"rangedStrength": 65,
+"cost": 380,		
+"requiredResource": "Magic Crystals",	
+"requiredTech": "Replaceable Parts",
+"obsoleteTech": "Plastics",				
+"upgradesTo": "Magical Infantry",	
+"attackSound": "nonmetalhit"	
+"uniques": ["Only available <for [Ponies]>"]
+},
+{		
+"name": "Magical Rifleman",		
+"unitType": "Gunpowder",				
+"movement": 2,		
+"strength": 37,		
+"cost": 245,		
 "requiredResource": "Magic Crystals",	
 "requiredTech": "Magical Theory",
 "obsoleteTech": "Plastics",				
-"upgradesTo": "Infantry",	
+"upgradesTo": "Magical Infantry",	
 "upgradesFrom": "Rifleman",		
 "attackSound": "nonmetalhit"	
 },
@@ -71,7 +98,7 @@
 },
 {		
 "name": "Magical Bat Infantry",		
-"unitType": "GunpowderMagic",		
+"unitType": "Gunpowder",		
 "uniqueTo": "Lunar Republic",		
 "replaces": "Magical Infantry",
 "requiredResource": "Magic Crystals",		
@@ -121,12 +148,12 @@
 },
 {		
 "name": "Great Alicorn",		
-"unitType": "RangedMagic",		
+"unitType": "Ranged",		
 "replaces": "Great General",
 "uniqueTo": "Equestria",
-"uniques": ["Can start an [8]-turn golden age", "[-15]% Strength <vs [Magic] units>", "[-15]% Strength <vs [MagicGunpowder] units>", "Can not be bought" 
+"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[-15]% Strength <vs [Magic] units>", "[-15]% Strength <vs [MagicGunpowder] units>", "Cannot be purchased" 
 "[+15]% Strength bonus for [Military] units within [2] tiles", 
-"Can construct [Citadel]",			
+"Can instantly construct a [Citadel] improvement <by consuming this unit>", 			
 "Great Person - [War]", "Unbuildable", "Uncapturable",
 //Era Strength
 "[+50]% Strength <during the [Classical era]>",
@@ -137,7 +164,7 @@
 "[+300]% Strength <during the [Atomic era]>",
 "[+350]% Strength <during the [Information era]>",
 "[+400]% Strength <during the [Future era]>",
-
+"Only available <for [Ponies]>",
 ],	
 "strength": 10,
 "range": 2,
@@ -199,21 +226,11 @@
 "upgradesTo": "Rifleman", 		
 "obsoleteTech": "Rifling", 		
 "attackSound": "shot" 	
-},
-	{		
-"name": "Great Earth Pony",		
-"unitType": "Civilian",		
-"uniques": ["Can start an [8]-turn golden age", 
-"Can construct [Sweet Apple Acre]", 
-"Great Person - [Gold]", 
-"Unbuildable", 
-"Uncapturable"
-],		
-"movement": 2	
+"uniques": ["[+10]% Strength <when fighting in [Tundra] tiles>", "[+18]% Strength <when fighting in [Farm] tiles>"]
 },
 {		
 "name": "Crystallizer",		
-"unitType": "GunpowderMagic",		
+"unitType": "Gunpowder",		
 "uniqueTo": "The Crystal Empire",		
 "replaces": "Magical Infantry",
 "requiredResource": "Gems",		
@@ -282,7 +299,7 @@
 },
 {		
 "name": "Arctic Killer",		
-"unitType": "GunpowderMagic",		
+"unitType": "Gunpowder",		
 "uniqueTo": "Polar Bear Communities",				
 "movement": 2,		
 "strength": 62,		
@@ -305,4 +322,402 @@
 "upgradesTo": "Longswordsman",		
 "attackSound": "nonmetalhit"	
 },
+{		
+"name": "Farmer Militia",		
+"unitType": "Gunpowder",		
+"uniqueTo": "Stalliongrad",				
+"movement": 2,		
+"strength": 19,		
+"cost": 65,		
+"requiredTech": "Gunpowder",
+"obsoleteTech": "Plastics",				
+"upgradesTo": "Infantry",		
+"attackSound": "nonmetalhit",
+"uniques": ["[+10]% Strength <when fighting in [Farm] tiles>"]
+  "civilopediaText": [
+			{"text": "One the first known Stalligradians armies to revolt against Equestrian rule, making use of their environment in one way or another."}
+		]
+},
+{		
+"name": "Revolutionary",		
+"unitType": "Gunpowder",		
+"uniqueTo": "Stalliongrad",	
+"replaces": "Great War Infantry",			
+"movement": 2,		
+"strength": 46,		
+"cost": 230,		
+"requiredTech": "Steam Power",
+"obsoleteTech": "Plastics",				
+"upgradesTo": "Infantry",		
+"attackSound": "nonmetalhit",
+"uniques": ["[+12]% Strength <when fighting in [Friendly] tiles>", "[+8]% Strength <when fighting in [Farm] tiles>","[+10]% Strength <when fighting in [Tundra] tiles>", "Invisible to non-adjacent units <in [Farm] tiles>", "[-10]% Strength <when fighting in [Hill] tiles>"]
+},
+{		
+"name": "Rolling Giant",		
+"unitType": "Armored",		
+"uniqueTo": "Stalliongrad",	
+"replaces": "Tank",			
+"movement": 3,		
+"strength": 76,		
+"cost": 520,		
+"requiredTech": "Combustion"				
+"upgradesTo": "Modern Armor",		
+"attackSound": "nonmetalhit",
+"uniques": ["[+5]% Strength <when fighting in [Friendly] tiles>", "[-10]% Strength <when fighting in [Hill] tiles>", "No defensive terrain bonus", "Consumes [1] [Oil]"]
+},
+{
+		"name": "Magic Archer",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 9,
+		"cost": 50,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+  "requiredResource": "Iron",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+  "requiredResource": "Magic Crystals",
+    "civilopediaText": [
+			{"text": "Who knew giving archers magic would be ao effective on the battlefield?"}
+		]
+	},
+{
+		"name": "Mooseship",
+		"unitType": "Melee Water",
+  "uniqueTo": "Olenia",
+		"movement": 6,
+		"strength": 15,
+  "rangedStrength": 8,
+		"cost": 90,
+		"requiredTech": "Compass",
+  "promotions": ["Coastal Raider I"],
+		"uniques": ["Cannot enter ocean tiles", "May capture killed [Water] units"],
+		"upgradesTo": "Privateer"
+		"obsoleteTech": "Navigation",
+		"attackSound": "nonmetal"
+     "civilopediaText": [
+			{"text": "Commonly used by the Olenians to raid Equestrian shores for gold."}
+		]
+},
+{
+		"name": "Changeling",
+		"unitType": "Sword",
+  "uniqueTo": "Changeling Lands",
+  "replaces": "Warrior",
+		"movement": 3,
+		"strength": 6,
+		"cost": 13,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "[+10]% Strength <when fighting in [Forest] tiles>"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Weak, but cheap, these changelings have power in numbers, Overwhelming any enemy in their way."}
+		]
+	},
+{
+		"name": "Zebra",
+		"unitType": "Sword",
+  "uniqueTo": "Aztlan",
+  "replaces": "Warrior",
+		"movement": 2,
+		"strength": 10,
+		"cost": 55,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "[+5]% Strength <when fighting in [Jungle] tiles>"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Built for the jungle, these zebras crush enemies that dare step into their homeland under their hoof."}
+		]
+	},
+{		
+"name": "Snowpony",		
+"unitType": "Gunpowder",					
+"movement": 2,		
+"strength": 32,		
+"cost": 225,		
+"requiredTech": "Rifling",
+"obsoleteTech": "Replaceable Parts",				
+"upgradesTo": "Great War Infantry",		
+"attackSound": "nonmetalhit",
+"uniques": ["[+10]% Strength <when fighting in [Tundra] tiles>", "[+10]% Strength <when fighting in [Snow] tiles>", "Only available <for [Ponies]>"]
+},
+{		
+"name": "Flying Horse Chariot",		
+"unitType": "Sword",		
+"movement": 3,		
+"strength": 10,		
+"cost": 80,		
+"requiredTech": "The Wheel",
+"obsoleteTech": "Chivalry",				
+"upgradesTo": "Knight",		
+"attackSound": "nonmetalhit",
+"uniques": ["Only available <for [Ponies]>", "Ignores terrain cost", "Can pass through impassable tiles", ]
+},
+{		
+"name": "Unicorn",		
+"unitType": "Ranged",		
+"movement": 2,		
+"strength": 6,
+"rangedStrength": 13,
+"cost": 85,		
+"requiredTech": "Writing",
+"obsoleteTech": "Education",				
+"upgradesTo": "Magician",		
+"attackSound": "nonmetalhit",
+"uniques": ["Only available <for [Ponies]>", "May withdraw before melee ([10]%)"]
+},
+{		
+"name": "Magician",		
+"unitType": "Ranged",		
+"movement": 3,		
+"strength": 7,
+"rangedStrength": 20,
+"cost": 160,		
+"requiredTech": "Education",
+"obsoleteTech": "Industrialization",				
+"upgradesTo": "Gatling Gun",		
+"attackSound": "nonmetalhit",
+"uniques": ["Only available <for [Ponies]>", "May withdraw before melee ([10]%)"]
+},
+	{
+		"name": "Chariot Archer",
+		"unitType": "Archery",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "Only available <for [Non-Ponies]>"],
+		"attackSound": "arrow"
+	},
+{
+		"name": "Raubtier",
+		"unitType": "Sword",
+  "uniqueTo": "Changeling Lands",
+  "replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 18,
+		"cost": 60,
+   "requiredTech": "Steel",
+		"obsoleteTech": "Gunpowder",
+		"upgradesTo": "Musketman",
+		"uniques" : ["[1] additional attacks per turn", "Consumes [1] [Iron]"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "Predators of the forest."}
+		]
+	},
+  {
+		"name": "Animal Manipulator",
+		"unitType": "Sword",
+   "uniqueTo": "Equestria",
+		"movement": 2,
+		"strength": 9,
+		"cost": 56,
+		"requiredTech": "Animal Husbandry",
+		"requiredResource": "Cattle",
+		"upgradesTo": "Swordsman",
+		"obsoleteTech": "Metal Casting",
+		"uniques": ["Only available <for [Ponies]>", "[+30]% Strength <when defending>", "Can build [Forest] improvements on tiles", "Double movement in [Forest]"],
+		"attackSound": "nonmetalhit"
+	},
+{
+		"name": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Only available <for [Non-Griffonians]>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+{
+		"name": "Sentry",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit",  "Only available <for [Griffonians]>"],
+		"promotions": ["Ignore terrain cost"],
+"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+{
+		"name": "Cowfilly",
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 12,
+   "requiredTech": "Horseback Riding",
+		"cost": 85,
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Only available <for [Ponies]>", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+{
+		"name": "Horseman",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Only available <for [Non-Ponies]>"],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+{
+		"name": "Magical Tank",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 77,
+		"cost": 390,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "Consumes [1] [Magic Crystals]"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Colonial",
+		"unitType": "Gunpowder",
+   "uniqueTo": "Nova Griffonia",
+   "replaces": "Musketman",
+		"movement": 3,
+		"strength": 26,
+		"cost": 195,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+ {
+		"name": "Climate Manipulator",
+		"unitType": "Sword",
+   "uniqueTo": "Equestria",
+   "replaces": "Magician",
+		"movement": 2,
+		"strength": 9,
+   "rangedStrength": 22
+		"cost": 56,
+		"requiredTech": "Education",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"uniques": ["Only available <for [Ponies]>"],
+		"attackSound": "nonmetalhit"
+	},
+{
+		"name": "Griffonian Knight",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 52,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+   "uniques": ["Only available <for [Griffonians]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Sharpshooter",
+		"unitType": "Archery",
+   "uniqueTo": "Aztlan",
+   "replaces": "Archer",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 8,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+   "uniques": ["Double movement in [Jungle]"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Griff Piker",
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 17,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Only available <for [Griffonians]>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+ 	{
+		"name": "Pikeman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Only available <for [Non-Griffonians]>"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+{
+		"name": "Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+   "uniques": ["Only available <for [Non-Griffonians]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Quick Hitter",
+		"unitType": "Fighter",
+		"movement": 1,
+		"strength": 25,
+		"rangedStrength": 25,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 325,
+		"requiredTech": "Biology",
+		"upgradesTo": "Triplane",
+		"obsoleteTech": "Radar",
+		"uniques": ["[35]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+{
+		"name": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <for [Non-Griffonians]>"],
+		"attackSound": "horse"
+	},
+{
+		"name": "Early Griffonian Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 24,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <for [Griffonians]>"],
+		"attackSound": "horse"
+	},
+
 ]

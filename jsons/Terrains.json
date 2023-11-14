@@ -14,6 +14,71 @@
      "impassable": true,
      "unbuildable": true,
      "weight": 10
+}
+{
+"name": "Everhoof",
+ "type": "NaturalWonder",
+     "faith": 3,
+     "culture": 1,
+    "occursOn": ["Mountain"],
+   "uniques": ["Must be adjacent to [2] [Mountain] tiles",			
+     "Must be adjacent to [0] [Marsh] tiles",			
+     "Must be adjacent to [0] [Desert] tiles"
+],
+     "turnsInto": "Mountain",
+     "impassable": true,
+     "unbuildable": true,
+     "weight": 10
 //254
 },
+{
+"name": "Neighara Falls",
+ "type": "NaturalWonder",
+     "faith": 1,
+     "culture": 2,
+     "happiness": 1,
+     "food": 2,
+    "occursOn": ["Grassland"],
+   "uniques": ["Must be adjacent to [2] [Mountain] tiles",			
+     "Must be adjacent to [0] [Marsh] tiles",			
+     "Must be adjacent to [0] [Desert] tiles",
+     "Must be adjacent to [1] [Lakes] tiles",
+     "Must be adjacent to [2] [Hill] tiles"
+],
+     "turnsInto": "Lakes",
+     "impassable": false,
+     "unbuildable": true,
+     "weight": 10
+//254
+},
+{
+"name": "Hollow Shades",
+ "type": "NaturalWonder",
+     "culture": 2,
+     "faith": 2,
+    "occursOn": ["Grassland"],
+   "uniques": ["Must be adjacent to [2] [Mountain] tiles",			
+     "Must be adjacent to [1] [Marsh] tiles",			
+     "Must be adjacent to [0] [Desert] tiles",
+     "Must be adjacent to [0] [Lakes] tiles",
+     "Must be adjacent to [2] [Hill] tiles"
+],
+     "turnsInto": "Grassland",
+     "impassable": false,
+     "unbuildable": true,
+     "weight": 10
+//254
+},
+{
+		"name": "Mountain",
+		"type": "Land",
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [102, 102, 102],
+		"uniques": ["Rough terrain",
+            "Has an elevation of [2] for visibility calculations",
+            "Occurs in chains at high elevations",
+            "Always Fertility [-2] for Map Generation",
+            "Considered [Undesirable] when determining start locations"]
+	},
 ]

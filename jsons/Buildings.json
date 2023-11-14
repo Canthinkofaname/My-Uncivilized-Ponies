@@ -28,7 +28,7 @@
 "food": 3,				
 "maintenance": 1,		
 "requiredBuilding": "Factory",		
-"uniques": ["[+2] food from [Citrus] tiles [in this city]", "[+2] food from [Cotton] tiles [in this city]", "[+2] food from [Sugar] tiles [in this city]"],
+"uniques": ["[+2 Food] from [Citrus] tiles [in this city]", "[+2 Food] from [Cotton] tiles [in this city]", "[+2 Food] from [Sugar] tiles [in this city]"],
 "requiredTech": "Calendar",
 },
 { 		
@@ -121,7 +121,7 @@
       "requiredTech": "Construction",
  		"uniques": [
  "Can only be built [in capital]",
- "[+10]% [Production] [in all cities]",
+ "[+10]% [Production] [in capital]",
  "Destroyed when the city is captured",
         ] 
 },

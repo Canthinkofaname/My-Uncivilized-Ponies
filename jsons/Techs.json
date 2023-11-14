@@ -10,7 +10,7 @@
 {				
 "name": "Magical Theory",				
 "row": 5,				
-"prerequisites": ["Scientific Theory","Industrialization"],				
+"prerequisites": ["Scientific Theory","Industrialization","Rifling"],				
 "quote": "'Magic is the true wonder of the world' - Twilight Sparkle",		
 },
 
@@ -39,14 +39,15 @@
 "columnNumber": 0,		
 "era": "Ancient era",		
 "techCost": 20,		
-"buildingCost": 40,				
+"buildingCost": 40,	
+"wonderCost": 20,					
 "techs": [			
 
 {				
 "name": "Ancient Changeling Tech",				
 "row": 7,						
 	"quote": "' 'Queen' Chrysalis has a good ring to it,doesnt it?' - Queen Chrysalis",
-"uniques": ["Only available <before discovering [Agriculture]>"]	
+"uniques": ["Only available <for [Changelings]>"]	
 },
 
 ]
@@ -56,12 +57,13 @@
 "columnNumber": 0,		
 "era": "Ancient era",		
 "techCost": 25,		
-"buildingCost": 42,				
+"buildingCost": 42,		
+"wonderCost": 20,			
 "techs": [			
 
 {				
 "name": "Secrets of the Arctic",
-"uniques": ["Only available <before discovering [Agriculture]>"]
+"uniques": ["Only available <for [Arctic Nations]>"]
 "row": 8,							
 	"quote": "'The world cannot live without the Arctic; it affects every living thing on Earth and acts as a virtual thermostat, reflecting sunlight and cooling the planet.' - Phillipe Cousteau"			
 },

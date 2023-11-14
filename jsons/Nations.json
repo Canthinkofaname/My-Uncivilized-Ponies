@@ -13,18 +13,18 @@
    "declaringWar": "You leave us no choice. You and your reign must end!",		
    "attacked": "Why dont you choose an opponet thats your size?",		
    "defeated": "This may be it for Equestria, but its impact on the world will forever remain!",		
-   "introduction": "Hello there! Would you care to visit and eat one of our delicous Green gem cake?", 		
+   "introduction": "Hello there! Would you care to visit and eat one of our delicous Green gem cakes?", 		
    "neutralHello": "Hello!",	
-   "hateHello": "I hope your here to a civil talk.", 		
+   "hateHello": "I hope your here for a civil talk.", 		
    "tradeRequest": "The Princess of Equestria in all her elegance would like to conduct a trade offer!", 		
 
-   "outerColor": [255,197,133],		
-   "innerColor": [254,255,189],
+   "outerColor": [178,137,93],		
+   "innerColor": [254,255,208],
 		
    "favoredReligion": "Alicornism",	
 	
    "uniqueName": "Harmony",		
-   "uniques": [" [+1 Happiness] [in all cities]", "[+10]% Strength for cities <when attacking>"],		
+   "uniques": ["[+8]% [Happiness] [in all cities]", "[+15]% [Happiness] [in all cities] <when not at war>", "[+10]% Strength for cities <when attacking>", "Ponies"],		
    "cities": ["Canterlot","Cloudsdale","Las Pegasus","Hayston","Fillydelphia","Sire's Hollow","Raspberry Grove","Vanhoover","Whitebell","Acornage",			
    "Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",			
    "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
@@ -53,7 +53,7 @@
    "hateNo": ["That's unacceptable!","A thousand times no!","Never!"],		
    "hateYes": ["Oh… Fine, okay."],	
 
-   "tradeRequest": "Come, it appears you have to put your signature on some weird trade agreement.", 	
+   "tradeRequest": "Come, it appears you have to put your signature on something known as a 'trade agreement.'", 	
 
    "outerColor": [0,0,0],		
    "innerColor": [255,255,255],
@@ -61,10 +61,83 @@
    "favoredReligion": "Alicornism",	
 	
    "uniqueName": "Kingdom of the Bats",		
-   "uniques": ["[+10]% Strength for cities <when defending>"],		
+   "uniques": ["[+10]% Strength for cities <when defending>", "Ponies", "Non-Griffonians"],		
    "cities": ["Hayston","Bronclyn","Dappleshore","Summerfield","Albion","Bordo","Krasnoye","Chillwing","Trotterfield","Trotsylvania",			
    "Hollow Shades","Manesbury","Baltimare","Horseshoe City","Horseshoe Bay","Canterbury","Stableside","Portland","Prance","Ponyville",			
    "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
+},
+{			
+   "name": "Aztlan",	
+	"leaderName": "Caballeron",		
+   "adjective": ["Aztlantic"],		
+   "startBias": ["[Jungle]"],		
+   "preferredVictoryType": "Scientific", 
+		
+   "startIntroPart1": "",		
+   "startIntroPart2": "", 		
+   "declaringWar": "After thorough consideration,  Aztlan has decided that a formal declaration of war to reprimand your unethical deeds.",		
+   "attacked": "Fool! I shall put your head back into its place.... On a stake!",		
+   "defeated": "The gods have forsaken us.... Potions and spells failed.... Soon,i hope, your gods will forsake you also, and your weapons will fail you.",		
+   "introduction": "Greetings. Do you have a fever? We have an entire library of potions that could cure it.", 		
+   
+   "neutralHello": "Morning.",	
+   "hateHello": "And what are YOU here for?",  		
+   "afterPeace": "Im glad we could agree to bring peace to both of our nations", 		
+   "neutralLetsHearIt": ["If you must show me."],		
+   "neutralNo": ["Leave.","What even is this?","What did you just offer me?!?!"],		
+   "neutralYes": ["Great!","Have a great day.","Accepted."], 	
+   "hateLetsHearIt": ["Talk.","So?","Speak!"],		
+   "hateNo": ["That's unacceptable!","A thousand times no!","Nay!"],		
+   "hateYes": ["It pains me to accept... but yes."],	
+
+   "tradeRequest": "I believe this will benefit both of our nations.", 	
+
+   "outerColor": [12, 87, 7],		
+   "innerColor": [196, 147, 12],
+		
+   "favoredReligion": "Alicornism",	
+	
+   "uniqueName": "Ancients of the Jungle",		
+   "uniques": ["Starts with [Calendar]", "[+10]% Strength <for [Military] units> <when fighting in [Jungle] tiles>", "Ponies", "Non-Griffonians"],		
+   "cities": ["Saltmare","Tonaltzintili","Tenochtitlan","Ayacachtli","Mareidian","Saltlickingham","Portland","Stableside","Rosemarein","New Mareico",			
+   "Coltbla","Guadalamarea","Colterrey","Mareico City","Mareicali","Saint Luis Ponyusi","Mazaztlan","Aztlan City","Old Aztlan","Zebrapan",			
+   "Ponechuca","Trotcoco","Zebracala"],
+},
+{			
+   "name": "Nova Griffonia",	
+	"leaderName": "Teafeather",		
+   "adjective": ["Novanian"],		
+   "startBias": ["[Hill]"],		
+   "preferredVictoryType": "Domination", 
+		
+   "startIntroPart1": "",		
+   "startIntroPart2": "Not done", 		
+   "declaringWar": "The expansion of the Griffonian colony must continue, and your lands will suffice it!",		
+   "attacked": "Come, and experience defeat like the Penguins and Yaks did for hundreds of centuries.",		
+   "defeated": "I see.... The colony finally failed. I knew this would happen.... I just didnt know it would be so soon.",		
+   "introduction": "Welcome to the Republic of Nova Griffonia. Im sure we'll get along- As long as we're not neighbors.", 		
+   
+   "neutralHello": "Welcome.",	
+   "hateHello": "You disgust me.",  		
+   "afterPeace": "We'll be back for more.", 		
+   "neutralLetsHearIt": ["If you must show me."],		
+   "neutralNo": ["Leave.","What even is this?","What did you just offer me?!?!"],		
+   "neutralYes": ["Great!","Have a great day.","Accepted."], 	
+   "hateLetsHearIt": ["Talk.","So?","Speak!"],		
+   "hateNo": ["That's unacceptable!","A thousand times no!","Nay!"],		
+   "hateYes": ["It pains me to accept... but yes."],	
+
+   "tradeRequest": "Would you accept this generous trade offer from the republic?", 	
+
+   "outerColor": [129, 38, 199],		
+   "innerColor": [235, 189, 52],
+		
+   "favoredReligion": "Equalism",	
+	
+   "uniqueName": "Colony of the Mountains",		
+   "uniques": ["Griffonians", "Non-Ponies", "Land units may cross [Mountain] tiles after the first [Melee] is earned"],		
+   "cities": ["Weter","Zelkshed Skall","Boreasfjord","Nouveau Aquila","Ny Winghagen","Nieuw Mirabell","Moron","Kluv Khot","Bounnois","Federstadt",			
+   "Guidonuovo","Tsasbaatar","Groenstein","Fronsthill"],
 },
  {			
    "name": "Appleloosa",	
@@ -74,22 +147,22 @@
    "preferredVictoryType": "Cultural", 
 		
    "startIntroPart1": "Welcome,Sir Silverstar,and take leadership of the Great Appleloosan Confederacy and make sure Equestria is under the right rule once more.",		
-   "startIntroPart2": "Do not let any foe stop the Confederacy once more becausse surely your Buckers will sway victory after victory over foreign and enemy lands. The Confederacy will rise once again!", 		
+   "startIntroPart2": "Do not let any foe stop the Confederacy once more becausse surely your Buckers will sway victory after victory over foreign and enemy lands. The Appleloosa Confederation will rise once again!", 		
    "declaringWar": "You and your abominable citizens have to die and ah'm not sorry for it!",		
    "attacked": "I thought you were smarter than to go against the nation of the Freedom Fighters... Oh well!",		
    "defeated": "I never thought this day would come..... Oh well. We will rise once again,remembering your evil actions once we do.",		
-   "introduction": "Howdy! Would yah like to visit Appleloosa? We're havin a festival and we promise the fun won't end 'till the cows come home!", 		
+   "introduction": "Howdy! Would you like to visit Appleloosa? We're havin a festival and we promise the fun won't end 'till the cows come home!", 		
    "neutralHello": "Howdy partner!",	
    "hateHello": "What do you want you damn scalawag?!?!?!", 		
-   "tradeRequest": "Hey partner,would yah be up for this nice trade offer?", 		
+   "tradeRequest": "Hey partner,would you be up for this nice trade offer?", 		
 
-   "outerColor": [192,3,44],		
-   "innerColor": [0,35,104],
+   "outerColor": [181,63,94],		
+   "innerColor": [0,26,78],
 		
    "favoredReligion": "Christianity",	
 	
    "uniqueName": "Patriotic Empire",		
-   "uniques": ["[+10]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>","[+1 Happiness] [in all cities] <with [Apples]>"],		
+   "uniques": ["[+10]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>","[+10]% [Happiness] [in all cities] <with [Apples]>", "Ponies", "Non-Griffonians"],		
    "cities": ["Appleloosa","Trotgaron","Haystin","Foaledo","Jamtown","San Manetonio","Horston","Galloprey","Rosemarein","Marellas",			
    "Lubbuck","Maredessa","Buckston","Maneton Rougue","New Mareleans","Marrahasse","Mareami","Bucksonville","Marelanta","Maregomery",			
    "Little Buck","Balefire","Maneleigh","Fillyville","Buckphis","Marelotte","El Mareo","Maredo","Buckus Mari","Beaumount"],
@@ -98,7 +171,7 @@
    "name": "Changeling Lands",	
 	"leaderName": "Queen Chrysalis",		
    "adjective": ["Changelings"],		
-   "startBias": ["[Plains]"],		
+   "startBias": ["[Forest]"],		
    "preferredVictoryType": "Domination", 
 		
    "startIntroPart1": "Queen Chrysalis,You have proven yourself to be a strategic and intelligent leader. Your changelings have been proven to be a unrelentless powerful army,and your government ruled by the one and true queen",		
@@ -117,7 +190,7 @@
    "favoredReligion": "Hiveism",	
 	
    "uniqueName": "Bitter Queen",		
-   "uniques": ["Starts with [Ancient Changeling Tech]", "[+10]% Strength <for [Sword] units> <when fighting in [Foreign] tiles>", "[+10]% [Production] [in all cities] <when at war>", "[+5]% Strength <for [Gunpowder] units> <when fighting in [Foreign] tiles>"],		
+   "uniques": ["[+10]% Strength <for [Melee] units> <when fighting in [Foreign] tiles>", "[+10]% [Production] [in all cities] <when at war>", "[+8]% Strength <for [Military] units> <when fighting in [Forest] tiles>", "Non-Ponies", "Changelings", "Non-Griffonians"],		
    "cities": ["Vesalipolis","Vraks","Soryth","Dirtysium","Sicarus","Antax","Gardis","Kladisum","Lyctida","Gorak",			
    "Aglossata","Neverwarm Point","Sorrow Forest","Morkaberg","Svarm","Volistad","Phantine","Hoorornd","Munling","Chrysalin",			
    "Changelingburg","Saxalis","Churvaria","Chrysaaland"],
@@ -126,11 +199,12 @@
 "name": "Stalliongrad",		
 "leaderName": "Altidiya Revoltsova",		
 "adjective": ["Stalligradian"],
-"startBias": ["[Plains]"],	
+"startBias": ["[Grassland]"],	
+"preferredVictoryType": "Domination", 
 "startIntroPart1": "Lead Stalliongrad,Revoltsova,and Bring justice and order to the entire world! The world shall know the true pain of what those pitiful Equestrians did to us!",		"startIntroPart2": "Lady Revoltsova,Can your Union stand the test of time? Will your troops step back at the moment of truth? And most importantly,Will your Civilization stand the test of time?",		
 "declaringWar": "I cannot wait until you grow even mightier. Therefore, prepare for war!",		
-"attacked": "Corrupted villain! We will bring you into the ground!",		
-"defeated": "Stalliongrad has been destroyed. I weep for the future generations.",		
+"attacked": "Corrupted villain! We will bring you and your nation to the ground!",		
+"defeated": "Stalliongrad has been destroyed.... I will weep for the future generations.",		
 "introduction": "Privet. In the name of the great Stalligradian people, I give you a warm welcome.",	
 	"neutralHello": "Privet.",		
  "hateHello": "What does the devil need?",		
@@ -139,14 +213,15 @@
 "innerColor": [237,245,35],		
 "favoredReligion": "Christianity",		
 "uniqueName": "The Collective",		
-"uniques": ["[+30]% Production [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>"],		
+"uniques": ["[+30]% [Production] [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>", "[+1 Production] from [Tundra] tiles [in all cities]", "Damage is ignored when determining unit Strength <when attacking>", "Ponies", "Non-Griffonians"],		
 "cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown","Ravenskoye","Stavropon","Tailney","Saint Petershoof","Altytown","Red Wheat","Novnikovo","Korki","Sovyenok","Zayatsk","Griffimsk"]
 	}, 
 {		
 "name": "The Crystal Empire",
-"startBias": ["[Plains]"],	
+"startBias": ["[Tundra]"],	
 "leaderName": "Princess Mi Amore Candenza",		
 "adjective": ["Crystalllians"],
+"preferredVictoryType": "Diplomatic", 
 "startIntroPart1": "Dear Candence,Your Empire has fought and won many struggles versus the forces of evil and the shadows of night. You have taken care of your citizens as your citizens have taken care of you. Make sure nobody hurts you,your empire,or your citizens,Princess Candence,Through any means!",
 
 "startIntroPart2": "Princess Candence,Your friends will become your foes,and your foes will become your friends. Will you be able to catch who'll betray you first? Will your diplomatic charms help you in this struggle?.......Will your empire stand the test...... of time? ",
@@ -161,14 +236,15 @@
 "innerColor": [255,255,255],		
 "favoredReligion": "Alicornism",		
 "uniqueName": "Crystallization",		
-"uniques": ["[+10]% Production [in all cities] <with [Gems]>", "[+1 Happiness] [in all cities] <with [Gems]>" ]
-"cities": ["Crystal City","Rainbow Falls","Rubrum","Porridge Town","Quebuck","Snowybury","Hedgewards","Canterine","Evergreen","Saraneighvo","Emeraldtop","Ponytown"]
+"uniques": ["[+5]% [Production] [in all cities] <with [Gems]>", "[+1 Happiness] [in all cities] <with [Gems]>", "Ponies", "Non-Griffonians"]
+"cities": ["Crystal City","Rainbow Falls","Rubrum","Porridge Town","Quebuck","Snowybury","Hedgewards","Canterine","Evergreen","Saraneighvo","Emeraldtop","Ponytown", "Shinyronto", "Crystalpeg", "Buckawa", "Princesston", "Candence"]
 	},
     {		
 "name": "Olenia",		
 "leaderName": "King Johan The Djävulen",		
 "adjective": ["Olenians"],
-"startBias": ["[Tundra]"],	
+"startBias": ["[Coast]"],	
+"preferredVictoryType": "Cultural", 
 "startIntroPart1": "King Johan,Your kingdom has gone a long way,making way through the most desperate and harshest struggles known to deerkind. Despite this,your citizens and vikings fought many battles with honor and valor till the day they met their end.",
 
 "startIntroPart2": "However,Olenia has shrunken in landsize throughout the years. Corrupt Kings were sworn into power. Powerful foes and enemies were starting to become a threat. Olenia was in disarray! Can you power through this struggle and save Olenia? Can Olenia.....Stand the test of time?",
@@ -180,13 +256,14 @@
 	"neutralHello": "Hej!",		
  "hateHello": "Lämna detta ögonblick!",		
 "tradeRequest": "Look at all the items im offering! You want it...right?",	
-"outerColor": [160, 220, 232],		
-"innerColor": [162, 167, 168],		
+"outerColor": [183, 228, 237],		
+"innerColor": [121, 125, 126],		
 "favoredReligion": "Hinduism",		
 "uniqueName": "Och vidare, Olenia!",		
-"uniques": ["[+12]% Strength <for [Sword] units> <before the [Renaissance era]>"]
+"uniques": ["[+12]% Strength <for [Sword] units> <before the [Renaissance era]>", "Non-Ponies", "Non-Griffonians"]
 "cities": ["Hjortland","Endräkt","Seaddle","Älgstad","Hejna","Mantyreek","Vaverfront","Sitz","Equadoe","Goldenshor","Kesäpuoli","Sakara","Luxbucht","Oslott","Elksburg","Isham","Cervus","Hirvikaupunki","Hovenhamn","Snollinga","Svenholm"]
 	}, 
+/* Only shoulf exist as a CS
  {		
 "name": "Our Town",		
 "leaderName": "Starlight Glimmer",		
@@ -207,9 +284,10 @@
 "innerColor": [80,84,109],		
 "favoredReligion": "Equalism",		
 "uniqueName": "Down with the Hierachy!",		
-"uniques": ["[+12]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>", "[+12]% Strength <for [GunpowderMagic] units> <when fighting in [Friendly] tiles>"]
+"uniques": ["[+12]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>", "[+12]% Strength <for [GunpowderMagic] units> <when fighting in [Friendly] tiles>", "Ponies", "Non-Griffonians"]
 "cities": ["Our Town","Nash gorod","My Town","Starlight's Town","Glimmer's Town","Your Town","Equal Town","Our Village","My Village","Sunset's Town","Trixie's Trailer","Equal Village","Gorod Starlayt","Gorod Glimmera","Nobody's Town","Ravnyy","Mine.","Hideout","Not Your Town","Everybody's Town","Basic Town"]
 	}, 
+*/
      {		
 "name": "Polar Bear Communities",		
 "leaderName": "Paw Wellington",		
@@ -230,9 +308,10 @@
 "innerColor": [255,255,255],		
 "favoredReligion": "Christianity",		
 "uniqueName": "Polar Bear Temper",		
-"uniques": ["[+10]% Strength <for [Military] units> <when fighting in [Tundra] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Snow] tiles>"]
+"uniques": ["[+10]% Strength <for [Military] units> <when fighting in [Tundra] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Snow] tiles>", "Non-Ponies", "Arctic Nations", "Non-Griffonians"]
 "cities": ["Mathair Fearainn","Polarhill","Pawtovik","Winteryearbypaw","Pawrtic","Polskcow","Coldlaska","Hyper Pawrea","Polarberia","Saint Petersbearg","Winter-on-Don","Chilsk","Wintmara","Paznhy Clavgorod","Beaonezh","Snorilsk","Furchi","Flufbent","Furza","Winta","Santangelsk"]
-	}, 
+	},
+//Add Pingland, Yakyakistan, United dragon isles can be a CS or a nation. Add griffonian nations after your done with the Equus nations.
 //CS
 {		
    "name": "Ponyville",		
@@ -267,7 +346,6 @@
    "innerColor": [168, 68, 50],	
    "cities": ["Baltimore"]
 	},
-   //RECOLOR
    {		
    "name": "Whitebell",		
    "adjective": ["White Bellers"],		
@@ -276,18 +354,29 @@
    "attacked": "Take one step into our territory and you will meet your end!",		
    "defeated": "Do you hear it? The funeral bells ring....",		
    "outerColor": [0, 0, 0],		
-   "innerColor": [168, 68, 50],	
+   "innerColor": [100, 100, 100],	
    "cities": ["Whitebell"]
+	},
+{		
+   "name": "Vanhoover",		
+   "adjective": ["Vanhoovens"],		
+   "cityStateType": "Maritime", 		
+   "declaringWar": "Your regime will be replaced a newer, and greater socialist government!",		
+   "attacked": "We will gladly accept your request to blockade your shores",		
+   "defeated": "The shores of Vanhoover have fallen silent....",		
+   "outerColor": [0, 0, 0],		
+   "innerColor": [129, 38, 199],	
+   "cities": ["Vanhoover"]
 	},
     {		
    "name": "Cloudsdale",		
    "adjective": ["Clouddalian"],		
    "cityStateType": "Militaristic", 		
-   "declaringWar": "The thunder strikes. It is time for your collapse.",		
+   "declaringWar": "The thunder strikes. It is time for your collapse!",		
    "attacked": "Hmph.",		
    "defeated": "You made a big mistake....",		
    "outerColor": [0, 0, 0],		
-   "innerColor": [168, 68, 50],	
+   "innerColor": [255, 255, 255],	
    "cities": ["Cloudsdale"]
 	},
     {		
@@ -298,8 +387,19 @@
    "attacked": "You buffoon! You'll regret this!",		
    "defeated": "The skyscrapers fall.... Maretropolis has fallen.",		
    "outerColor": [0, 0, 0],		
-   "innerColor": [168, 68, 50],	
+   "innerColor": [93, 135, 133],	
    "cities": ["Maretropolis"]
+	},
+{
+"name": "Buffalo Cheifdom",		
+   "adjective": ["Buffalo"],		
+   "cityStateType": "Cultured", 		
+   "declaringWar": "Your deeds shall be judged by our army! Prepare to die!",		
+   "attacked": "Maybe the skeletons of your army in our muds will wisen you up.",		
+   "defeated": "You may have defeated us, but our culture will live on.",		
+   "outerColor": [0, 0, 0],		
+   "innerColor": [235, 189, 52],	
+   "cities": ["Buffalo Cheifdom"]
 	},
   {
   "name": "Starlight's Town",		
@@ -309,7 +409,7 @@
    "attacked": "You dare try to attack me?!?! I'll put you back in your place!",		
    "defeated": "The dream was nice while it lasted.....",		
    "outerColor": [0, 0, 0],		
-   "innerColor": [168, 68, 50],	
+   "innerColor": [38, 189, 181],	
    "cities": ["Starlight's Town"]
     },
     {
@@ -320,7 +420,19 @@
    "attacked": "We hope we can sort this out in a peaceful manner.",		
    "defeated": "We wont be sad that its over,but glad that it lasted.",		
    "outerColor": [0, 0, 0],		
-   "innerColor": [168, 68, 50],	
+   "innerColor": [212, 53, 38],	
    "cities": ["Pony Town"]
    },
+ {
+    "name": "Griffon Frontier",		
+   "adjective": ["Frontierian"],		
+   "cityStateType": "Militaristic", 		
+   "declaringWar": "You are just like the Nova Griffonians! Prepareto be crushed under our claws!",		
+   "attacked": "Very well.",		
+   "defeated": "The frontier has fallen.....",		
+   "outerColor": [0, 0, 0],		
+   "innerColor": [222, 170, 118],	
+   "cities": ["Griffon Frontier"]
+   },
+   //RECOLOR 
 ]

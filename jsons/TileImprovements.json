@@ -8,7 +8,7 @@
 "happiness": 1,		
 "uniques": [ "Great Improvement", 
 "Removes removable features when built",
-"Pillaging this improvement yields approximately [+20 Gold]",
+"Pillaging this improvement yields approximately [+60 Gold]",
      ]
 },
 {		
@@ -21,5 +21,61 @@
 "Provides [1] [Gems]",
      ]
 },
+{		
+"name": "Hive",		
+"terrainsCanBeBuiltOn": ["Forest"],		
+"production": 1
+"culture": 1
+"turnsToBuild": 5
+"uniqueTo": "Changeling Lands",
+"uniques": [ "Pillaging this improvement yields approximately [+50 Gold, +5 Culture]", "Costs [3] [Gold] per turn", "Adjacent enemy units ending their turn take [10] damage", "Gives a defensive bonus of [8]%",
+     ]
+},
+{		
+"name": "Bat Cave",		
+"terrainsCanBeBuiltOn": ["Hill"],		
+"faith": 1
+"culture": 1
+"turnsToBuild": 7
+"uniqueTo": "Lunar Republic",
+"uniques": [ "Pillaging this improvement yields approximately [+10 Gold, +10 Culture]", "Costs [6] [Gold] per turn", "Gives a defensive bonus of [8]%",  "Does not need removal of [Forest]", "Only available <within [0] tiles of a [Forest]>",
+     ]
+},
+{		
+"name": "Jungle Farm",		
+"terrainsCanBeBuiltOn": ["Jungle"],		
+"replaces": ["Farm"]
+"food": 2
+"turnsToBuild": 5
+"uniqueTo": "Aztlan",
+"uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Culture, +10 Food]", "Does not need removal of [Jungle]"]
+}, 
+/*
+{		
+"name": "Arctic Pen",		
+"terrainsCanBeBuiltOn": ["Snow", "Tundra"],		
+"food": 2
+"production": 1
+"turnsToBuild": 5
+"uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Food]", "Only available <for [Arctic Nations]>"]
+},
+*/
+{		
+"name": "Pyramid",		
+"terrainsCanBeBuiltOn": ["Jungle"],		
+"culture": 1
+"gold": 1
+"turnsToBuild": 7
+"uniqueTo": "Aztlan",
+"uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Culture, +10 Faith]", "Does not need removal of [Jungle]"]
+},
+{		
+"name": "Mountain Mine",		
+"terrainsCanBeBuiltOn": ["Mountain"],		
+"production": 3
+"turnsToBuild": 5
+"uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Culture, +10 Production]", "Only available <for [Griffonians]>"]
+},
+
  
 ]
