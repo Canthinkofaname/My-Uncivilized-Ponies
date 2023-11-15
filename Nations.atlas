@@ -66,3 +66,17 @@ size: 100, 100
 orig: 100, 100
 offset: 0, 0 
 index: -1
+NationIcons/Aztlan
+rotate: false 
+xy: 900, 0
+size: 100, 100
+orig: 100, 100
+offset: 0, 0 
+index: -1
+NationIcons/Nova Griffonia
+rotate: false 
+xy: 1000, 0
+size: 100, 100
+orig: 100, 100
+offset: 0, 0 
+index: -1

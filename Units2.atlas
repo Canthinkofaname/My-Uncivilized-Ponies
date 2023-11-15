@@ -1,0 +1,208 @@
+Units2.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Magical Bat Infantry
+rotate: false 
+xy: 200, 0
+size: 200, 200
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Modern Bat Infantry
+rotate: false 
+xy: 600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Stallioneer
+rotate: false 
+xy: 0, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Revolutionary 
+rotate: false 
+xy: 400, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Farmer Militia
+rotate: false 
+xy: 800, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Rolling Giant
+rotate: false 
+xy: 1000, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Changeling
+rotate: false 
+xy: 1200, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Mooseship
+rotate: false 
+xy: 1400, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Magic Archer
+rotate: false 
+xy: 1600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Bat Warrior
+rotate: false 
+xy: 1800, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Snowpony
+rotate: false 
+xy: 2000, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Flying Horse Chariot
+rotate: false 
+xy: 2200, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Unicorn
+rotate: false 
+xy: 2400, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Magician
+rotate: false 
+xy: 2600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Animal Manipulator
+rotate: false 
+xy: 2800, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Magical Rifleman
+rotate: false 
+xy: 3000, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Great War Unicorn 
+rotate: false 
+xy: 3800, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Raubtier
+rotate: false 
+xy: 3400, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Zebra
+rotate: false 
+xy: 3600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Cowfilly
+rotate: false 
+xy: 4000, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Magical Tank
+rotate: false 
+xy: 4200, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Climate Manipulator 
+rotate: false 
+xy: 4400, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Griffonian Knight
+rotate: false 
+xy: 4600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Colonial
+rotate: false 
+xy: 4800, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Sharpshooter 
+rotate: false 
+xy: 5000, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Sentry
+rotate: false 
+xy: 5600, 0
+size: 200, 200
+orig: 200, 200
+offset: 0, 0 
+index: -1
+UnitIcons/Griff Piker
+rotate: false 
+xy: 5800, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Quick Hitter
+rotate: false 
+xy: 6000, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1
+UnitIcons/Early Griffonian Knight
+rotate: false 
+xy: 6600, 0 
+size: 200, 200 
+orig: 200, 200 
+offset: 0, 0 
+index: -1

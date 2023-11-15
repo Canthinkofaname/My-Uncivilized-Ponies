@@ -24,27 +24,6 @@ size: 200, 200
 orig: 200, 200 
 offset: 0, 0 
 index: -1
-UnitIcons/Bat Warrior
-rotate: false 
-xy: 600, 0 
-size: 200, 200 
-orig: 200, 200 
-offset: 0, 0 
-index: -1
-UnitIcons/Magical Bat Infantry
-rotate: false 
-xy: 800, 0 
-size: 200, 200 
-orig: 200, 200 
-offset: 0, 0 
-index: -1
-UnitIcons/Modern Bat Infantry
-rotate: false 
-xy: 1000, 0 
-size: 200, 200 
-orig: 200, 200 
-offset: 0, 0 
-index: -1
 UnitIcons/Bucker
 rotate: false 
 xy: 1200, 0 
@@ -83,13 +62,6 @@ index: -1
 UnitIcons/Infiltrator
 rotate: false 
 xy: 2200, 0 
-size: 200, 200 
-orig: 200, 200 
-offset: 0, 0 
-index: -1
-UnitIcons/Stallioneer
-rotate: false 
-xy: 2400, 0 
 size: 200, 200 
 orig: 200, 200 
 offset: 0, 0 

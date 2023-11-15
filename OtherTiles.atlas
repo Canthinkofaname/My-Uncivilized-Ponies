@@ -45,3 +45,66 @@ size: 32, 28
 orig: 32, 28
 offset: 0, 0 
 index: -1
+TileSets/FantasyHex/Tiles/Everhoof
+rotate: false
+xy: 491, 16
+size: 32, 32
+orig: 32, 32
+offset: 0, 0 
+index: -1
+TileSets/FantasyHex/Tiles/Hive
+rotate: false
+xy: 522, 16
+size: 32, 32
+orig: 32, 32
+offset: 0, 0 
+index: -1
+TileSets/FantasyHex/Tiles/Bat Cave
+rotate: false
+xy: 554, 16
+size: 32, 32
+orig: 32, 32
+offset: 0, 0 
+index: -1
+TileSets/FantasyHex/Tiles/Neighara Falls
+rotate: false
+xy: 586, 16
+size: 32, 32
+orig: 32, 32
+offset: 0, 0 
+index: -1
+TileSets/FantasyHex/Tiles/Grassland+Jungle+Pyramid
+rotate: false
+xy: 715, 16
+size: 32, 32
+orig: 32, 32
+offset: 0, 0 
+index: -1
+TileSets/FantasyHex/Tiles/Grassland+Hill+Jungle+Jungle Farm
+rotate: false
+xy: 650, 16
+size: 32, 32
+orig: 32, 32
+offset: 0, 0 
+index: -1
+TileSets/FantasyHex/Tiles/Grassland+Jungle+Jungle Farm
+rotate: false
+xy: 683, 14
+size: 32, 31
+orig: 32, 32
+offset: 0, 0 
+index: -1
+TileSets/FantasyHex/Tiles/Mountain Mine
+rotate: false
+xy: 747, 16
+size: 32, 32
+orig: 32, 32
+offset: 0, 0 
+index: -1
+TileSets/FantasyHex/Tiles/Hollow Shades
+rotate: false
+xy: 779, 16
+size: 32, 32
+orig: 32, 32
+offset: 0, 0 
+index: -1

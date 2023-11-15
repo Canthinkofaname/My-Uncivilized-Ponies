@@ -1,0 +1,19 @@
+TileUnits2.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Musketman 
+rotate: false 
+xy: 0, 0 
+size: 550, 550
+orig: 32, 28
+offset: 0, 0 
+index: -1
+TileSets/AbsoluteUnits/Units/Stallioneer 
+rotate: false 
+xy: 550, 0 
+size: 550, 550
+orig: 32, 28
+offset: 0, 0 
+index: -1
