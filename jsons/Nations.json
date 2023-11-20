@@ -24,7 +24,7 @@
    "favoredReligion": "Alicornism",	
 	
    "uniqueName": "Harmony",		
-   "uniques": ["[+8]% [Happiness] [in all cities]", "[+15]% [Happiness] [in all cities] <when not at war>", "[+10]% Strength for cities <when attacking>", "Ponies"],		
+   "uniques": ["[+8]% [Happiness] [in all cities]", "[+15]% [Happiness] [in all cities] <when not at war>", "[+10]% Strength for cities <when attacking>", "Ponies", "Non-Griffonians"],		
    "cities": ["Canterlot","Cloudsdale","Las Pegasus","Hayston","Fillydelphia","Sire's Hollow","Raspberry Grove","Vanhoover","Whitebell","Acornage",			
    "Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",			
    "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
