@@ -77,7 +77,7 @@
    "startIntroPart2": "", 		
    "declaringWar": "After thorough consideration,  Aztlan has decided that a formal declaration of war to reprimand your unethical deeds.",		
    "attacked": "Fool! I shall put your head back into its place.... On a stake!",		
-   "defeated": "The gods have forsaken us.... Potions and spells failed.... Soon,i hope, your gods will forsake you also, and your weapons will fail you.",		
+   "defeated": "The gods have forsaken us.... Our potions and spells failed.... Soon,i hope, your gods will forsake you also, and your weapons will fail you.",		
    "introduction": "Greetings. Do you have a fever? We have an entire library of potions that could cure it.", 		
    
    "neutralHello": "Morning.",	
@@ -147,7 +147,7 @@
    "preferredVictoryType": "Cultural", 
 		
    "startIntroPart1": "Welcome,Sir Silverstar,and take leadership of the Great Appleloosan Confederacy and make sure Equestria is under the right rule once more.",		
-   "startIntroPart2": "Do not let any foe stop the Confederacy once more becausse surely your Buckers will sway victory after victory over foreign and enemy lands. The Appleloosa Confederation will rise once again!", 		
+   "startIntroPart2": "Do not let any foe stop the Confederacy once more becausse surely your Buckers will sway victory after victory over foreign and enemy lands. The Appleloosan Confederation will rise once again!", 		
    "declaringWar": "You and your abominable citizens have to die and ah'm not sorry for it!",		
    "attacked": "I thought you were smarter than to go against the nation of the Freedom Fighters... Oh well!",		
    "defeated": "I never thought this day would come..... Oh well. We will rise once again,remembering your evil actions once we do.",		
@@ -220,7 +220,7 @@
 "name": "The Crystal Empire",
 "startBias": ["[Tundra]"],	
 "leaderName": "Princess Mi Amore Candenza",		
-"adjective": ["Crystalllians"],
+"adjective": ["Crystallians"],
 "preferredVictoryType": "Diplomatic", 
 "startIntroPart1": "Dear Candence,Your Empire has fought and won many struggles versus the forces of evil and the shadows of night. You have taken care of your citizens as your citizens have taken care of you. Make sure nobody hurts you,your empire,or your citizens,Princess Candence,Through any means!",
 
