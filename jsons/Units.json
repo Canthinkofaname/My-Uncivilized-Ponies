@@ -195,7 +195,7 @@
 "requiredTech": "Rifling",					
 "attackSound": "nonmetalhit"	
 },
-{		
+*/ {		
 "name": "Infiltrator",		
 "unitType": "Gunpowder",	
 "uniqueTo": "Changeling Lands",	
@@ -213,7 +213,8 @@
 "[+1] Movement <after adopting [Targeted Insertion]>", 
 "Only available <after adopting [Infiltrater Company]>"
 ]
-},
+}, 
+	*/
 { 		
 "name": "Stallioneer", 		
 "unitType": "Gunpowder", 
