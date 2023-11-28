@@ -691,7 +691,7 @@
 		"requiredTech": "Biology",
 		"upgradesTo": "Triplane",
 		"obsoleteTech": "Radar",
-		"uniques": ["[35]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[35]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "Only available <],
 		"attackSound": "machinegun"
 	},
 {
@@ -704,7 +704,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <for [Non-Griffonians]>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <for [Griffonians]>"],
 		"attackSound": "horse"
 	},
 {
