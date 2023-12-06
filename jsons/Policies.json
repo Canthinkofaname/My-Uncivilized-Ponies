@@ -16,21 +16,21 @@
  "policies": [
 {
  "name": "Infiltrater Company", 
-"uniques": [ "[+15]% Production when constructing [Infiltrator] units [in all cities]", "[+1 Happiness] per [10] population [in all cities]"], 
+"uniques": [ "[+15]% [Production] [in all cities] <for [Infiltrator] units>", "[+1 Happiness] per [8] population [in annexed cities]", "[+1 Happiness] per [4] population [in puppeted cities]"], 
 "row": 1, 
 "column": 3,
 },
 //Strat Branch
 {
  "name": "Strategic Infiltration", 
-"uniques": [ "[-5]% [Production] when constructing [Infiltrator] units [in all cities]", "Increases Sight of Infiltrator Units", "[+1] Sight <for [Infiltrator] units>", "Only available <before adopting [Tactical Infiltration]>"], 
+"uniques": [ "[-10]% [Production] [in all cities] <for [Infiltrator] units>", "Comment [Increases Sight of Infiltrator Units]", "[+1] Sight <for [Infiltrator] units>", "Only available <before adopting [Tactical Infiltration]>"], 
 "row": 3, 
 "column": 1,
 "requires": ["Infiltrater Company"],
 },
 {
  "name": "Chameleon Cloaks", 
-"uniques": [ "[-5]% [Production] when constructing [Infiltrator] units [in all cities]", "[+15]% Strength <when fighting in [Forest] tiles>"], 
+"uniques": [ "[-15]% [Production] [in all cities] <for [Infiltrator] units>", "[+15]% Strength <when fighting in [Forest] tiles>"], 
 "row": 5, 
 "column": 1,
 "requires": ["Strategic Infiltration"],
@@ -38,14 +38,14 @@
 //Tactical Branch
 {
  "name": "Tactical Infiltration", 
-"uniques": [ "[+10]% [Production] when constructing [Infiltrator] units [in all cities]", "Strengthens Infiltrator Units", "Only available <before adopting [Strategic Infiltration]>"], 
+"uniques": [ "[+10]% [Production] [in all cities] <for [Infiltrator] units>", "Comment [Strengthens Infiltrator Units]", "Only available <before adopting [Strategic Infiltration]>"], 
 "row": 3, 
 "column": 5,
 "requires": ["Infiltrater Company"],
 },
 {
  "name": "Targeted Insertion", 
-"uniques": ["[+5]% Production when constructing [Infiltrator] units [in all cities]", "Increases Mobility of Infiltrator Units"], 
+"uniques": ["[+7]% [Production] [in all cities] <for [Infiltrator] units>", "Comment [Increases Mobility of Infiltrator Units]"], 
 "row": 5, 
 "column": 5,
 "requires": ["Tactical Infiltration"],
@@ -55,9 +55,7 @@
 "uniques": [ "[+1 Production] [in all cities]"],
 },
 ]
-
 }
-
 //Harmony 
 {
 "name": "Harmony",
@@ -77,7 +75,7 @@
 //Culture Path
  {
  "name": "Friendship", 
-"uniques": [ "[-2]% [Production] when constructing [Military] units [in all cities]", "[+1 Happiness] per [4] population [in all cities]<when not at war>"], 
+"uniques": [ "[-10]% [Production] [in all cities] <for [Military] units>", "[+10]% [Production] [in all cities] <for [Civilian] units>", "[+1 Happiness] per [4] population [in all cities] <when not at war>"], 
  "row": 1,
  "column": 4, //3
 },
@@ -117,5 +115,5 @@
 },
 
  ]
-}
+},
 ]

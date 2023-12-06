@@ -48,6 +48,19 @@
 					"Doesn't generate naturally <in [Forest] tiles> <in tiles without [Hill]>"
                     ],
 	},
+{
+		"name": "Gemstones",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Mountain"],
+		"gold": 3,
+		"improvedBy": ["Mountain Mine"],
+		"uniques": ["Generated with weight [5] <in [Tundra] Regions>",
+					"Generated with weight [15] <in [Hill] Regions>",
+					"Generated with weight [5] <in [Grassland] Regions>",
+					"Generated with weight [5] <in [Hybrid] Regions>",
+					"Generated near City States with weight [10]",
+                    ],
+	},
     	{
 		"name": "Cod",
 		"resourceType": "Bonus",

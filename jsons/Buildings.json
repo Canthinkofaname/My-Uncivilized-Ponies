@@ -1,4 +1,11 @@
 [	
+//Leaders
+{		
+"name": "Queen Chrysalis",	
+"cost":500
+"uniques": ["Unbuildable", "Will not be displayed in Civilopedia"],
+},
+//Normal
 {		
 "name": "Lunar Panels",	
 "cost":500
@@ -12,12 +19,12 @@
 "requiredTech": "Ecology",
 },
 	{		
-"name": "Wonderbolt Academy",		
+"name": "Wonderbolt Academy.",		
 "culture": 2,		
 "isWonder": true,		
 "greatPersonPoints": {"Great Engineer": 1},		
 "uniques": ["[+5]% [Culture] [in all cities]", 
-"[+15]% Production when constructing [Air] units [in all cities]","[+1 Culture] per [2] population [in this city]","[+1 Science] [in this city]"],		
+"[+15]% Production when constructing [Air] units [in all cities]","[+1 Culture] per [2] population [in this city]","[+1 Science] [in this city]", "Creates a [Wonderbolt Academy] improvement on a specific tile"],		
 "requiredTech": "Education",		
 "quote": "'Its not just about pushing ourselves,its about pushing ourselves in the right direction. ' - Spitfire"	
 },
@@ -36,10 +43,10 @@
       "cost": 150,
       "uniqueTo": "Stalliongrad", 		
       "maintenance": 1,
- 		"requiredTech": "Radio",
+ 		"requiredTech": "Industrialization",
  		"uniques": ["Only available <in cities without a [Industrial Relocation]>", "Destroyed when the city is captured", 
-      "[-10]% Unhappiness from [Population] [in all cities]", "[+1 Happiness] [in all cities]",
-      "[-2 Happiness] [in all cities] <with [15]% chance>", "Can only be built [in capital]"] 
+      "[-10]% Unhappiness from [Population] [in all cities]", "[+2 Happiness] [in all cities]",
+      "[-2 Happiness] [in all cities] <with [50]% chance>", "Can only be built [in capital]"] 
 },
 { 		
 "name": "Industrial Relocation",
@@ -52,7 +59,7 @@
  		"uniques": ["Only available <in cities without a [Propaganda]>",
  "Can only be built [in capital]",
  "Destroyed when the city is captured",
- "[+10]% [Production] [in all cities]"
+ "[+7]% [Production] [in all cities]"
         ] 
 },
 {
@@ -64,7 +71,7 @@
  		"requiredTech": "Replaceable Parts",
  		"uniques": ["Only available <in cities with a [Propaganda]>",
  "Destroyed when the city is captured",
- "[+10]% [Production] [in all cities]",
+ "[+8]% [Production] [in all cities]",
  "[+15]% Production when constructing [Armored] units [in all cities]",
  "[-20]% maintenance costs <for [Armored] units>"
      ] 
@@ -79,7 +86,7 @@
  		"requiredTech": "Industrialization",
  		"uniques": ["Only available <in cities with a [Industrial Relocation]>",
  "Destroyed when the city is captured",
- "[+10]% [Production] [in all cities]",
+ "[+7]% [Production] [in all cities]",
  "Free [Great Scientist] appears",
  "[-30]% maintenance on road & railroads"
     ] 

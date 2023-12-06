@@ -1,0 +1,26 @@
+[
+{
+        "name": "Naval",
+        "friendBonusUniques": ["[+5]% [Production] [in capital] <for [Water] units>"],
+        "allyBonusUniques": ["[+5]% [Production] [in capital] <for [Water] units>", "[+1 Production] from every [Fishing Boats]", "[+5]% Strength <for [Water] units>"],
+        "color": [56, 255, 112]
+    },
+{
+        "name": "Economic",
+        "friendBonusUniques": ["[+1 Gold] from each Trade Route", "[+1 Gold] from every [Luxury resource]"],
+        "allyBonusUniques": ["[+3 Gold] from each Trade Route", "[+10]% [Gold] [in capital]", "[+1 Gold] from every [Luxury resource]"],
+        "color": [56, 255, 112]
+    },
+{
+        "name": "Industrial",
+        "friendBonusUniques": ["[+5]% Production when constructing [All] buildings [in all cities]"],
+        "allyBonusUniques": ["[+10]% Production when constructing [All] buildings [in all cities]", "[+5]% Production when constructing [Production] buildings [in capital]", "[+5]% [Production] [in capital]"],
+        "color": [56, 255, 112]
+    },
+{
+        "name": "Harmonic",
+        "friendBonusUniques": ["[+3 Happiness] [in capital] <when not at war>", "Gain [5] [Culture] <upon declaring friendship>"],
+        "allyBonusUniques": ["[+4 Happiness] [in capital] <when not at war>", "[+1 Happiness] [in all cities] <when not at war>", "Gain [10] [Culture] <upon declaring friendship>"],
+        "color": [56, 255, 112]
+    },
+]

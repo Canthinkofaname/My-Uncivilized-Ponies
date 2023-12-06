@@ -1,4 +1,56 @@
-[
+[	
+//Leaders
+{
+"name": "Choose Your Leader",		
+"unqiueTo": "Changeling Lands",
+"unitType": "Leader",		
+"movement": 1,		
+"strength": 0,		
+"cost": 190,		
+"requiredTech": "Gunpowder",					
+"attackSound": "nonmetalhit"
+"uniques": ["Will not be displayed in Civilopedia", "Can instantly construct a [Queen Chrysalis] improvement <by consuming this unit>", "Gain a free [Queen Chrysalis] [in capital] <once> <after which this unit is consumed> <for [Human player]>", "Automation is a primary action", "Cannot move <for [Human player]>", "Unbuildable", "Uncapturable", "Cannot attack"]
+},
+{		
+"name": "Queen Chrysalis?",		
+"unitType": "Leader",
+"uniqueTo": "Changeling Lands",
+		"movement": 3,
+		"strength": 99,
+		"cost": 13,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+"attackSound": "nonmetalhit"
+"uniques": ["Will not be displayed in Civilopedia", "Heal this unit by [-100] HP <upon gaining a [Queen Chrysalis] unit>", "Heal this unit by [-100] HP <upon founding a city>", "Heal this unit by [-100] HP <before [4] turns>", "Heal this unit by [-100] HP <during the [Ancient era]>", "Can transform to [Changeling]", "Unbuildable", "Cannot move", "Cannot attack"]
+},
+//GreatPeople
+{
+"name": "Great Alicorn",		
+"unitType": "Ranged",		
+"replaces": "Great General",
+"uniqueTo": "Equestria",
+"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[-15]% Strength <vs [Magic] units>", "[-15]% Strength <vs [MagicGunpowder] units>", "Cannot be purchased" 
+"[+15]% Strength bonus for [Military] units within [2] tiles", 
+"Can instantly construct a [Citadel] improvement <by consuming this unit>", 			
+"Great Person - [War]", "Unbuildable",
+"Only available <after discovering [Leader Assigned]>", "Uncapturable",
+//Era Strength
+"[+50]% Strength <during the [Classical era]>",
+"[+100]% Strength <during the [Medieval era]>",
+"[+150]% Strength <during the [Renaissance era]>",
+"[+200]% Strength <during the [Industrial era]>",
+"[+250]% Strength <during the [Modern era]>",
+"[+300]% Strength <during the [Atomic era]>",
+"[+350]% Strength <during the [Information era]>",
+"[+400]% Strength <during the [Future era]>",
+"Only available <for [Ponies]>",
+],	
+"strength": 10,
+"range": 2,
+"rangedStrength": 8,
+"movement": 4,
+},
+//Normal units
 {		
 "name": "Royal Marshal",		
 "unitType": "Sword",		
@@ -147,31 +199,6 @@
 "uniques": ["Only available <after adopting [Discipline]>", "Only available <after adopting [Legalism]>"]
 },
 {		
-"name": "Great Alicorn",		
-"unitType": "Ranged",		
-"replaces": "Great General",
-"uniqueTo": "Equestria",
-"uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[-15]% Strength <vs [Magic] units>", "[-15]% Strength <vs [MagicGunpowder] units>", "Cannot be purchased" 
-"[+15]% Strength bonus for [Military] units within [2] tiles", 
-"Can instantly construct a [Citadel] improvement <by consuming this unit>", 			
-"Great Person - [War]", "Unbuildable", "Uncapturable",
-//Era Strength
-"[+50]% Strength <during the [Classical era]>",
-"[+100]% Strength <during the [Medieval era]>",
-"[+150]% Strength <during the [Renaissance era]>",
-"[+200]% Strength <during the [Industrial era]>",
-"[+250]% Strength <during the [Modern era]>",
-"[+300]% Strength <during the [Atomic era]>",
-"[+350]% Strength <during the [Information era]>",
-"[+400]% Strength <during the [Future era]>",
-"Only available <for [Ponies]>",
-],	
-"strength": 10,
-"range": 2,
-"rangedStrength": 8,
-"movement": 4,
-},
-{		
 "name": "Freedom Fighter",		
 "unitType": "Gunpowder",		
 "uniqueTo": "Appleloosa",		
@@ -195,7 +222,7 @@
 "requiredTech": "Rifling",					
 "attackSound": "nonmetalhit"	
 },
-	{		
+{		
 "name": "Infiltrator",		
 "unitType": "Gunpowder",	
 "uniqueTo": "Changeling Lands",	
@@ -211,7 +238,7 @@
 "[+10]% Strength <after adopting [Tactical Infiltration]>", 
 "[+1] Movement <after adopting [Tactical Infiltration]>", 
 "[+1] Movement <after adopting [Targeted Insertion]>", 
-"Only available <after adopting [Infiltrater Company]>"
+"Only available <after adopting [Infiltration]>"
 ]
 },
 { 		
@@ -379,7 +406,7 @@
 		"attackSound": "arrow"
   "requiredResource": "Magic Crystals",
     "civilopediaText": [
-			{"text": "Who knew giving archers magic would be ao effective on the battlefield?"}
+			{"text": "Who knew giving archers magic would be so effective on the battlefield?"}
 		]
 	},
 {
@@ -387,12 +414,11 @@
 		"unitType": "Melee Water",
   "uniqueTo": "Olenia",
 		"movement": 6,
-		"strength": 15,
-  "rangedStrength": 8,
+		"strength": 17,
 		"cost": 90,
 		"requiredTech": "Compass",
   "promotions": ["Coastal Raider I"],
-		"uniques": ["Cannot enter ocean tiles", "May capture killed [Water] units"],
+		"uniques": ["May capture killed [Water] units", ],
 		"upgradesTo": "Privateer"
 		"obsoleteTech": "Navigation",
 		"attackSound": "nonmetal"
@@ -406,11 +432,11 @@
   "uniqueTo": "Changeling Lands",
   "replaces": "Warrior",
 		"movement": 3,
-		"strength": 6,
+		"strength": 4,
 		"cost": 13,
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "[+10]% Strength <when fighting in [Forest] tiles>"],
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects", "[+10]% Strength <when fighting in [Forest] tiles>", "[+100]% Strength <when adjacent to a [Changeling] unit>"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "Weak, but cheap, these changelings have power in numbers, Overwhelming any enemy in their way."}
@@ -691,7 +717,7 @@
 		"requiredTech": "Biology",
 		"upgradesTo": "Triplane",
 		"obsoleteTech": "Radar",
-		"uniques": ["[35]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "Only available <],
+		"uniques": ["[35]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "Only available <for [Griffonians]>"],
 		"attackSound": "machinegun"
 	},
 {
@@ -704,7 +730,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <for [Griffonians]>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <for [Non-Griffonians]>"],
 		"attackSound": "horse"
 	},
 {

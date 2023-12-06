@@ -3,8 +3,28 @@
 // Great Person improvements	
 {		
 "name": "Sweet Apple Acre",		
-"terrainsCanBeBuiltOn": ["Land"],		
+"terrainsCanBeBuiltOn": ["Land", "Hill", "Forest"],		
 "food": 8,
+"happiness": 1,		
+"uniques": [ "Great Improvement", 
+"Removes removable features when built",
+"Pillaging this improvement yields approximately [+60 Gold]",
+     ]
+},
+//Leaders
+{		
+"name": "Queen Chrysalis",		
+"terrainsCanBeBuiltOn": ["Land", "Hill", "Jungle", "Forest"],	
+"food": 8,
+"uniques": [ "Great Improvement", 
+"Will be replaced by automated workers", "Unbuildable <for [Worker] units>", "[-8 Food] <after [1] turns>"
+     ]
+},
+//Wonders
+{		
+"name": "Wonderbolt Academy",		
+"terrainsCanBeBuiltOn": ["Hill"],		
+"culture": 2,
 "happiness": 1,		
 "uniques": [ "Great Improvement", 
 "Removes removable features when built",
@@ -14,6 +34,7 @@
 {		
 "name": "Crystal Drill",		
 "terrainsCanBeBuiltOn": ["Land"],		
+"techRequired": "Machinery",
 "production": 1
 "turnsToBuild": 5
 "uniqueTo": "The Crystal Empire",
@@ -24,36 +45,38 @@
 {		
 "name": "Hive",		
 "terrainsCanBeBuiltOn": ["Forest"],		
+"techRequired": "Engineering",
 "production": 1
-"culture": 1
 "turnsToBuild": 5
 "uniqueTo": "Changeling Lands",
-"uniques": [ "Pillaging this improvement yields approximately [+50 Gold, +5 Culture]", "Costs [3] [Gold] per turn", "Adjacent enemy units ending their turn take [10] damage", "Gives a defensive bonus of [8]%",
+"uniques": ["Pillaging this improvement yields approximately [+50 Gold, +5 Culture]", "Costs [15] [Gold] per turn", "[+1 Production] for each adjacent [Hive]",
      ]
 },
 {		
 "name": "Bat Cave",		
-"terrainsCanBeBuiltOn": ["Hill"],		
+"terrainsCanBeBuiltOn": ["Forest"],		
+"techRequired": "Construction",
 "faith": 1
-"culture": 1
 "turnsToBuild": 7
 "uniqueTo": "Lunar Republic",
-"uniques": [ "Pillaging this improvement yields approximately [+10 Gold, +10 Culture]", "Costs [6] [Gold] per turn", "Gives a defensive bonus of [8]%",  "Does not need removal of [Forest]", "Only available <within [0] tiles of a [Forest]>",
+"uniques": [ "Pillaging this improvement yields approximately [+10 Gold, +10 Culture]", "Costs [4] [Gold] per turn", "Gives a defensive bonus of [8]%",  "Does not need removal of [Forest]", "[+1 Faith] for each adjacent [Forest]", "[+2 Faith] for each adjacent [Marsh]",
      ]
 },
 {		
 "name": "Jungle Farm",		
 "terrainsCanBeBuiltOn": ["Jungle"],		
 "replaces": ["Farm"]
-"food": 2
+"food": 1
+"production": 1
 "turnsToBuild": 5
 "uniqueTo": "Aztlan",
-"uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Culture, +10 Food]", "Does not need removal of [Jungle]"]
+"uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Culture, +10 Food]", "Does not need removal of [Jungle]", "[+1 Science, +1 Production] for each adjacent [Pyramid]"]
 }, 
 /*
 {		
 "name": "Arctic Pen",		
 "terrainsCanBeBuiltOn": ["Snow", "Tundra"],		
+"techRequired": "Secrets of the Arctic",
 "food": 2
 "production": 1
 "turnsToBuild": 5
@@ -63,8 +86,10 @@
 {		
 "name": "Pyramid",		
 "terrainsCanBeBuiltOn": ["Jungle"],		
-"culture": 1
+"techRequired": "Masonry",
+"science": 2
 "gold": 1
+"production": 1
 "turnsToBuild": 7
 "uniqueTo": "Aztlan",
 "uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Culture, +10 Faith]", "Does not need removal of [Jungle]"]
@@ -74,7 +99,7 @@
 "terrainsCanBeBuiltOn": ["Mountain"],		
 "production": 3
 "turnsToBuild": 5
-"uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Culture, +10 Production]", "Only available <for [Griffonians]>"]
+"uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Culture, +10 Production]", "Great Improvement", "Only available <for [Griffonians]>",  "Can only be built to improve a resource"]
 },
 
  
