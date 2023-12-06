@@ -107,4 +107,25 @@ xy: 779, 16
 size: 32, 32
 orig: 32, 32
 offset: 0, 0 
-index: -1
+index: -1	
+TileSets/FantasyHex/Tiles/Wonderbolt Academy
+rotate: false
+xy: 811, 16
+size: 32, 32
+orig: 32, 32
+offset: 0, 0 
+index: -1	
+TileSets/FantasyHex/Tiles/Warcamp
+rotate: false
+xy: 875, 16
+size: 32, 32
+orig: 32, 32
+offset: 0, 0 
+index: -1	
+TileSets/FantasyHex/Tiles/Gemstones
+rotate: false
+xy: 907, 16
+size: 32, 32
+orig: 32, 32
+offset: 0, 0 
+index: -1	
