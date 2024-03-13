@@ -6,9 +6,5 @@
 { 
 "name": "RangedMagic",
  "movementType": "Land"
- },
-{ 
-"name": "GunpowderMagic",
- "movementType": "Land"
- },
+ }
 ]
