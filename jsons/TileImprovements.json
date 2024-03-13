@@ -11,15 +11,6 @@
 "Pillaging this improvement yields approximately [+60 Gold]",
      ]
 },
-//Leaders
-{		
-"name": "Queen Chrysalis",		
-"terrainsCanBeBuiltOn": ["Land", "Hill", "Jungle", "Forest"],	
-"food": 8,
-"uniques": [ "Great Improvement", 
-"Will be replaced by automated workers", "Unbuildable <for [Worker] units>", "[-8 Food] <after [1] turns>"
-     ]
-},
 //Wonders
 {		
 "name": "Wonderbolt Academy",		
