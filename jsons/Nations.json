@@ -258,10 +258,7 @@ Upon declaring war on any major Civilization, gain 150% [Production] in all citi
 Crystal Maker Buildings and Crystral Drill improvements provide you with [Gems].
 
 Gain a 10% Strength bonus to ALL millitary units when above 10 [Gems], then another 5% when above 15 [Gems], and an additional 5% above 20 [Gems].
-
-+1% [Culture] from every [Crystallization] tiles in cities that have a [Crystal Maker]. 
-
-+1% [Happiness] from every [Crystallization] tiles in your capital after it builds the [Crystal Heart]
+Heart]
 
      Gain 2 [Faith], and 3 [Culture], frome every worked [Gems] tile inside your territories",
 "uniques": ["[+3]% [Production] from every [Gems] <hidden from users>", "[+1 Happiness] from every [Gemstones] <hidden from users>", "[+2 Faith, +3 Culture] from every [Gems] <hidden from users>", "[+1 Happiness] from every [Gems] <hidden from users>", "[+5]% Strength <for [Military] units> <when above [20] [Gems]>", "[+5]% Strength <for [Military] units> <when above [15] [Gems]>", "[+10]% Strength <for [Military] units> <when above [10] [Gems]>", "[1] Movement <in [Crystallization] tiles>", "[+1]% [Culture] from every [Crystallization] <when above [5] [Gems]> <in cities with a [Crystal Maker]>", "[+1]% [Happiness] from every [Crystallization] <when above [5] [Gems]> <in cities with a [Crystal Heart]>", "Ponies", "Non-Griffonians"]
