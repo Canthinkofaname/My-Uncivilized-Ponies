@@ -9,7 +9,7 @@
 "[+15]% Strength bonus for [Military] units within [2] tiles", 
 "Can instantly construct a [Citadel] improvement <by consuming this unit>", 			
 "Great Person - [War]", "Unbuildable",
-"Only available <after discovering [Leader Assigned]>", "Uncapturable",
+//"Only available <after discovering [Leader Assigned]>", "Uncapturable",
 //Era Strength
 "[+50]% Strength <during the [Classical era]>",
 "[+100]% Strength <during the [Medieval era]>",
