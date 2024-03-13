@@ -1,28 +1,4 @@
 [	
-//Leaders
-{
-"name": "Choose Your Leader",		
-"unqiueTo": "Changeling Lands",
-"unitType": "Leader",		
-"movement": 1,		
-"strength": 0,		
-"cost": 190,		
-"requiredTech": "Gunpowder",					
-"attackSound": "nonmetalhit"
-"uniques": ["Will not be displayed in Civilopedia", "Can instantly construct a [Queen Chrysalis] improvement <by consuming this unit>", "Gain a free [Queen Chrysalis] [in capital] <once> <after which this unit is consumed> <for [Human player]>", "Automation is a primary action", "Cannot move <for [Human player]>", "Unbuildable", "Uncapturable", "Cannot attack"]
-},
-{		
-"name": "Queen Chrysalis?",		
-"unitType": "Leader",
-"uniqueTo": "Changeling Lands",
-		"movement": 3,
-		"strength": 99,
-		"cost": 13,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-"attackSound": "nonmetalhit"
-"uniques": ["Will not be displayed in Civilopedia", "Heal this unit by [-100] HP <upon gaining a [Queen Chrysalis] unit>", "Heal this unit by [-100] HP <upon founding a city>", "Heal this unit by [-100] HP <before [4] turns>", "Heal this unit by [-100] HP <during the [Ancient era]>", "Can transform to [Changeling]", "Unbuildable", "Cannot move", "Cannot attack"]
-},
 //GreatPeople
 {
 "name": "Great Alicorn",		
@@ -32,7 +8,8 @@
 "uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[-15]% Strength <vs [Magic] units>", "[-15]% Strength <vs [MagicGunpowder] units>", "Cannot be purchased" 
 "[+15]% Strength bonus for [Military] units within [2] tiles", 
 "Can instantly construct a [Citadel] improvement <by consuming this unit>", 			
-"Great Person - [War]", "Unbuildable", "Uncapturable",
+"Great Person - [War]", "Unbuildable",
+"Only available <after discovering [Leader Assigned]>", "Uncapturable",
 //Era Strength
 "[+50]% Strength <during the [Classical era]>",
 "[+100]% Strength <during the [Medieval era]>",
@@ -130,7 +107,7 @@
 "requiredResource": "Magic Crystals",	
 "requiredTech": "Magical Theory",
 "obsoleteTech": "Plastics",				
-"upgradesTo": "Magical Infantry",	
+"upgradesTo": "Great War Infantry",	
 "upgradesFrom": "Rifleman",		
 "attackSound": "nonmetalhit"	
 },
@@ -357,7 +334,7 @@
 "cost": 65,		
 "requiredTech": "Gunpowder",
 "obsoleteTech": "Plastics",				
-"upgradesTo": "Infantry",		
+"upgradesTo": "Great War Infantry",		
 "attackSound": "nonmetalhit",
 "uniques": ["[+10]% Strength <when fighting in [Farm] tiles>"]
   "civilopediaText": [
@@ -566,24 +543,24 @@
 {
 		"name": "Sentry",
 		"unitType": "Scout",
-		"movement": 2,
+		"movement": 3,
 		"strength": 5,
-		"cost": 25,
+		"cost": 20,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit",  "Only available <for [Griffonians]>"],
-		"promotions": ["Ignore terrain cost"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "[+25]% Strength <when defending>", "Only available <for [Griffonians]>"],
+		"promotions": ["Ignore terrain cost", "Sentry"],
 "hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
 {
 		"name": "Cowfilly",
 		"unitType": "Mounted",
-		"movement": 5,
-		"strength": 12,
+		"movement": 4,
+		"strength": 14,
    "requiredTech": "Horseback Riding",
 		"cost": 85,
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Only available <for [Ponies]>", "Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Only available <for [Ponies]>", "Can move after attacking","No defensive terrain bonus","[-25]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -731,6 +708,17 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <for [Non-Griffonians]>"],
 		"attackSound": "horse"
+	},
+{
+		"name": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Magical Rifleman",
+		"attackSound": "shot"
 	},
 {
 		"name": "Early Griffonian Knight",

@@ -11,10 +11,4 @@
 "name": "GunpowderMagic",
  "movementType": "Land"
  },
-{
-"name": "Leader",
- "movementType": "Land"
-"uniques": ["Heal this unit by [-125] HP <after discovering [Agriculture]>", "Unit will heal every turn, even if it performs an action"
-]
-},
 ]
