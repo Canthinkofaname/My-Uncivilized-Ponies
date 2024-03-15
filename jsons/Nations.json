@@ -337,42 +337,6 @@ Heart]
 "uniques": ["[+10]% Strength <for [Military] units> <when fighting in [Tundra] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Snow] tiles>", "[+1 Food, +1 Faith] from every [Snow]", "[+1 Faith, +1 Gold] from every [Tundra]", "Non-Ponies", "Arctic Nations", "Non-Griffonians"]
 "cities": ["Mathair Fearainn","Polarhill","Pawtovik","Winteryearbypaw","Pawrtic","Polskcow","Coldlaska","Hyper Pawrea","Polarberia","Saint Petersbearg","Winter-on-Don","Chilsk","Wintmara","Paznhy Clavgorod","Beaonezh","Snorilsk","Furchi","Flufbent","Furza","Winta","Santangelsk"]
 	},
-{			
-   "name": "Pingland",	
-	"leaderName": "Teafeather",		
-   "adjective": ["Pinguin"],		
-   "startBias": ["[{Tundra} {Coastal}]"],		
-   "preferredVictoryType": "Cultural", 
-		
-   "startIntroPart1": "",		
-   "startIntroPart2": "", 		
-   "declaringWar": "The expansion of the Griffonian colony must continue, and your lands will suffice it!",		
-   "attacked": "Come, and experience defeat like the Penguins and Yaks did for hundreds of centuries.",		
-   "defeated": "I see.... The colony finally failed. I knew this would happen.... I just didnt know it would be so soon.",		
-   "introduction": "Welcome to the Republic of Nova Griffonia. Im sure we'll get along- As long as we're not neighbors.", 		
-   
-   "neutralHello": "Welcome.",	
-   "hateHello": "You disgust me.",  		
-   "afterPeace": "We'll be back for more.", 		
-   "neutralLetsHearIt": ["If you must show me."],		
-   "neutralNo": ["Leave.","What even is this?","What did you just offer me?!?!"],		
-   "neutralYes": ["Great!","Have a great day.","Accepted."], 	
-   "hateLetsHearIt": ["Talk.","So?","Speak!"],		
-   "hateNo": ["That's unacceptable!","A thousand times no!","Nay!"],		
-   "hateYes": ["It pains me to accept... but yes."],	
-
-   "tradeRequest": "Would you accept this generous trade offer from the republic?", 	
-
-   "outerColor": [129, 38, 199],		
-   "innerColor": [235, 189, 52],
-		
-   "favoredReligion": "Christianity",	
-	
-   "uniqueName": "The Grand Artic",		
-   "uniques": ["Arctic Nations", "Non-Griffonians", "Non-Ponies", "[+1 Food, +1 Gold] from every [Coast]", "[+1 Culture] from every [Ice]", "[+1 Food] from every [Snow]","[+1 Food] from every [Tundra]", "[-1 Food] from every [{non-[Tundra]}]"],	
-   "cities": ["Dachaigh","Amundsen","Ransen","Ingstad","Sverbruv","Fearann U Deas","Chimincollie","Pingat","Glaser","Iceburg",			
-   "Fishiville","Island Up North","Frostile","Wicenstoll"],
-},
 //Add Pingland, Yakyakistan, United dragon isles can be a CS or a nation. Add griffonian nations after your done with the Equus nations.
 //CS
 {		
