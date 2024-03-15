@@ -495,7 +495,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "Only available <for [Non-Ponies]>"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "Unavailable <for [Ponies]>"],
 		"attackSound": "arrow"
 	},
 {
@@ -536,7 +536,7 @@
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Only available <for [Non-Griffonians]>"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Unavailable <for [Griffonians]>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -574,7 +574,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Only available <for [Non-Ponies]>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Unavailable <for [Ponies]>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -664,7 +664,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Only available <for [Non-Griffonians]>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Unavailable <for [Griffonians]>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -678,7 +678,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-   "uniques": ["Only available <for [Non-Griffonians]>"],
+   "uniques": ["Unavailable <for [Griffonians]>"],
 		"attackSound": "shot"
 	},
 	{
@@ -706,7 +706,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <for [Non-Griffonians]>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Unavailable <for [Griffonians]>"],
 		"attackSound": "horse"
 	},
 {
@@ -729,7 +729,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <for [Griffonians]>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Unavailable <for [Griffonians]>"],
 		"attackSound": "horse"
 	},
 
