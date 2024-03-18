@@ -324,6 +324,7 @@
 "obsoleteTech": "Steel",				
 "upgradesTo": "Longswordsman",		
 "attackSound": "nonmetalhit"	
+"uniques": ["Only available <for [Arctic Nations]>"]
 },
 {		
 "name": "Farmer Militia",		
