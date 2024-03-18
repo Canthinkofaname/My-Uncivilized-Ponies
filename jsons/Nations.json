@@ -9,13 +9,13 @@
    "preferredVictoryType": "Diplomatic", 
 		
    "startIntroPart1": "Lead the lands of Equestria,Celestia,Into harmony and Prosperity",		
-   "startIntroPart2": "You great royal guards will always be at your side and your citizens will be strong and brave against their foes.", 		
+   "startIntroPart2": "You great royal guards will always be at your side, and your citizens will be strong and brave against their foes.", 		
    "declaringWar": "You leave us no choice. You and your reign must end!",		
    "attacked": "Why dont you choose an opponet thats your size?",		
    "defeated": "This may be it for Equestria, but its impact on the world will forever remain!",		
-   "introduction": "Hello there! Would you care to visit and eat one of our delicous Green gem cakes?", 		
+   "introduction": "Hello there! Would you care to visit and eat one of our delicous green gem cakes?", 		
    "neutralHello": "Hello!",	
-   "hateHello": "I hope your here for a civil talk.", 		
+   "hateHello": "I hope you're here for a civil talk.", 		
    "tradeRequest": "The Princess of Equestria in all her elegance would like to conduct a trade offer!", 		
 
    "outerColor": [178,137,93],		
@@ -39,9 +39,9 @@
    "startIntroPart1": "Lead the lands of the night,Princess Luna,As your batponies triumph over your foes,never experiencing a single defeat.",		
    "startIntroPart2": "Princess of the Night,you are the only hope for the species of the batponies just as your lands are a safehaven for the outcasts of other nations. Do not let your citizens down! Lead with all your might,for the fight of Equality.", 		
    "declaringWar": "Im fed up with your nonsense! Prepare to die!",		
-   "attacked": "Hah! You really think you can beat ME?!?!?!",		
+   "attacked": "Hah! Do you really think you can beat ME?!?!?!",		
    "defeated": "This republic's end came sooner than i expected......",		
-   "introduction": "Didnt see you there! Would you be intrested in buying one of our nice and furnished bat caves?", 		
+   "introduction": "Didn't see you there! Would you be interested in buying one of our nice furnished bat caves?", 		
    
    "neutralHello": "Do they say hello in these types of situations?",	
    "hateHello": "Hmph.",  		
@@ -191,13 +191,13 @@
 	
    "uniqueName": "Bitter Queen",		
    "uniques": ["Comment [All millitary units gain 10% Strength while fighting in in any tile outside of your territory, and gain another 8% while fighting in forests. All maintenance costs doubled, and has a -70% [Production] debuff while producing buildings.
-
+/*
   Gain 5% [Production] in all cities while at war, and an additional 5% from every [Hive], and an extra additional 2% from every [Forest] while at war. All worked [Hives] give +1 [Production] while at war.
 
 Upon declaring war on any major Civilization, gain 150% [Production] in all cities producing millitary unis for 10 turns. 
 
      Gain 1 [Food], 100 [Gold], 50 [Science], and an Infiltrator unit(Only after adopting [Infiltration]) in your capital upon conquering any city.]",
-
+*/
  "[+10]% Strength <for [Melee] units> <when fighting in [Foreign] tiles> <hidden from users>", 
 
 "[+5]% [Production] [in all cities] <when at war> <hidden from users>", "[+8]% Strength <for [Military] units> <when fighting in [Forest] tiles> <hidden from users>", "[+1 Production] from every [Hive] <when at war> <hidden from users>", "Gain [100] [Gold] <upon conquering a city> <hidden from users>", "Gain [50] [Science] <upon conquering a city> <hidden from users>", "[+1 Food] [in capital] <upon conquering a city> <hidden from users>", "[-10]% [Happiness] <when not at war> <hidden from users>", "Earn [15]% of killed [Military] unit's [Strength] as [Gold] <hidden from users>", "[+60]% [Production] <when at war>", "Free [Infiltrator] appears <upon conquering a city> <after adopting [Infiltration]> <hidden from users>", "[+5]% [Production] from every [Hive] <when at war> <hidden from users>", "[+2]% [Production] from every [Forest] <when at war>", "[+100]% maintenance costs <hidden from users>", "[-70]% Production when constructing [All] buildings [in all cities] <hidden from users>", "Changelings", "Non-Griffonians" 
@@ -258,12 +258,15 @@ Upon declaring war on any major Civilization, gain 150% [Production] in all citi
 Crystal Maker Buildings and Crystral Drill improvements provide you with [Gems].
 
 Gain a 10% Strength bonus to ALL millitary units when above 10 [Gems], then another 5% when above 15 [Gems], and an additional 5% above 20 [Gems].
-Heart]
 
      Gain 2 [Faith], and 3 [Culture], frome every worked [Gems] tile inside your territories",
+     
 "uniques": ["[+3]% [Production] from every [Gems] <hidden from users>", "[+1 Happiness] from every [Gemstones] <hidden from users>", "[+2 Faith, +3 Culture] from every [Gems] <hidden from users>", "[+1 Happiness] from every [Gems] <hidden from users>", "[+5]% Strength <for [Military] units> <when above [20] [Gems]>", "[+5]% Strength <for [Military] units> <when above [15] [Gems]>", "[+10]% Strength <for [Military] units> <when above [10] [Gems]>", "[1] Movement <in [Crystallization] tiles>", "[+1]% [Culture] from every [Crystallization] <when above [5] [Gems]> <in cities with a [Crystal Maker]>", "[+1]% [Happiness] from every [Crystallization] <when above [5] [Gems]> <in cities with a [Crystal Heart]>", "Ponies", "Non-Griffonians"]
 "cities": ["Crystal City","Rainbow Falls","Rubrum","Porridge Town","Quebuck","Snowybury","Hedgewards","Canterine","Evergreen","Saraneighvo","Emeraldtop","Ponytown", "Shinyronto", "Crystalpeg", "Buckawa", "Princesston", "Candence"]
 	},
+//+1% [Culture] from every [Crystallization] tiles in cities that have a [Crystal Maker]. 
+
+//+1% [Happiness] from every [Crystallization] tiles in your capital after it builds the [Crystal Heart]
     {		
 "name": "Olenia",		
 "leaderName": "King Johan The Djävulen",		
@@ -337,14 +340,52 @@ Heart]
 "uniques": ["[+10]% Strength <for [Military] units> <when fighting in [Tundra] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Snow] tiles>", "[+1 Food, +1 Faith] from every [Snow]", "[+1 Faith, +1 Gold] from every [Tundra]", "Non-Ponies", "Arctic Nations", "Non-Griffonians"]
 "cities": ["Mathair Fearainn","Polarhill","Pawtovik","Winteryearbypaw","Pawrtic","Polskcow","Coldlaska","Hyper Pawrea","Polarberia","Saint Petersbearg","Winter-on-Don","Chilsk","Wintmara","Paznhy Clavgorod","Beaonezh","Snorilsk","Furchi","Flufbent","Furza","Winta","Santangelsk"]
 	},
+/*
+{			
+   "name": "Pingland",	
+	"leaderName": "Teafeather",		
+   "adjective": ["Pinguin"],		
+   "startBias": ["[{Tundra} {Coastal}]"],		
+   "preferredVictoryType": "Cultural", 
+		
+   "startIntroPart1": "",		
+   "startIntroPart2": "", 		
+   "declaringWar": "The Emperor Pinguin has  brought forth unfortunate news: A formal Declaration of War from the Snowy Capital.",		
+   "attacked": "Foolish posturing. I hope your soldiers like the subzero temperature. ",		
+   "defeated": "Pingland has fallen.... But the spirit of it, has not. Goodbye.",		
+   "introduction": "Good day. Would you like to come visit and ice skii with us?", 		
+   
+   "neutralHello": "Welcome.",	
+   "hateHello": "You disgust me.",  		
+   "afterPeace": "We'll be back for more.", 		
+   "neutralLetsHearIt": ["If you must show me."],		
+   "neutralNo": ["Leave.","What even is this?","What did you just offer me?!?!"],		
+   "neutralYes": ["Great!","Have a great day.","Accepted."], 	
+   "hateLetsHearIt": ["Talk.","So?","Speak!"],		
+   "hateNo": ["That's unacceptable!","A thousand times no!","Nay!"],		
+   "hateYes": ["It pains me to accept... but yes."],	
+
+   "tradeRequest": "The Emperor Pinguin requests your patience.", 	
+
+   "outerColor": [208, 169, 219],		
+   "innerColor": [114, 219, 224],
+		
+   "favoredReligion": "Christianity",	
+	
+   "uniqueName": "The Grand Artic",		
+   "uniques": ["Arctic Nations", "Non-Griffonians", "Non-Ponies", "[+1 Food, +1 Gold] from every [Coast]", "[+1 Culture] from every [Ice]", "[+1 Food] from every [Snow]","[+1 Food] from every [Tundra]", "[-1 Food] from every [{non-[Tundra]}]"],	
+   "cities": ["Dachaigh","Amundsen","Ransen","Ingstad","Sverbruv","Fearann U Deas","Chimincollie","Pingat","Glaser","Iceburg",			
+   "Fishiville","Island Up North","Frostile","Wicenstoll"],
+},
+*/
 //Add Pingland, Yakyakistan, United dragon isles can be a CS or a nation. Add griffonian nations after your done with the Equus nations.
 //CS
 {		
    "name": "Ponyville",		
    "adjective": ["Ponvillians"],		
    "cityStateType": "Harmonic", 		
-   "declaringWar": "The atrocious actions you have commited on this world need to be amended.",		
-   "attacked": "Your attacking us?! Ha! i bet this campaign wont even last 5 turns!",		
+   "declaringWar": "The atrocious actions you have committed on this world need to be amended.",		
+   "attacked": "You're attacking us?! Ha! i bet this campaign won't even last 5 turns!",		
    "defeated": "Well,i guess no great and amazing alicorn came to save us this time,huh......",		
 "uniques": ["[+5 Happiness] <when not at war>"]
    "outerColor": [0, 0, 0],		
@@ -378,7 +419,7 @@ Heart]
    "adjective": ["White Bellers"],		
    "cityStateType": "Cultured", 		
    "declaringWar": "Your foul ways need to be amended!",		
-   "attacked": "Take one step into our territory and you will meet your end!",		
+   "attacked": "Take one step into our territory, and you'll meet your end!",		
    "defeated": "Do you hear it? The funeral bells ring....",		
    "outerColor": [0, 0, 0],		
    "innerColor": [100, 100, 100],	
@@ -522,7 +563,7 @@ Heart]
    "adjective": ["San Maneton"],		
    "cityStateType": "Economic", 		
    "declaringWar": "The egregious and threatening actions you have taken under everyone's snout, must be brought to light..by any means possible.",		
-   "attacked": "Those who live be thw sword, shall die by the sword..m.",		
+   "attacked": "Those who live be thw sword, shall die by the sword...",		
    "defeated": "Maybe the city just wasnt meant to be...",		
    "outerColor": [0, 0, 0],		
    "innerColor": [222, 170, 118],	
@@ -543,7 +584,7 @@ Heart]
     "name": "Haufland",		
    "adjective": ["Hawkan"],		
    "cityStateType": "Naval", 		
-   "declaringWar": "We have not been at war for many centurie, isolated on our island, but your nation has given us no choice. We hereby declare war.",		
+   "declaringWar": "We have not been at war for many centuries, isolated on our island, but your nation has given us no choice. We hereby declare war.",		
    "attacked": "Very well.",		
    "defeated": "You've made a big mistake....",		
    "outerColor": [0, 0, 0],		
