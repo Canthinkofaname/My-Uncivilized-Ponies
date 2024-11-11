@@ -46,7 +46,7 @@
  		"requiredTech": "Industrialization",
  		"uniques": ["Only available <in cities without a [Industrial Relocation]>", "Destroyed when the city is captured", 
       "[-10]% Unhappiness from [Population] [in all cities]", "[+2 Happiness] [in all cities]",
-      "[-2 Happiness] [in all cities] <with [50]% chance>", "Can only be built [in capital]"] 
+      "[-2 Happiness] [in all cities] <with [50]% chance>", "Can only be built <in [in capital] cities>"] 
 },
 { 		
 "name": "Industrial Relocation",
@@ -57,7 +57,7 @@
  		"maintenance": 2, 		
       "requiredTech": "Industrialization",
  		"uniques": ["Only available <in cities without a [Propaganda]>",
- "Can only be built [in capital]",
+ "Can only be built <in [in capital] cities>",
  "Destroyed when the city is captured",
  "[+7]% [Production] [in all cities]"
         ] 
@@ -113,13 +113,13 @@
  		"uniques": [
         "Provides [4] [Gems]",
   "Must have an owned [Crystal Drill] within [3] tiles",
- "Can only be built [in capital]",
+ "Can only be built <in [in capital] cities>",
  "[+1 Happiness] [in all cities]",
  "[+10]% [Production] [in all cities]"
         ] 
 },
 { 		
-"name": "Starlights House",
+"name": "Starlight's House",
  "cost": 130,
  "uniqueTo": "Our Town",
  		"happiness": 3,
@@ -127,7 +127,7 @@
  		"maintenance": 2, 		
       "requiredTech": "Construction",
  		"uniques": [
- "Can only be built [in capital]",
+ "Can only be built <in [in capital] cities>",
  "[+10]% [Production] [in capital]",
  "Destroyed when the city is captured",
         ] 
@@ -154,7 +154,7 @@
  		"requiredTech": "Magical Theory",
  		"uniques": [
         "Destroyed when the city is captured",
-        "Can only be built [in capital]",
+        "Can only be built <in [in capital] cities>",
     ] 
 },
 { 		
