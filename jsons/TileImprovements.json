@@ -56,7 +56,7 @@
 {		
 "name": "Jungle Farm",		
 "terrainsCanBeBuiltOn": ["Jungle"],		
-"replaces": ["Farm"]
+"replaces": "Farm",
 "food": 1
 "production": 1
 "turnsToBuild": 5
