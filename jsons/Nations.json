@@ -24,7 +24,7 @@
    "favoredReligion": "Alicornism",	
 	
    "uniqueName": "Harmony",		
-   "uniques": ["[+8 Happiness] [in all cities]", "[+15]% [Happiness] [in all cities] <when not at war>", "City-State territory always counts as friendly territory", "[30]% of excess happiness converted to [Culture] <when not at war>", "[+10]% Strength for cities <when attacking>", "[-20]% City-State Influence degradation", "Ponies", "Non-Griffonians"],		
+   "uniques": ["[+8 Happiness] [in all cities]", "[+15]% [Happiness] [in all cities] <when not at war>", "City-State territory always counts as friendly territory", "[30]% of excess happiness converted to [Culture] <when not at war>", "[+10]% Strength for cities <when attacking>", "[-20]% City-State Influence degradation", "Ponies"],		
    "cities": ["Canterlot","Cloudsdale","Las Pegasus","Hayston","Fillydelphia","Sire's Hollow","Raspberry Grove","Vanhoover","Whitebell","Acornage",			
    "Mariposa","Marechester","Mareway","New Horselean","Marehattan","Canterbury","Stableside","Portland","Prance","Ponyville",			
    "Castle of the Two Sisters","Bales","Luna Nova","Hoofington","Buckcastle","Ghastly Gorge","Trotland","Hoof City","Pinto Creek","Fort Mourn"],
@@ -98,7 +98,7 @@
    "favoredReligion": "Alicornism",	
 	
    "uniqueName": "Ancients of the Jungle",		
-   "uniques": ["[1] Movement <for [Land] units> <in [Jungle] tiles>", "[+10]% Strength <for [Military] units> <when fighting in [Jungle] tiles>", "[+2 Science] from every [{unimproved} {Jungle}]", "[+30]% Strength <for [Land] units> <when defending> <in [Jungle] tiles>", "[+40]% [Science] <during a Golden Age>", "[+2 Science] per [3] population [in all cities]", "Ponies", "Non-Griffonians"],		 
+   "uniques": ["[1] Movement <for [Land] units> <in [Jungle] tiles>", "[+10]% Strength <for [Military] units> <when fighting in [Jungle] tiles>", "[+2 Science] from every [{unimproved} {Jungle}]", "[+30]% Strength <for [Land] units> <when defending> <in [Jungle] tiles>", "[+40]% [Science] <during a Golden Age>", "[+2 Science] per [3] population [in all cities]", "Ponies"],		 
    "cities": ["Saltmare","Tonaltzintili","Tenochtitlan","Ayacachtli","Mareidian","Saltlickingham","Portland","Stableside","Rosemarein","New Mareico",			
    "Coltbla","Guadalamarea","Colterrey","Mareico City","Mareicali","Saint Luis Ponyusi","Mazaztlan","Aztlan City","Old Aztlan","Zebrapan",			
    "Ponechuca","Trotcoco","Zebracala"],
@@ -135,7 +135,7 @@
    "favoredReligion": "Equalism",	
 	
    "uniqueName": "Colony of the Mountains",		
-   "uniques": ["Griffonians", "Non-Ponies", "Land units may cross [Mountain] tiles after the first [Melee] is earned", "[+1 Gold] from every [Mountain]", "[1] Happiness from each type of luxury resource", "[+15 Gold, +5 Production, +3 Culture] [in puppeted cities]", "[+30]% [Production] [in puppeted cities]",  "[+3 Gold, +2 Culture, +1 Happiness] from [Luxury resource] tiles [in puppeted cities]", "[-30]% Unhappiness from [Population] [in puppeted cities]"],	
+   "uniques": ["Griffonians", "Land units may cross [Mountain] tiles after the first [Melee] is earned", "[+1 Gold] from every [Mountain]", "[1] Happiness from each type of luxury resource", "[+15 Gold, +5 Production, +3 Culture] [in puppeted cities]", "[+30]% [Production] [in puppeted cities]",  "[+3 Gold, +2 Culture, +1 Happiness] from [Luxury resource] tiles [in puppeted cities]", "[-30]% Unhappiness from [Population] [in puppeted cities]"],	
    "cities": ["Weter","Zelkshed Skall","Boreasfjord","Nouveau Aquila","Ny Winghagen","Nieuw Mirabell","Moron","Kluv Khot","Bounnois","Federstadt",			
    "Guidonuovo","Tsasbaatar","Groenstein","Fronsthill"],
 },
@@ -162,7 +162,7 @@
    "favoredReligion": "Christianity",	
 	
    "uniqueName": "Home, Sweet Home",		
-   "uniques": ["[+20]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>","[+10]% [Happiness] [in all cities] <with [Apples]>", "Ponies", "Non-Griffonians"],		
+   "uniques": ["[+20]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>","[+10]% [Happiness] [in all cities] <with [Apples]>", "Ponies"],		
    "cities": ["Appleloosa","Trotgaron","Haystin","Foaledo","Jamtown","San Manetonio","Horston","Galloprey","Rosemarein","Marellas",			
    "Lubbuck","Maredessa","Buckston","Maneton Rougue","New Mareleans","Marrahasse","Mareami","Bucksonville","Marelanta","Maregomery",			
    "Little Buck","Balefire","Maneleigh","Fillyville","Buckphis","Marelotte","El Mareo","Maredo","Buckus Mari","Beaumount"],
@@ -200,10 +200,10 @@ Upon declaring war on any major Civilization, gain 150% [Production] in all citi
 */
  "[+10]% Strength <for [Melee] units> <when fighting in [Foreign] tiles> <hidden from users>", 
 
-"[+5]% [Production] [in all cities] <when at war> <hidden from users>", "[+8]% Strength <for [Military] units> <when fighting in [Forest] tiles> <hidden from users>", "[+1 Production] from every [Hive] <when at war> <hidden from users>", "Gain [100] [Gold] <upon conquering a city> <hidden from users>", "Gain [50] [Science] <upon conquering a city> <hidden from users>", "[+1 Food] [in capital] <upon conquering a city> <hidden from users>", "[-10]% [Happiness] <when not at war> <hidden from users>", "Earn [15]% of killed [Military] unit's [Strength] as [Gold] <hidden from users>", "[+60]% [Production] <when at war>", "Free [Infiltrator] appears <upon conquering a city> <after adopting [Infiltration]> <hidden from users>", "[+5]% [Production] from every [Hive] <when at war> <hidden from users>", "[+2]% [Production] from every [Forest] <when at war>", "[+100]% maintenance costs <hidden from users>", "[-70]% Production when constructing [All] buildings [in all cities] <hidden from users>", "Changelings", "Non-Griffonians" 
+"[+5]% [Production] [in all cities] <when at war> <hidden from users>", "[+8]% Strength <for [Military] units> <when fighting in [Forest] tiles> <hidden from users>", "[+1 Production] from every [Hive] <when at war> <hidden from users>", "Gain [100] [Gold] <upon conquering a city> <hidden from users>", "Gain [50] [Science] <upon conquering a city> <hidden from users>", "[+1 Food] [in capital] <upon conquering a city> <hidden from users>", "[-10]% [Happiness] <when not at war> <hidden from users>", "Earn [15]% of killed [Military] unit's [Strength] as [Gold] <hidden from users>", "[+60]% [Production] <when at war>", "Free [Infiltrator] appears <upon conquering a city> <after adopting [Infiltration]> <hidden from users>", "[+5]% [Production] from every [Hive] <when at war> <hidden from users>", "[+2]% [Production] from every [Forest] <when at war>", "[+100]% maintenance costs <hidden from users>", "[-70]% Production when constructing [All] buildings [in all cities] <hidden from users>", "Changelings"
     ] ,
      //"Discover [Leader Assigned] <upon gaining a /[Queen Chrysalis] unit>",
- //"Non-Ponies", "[3] Movement <for [Land] units> <upon gaining a [Queen Chrysalis] unit>", "Free [Choose Your Leader] appears", 
+ //"[3] Movement <for [Land] units> <upon gaining a [Queen Chrysalis] unit>", "Free [Choose Your Leader] appears", 
 
 		
    "cities": ["Vesalipolis","Vraks","Soryth","Dirtysium","Sicarus","Antax","Gardis","Kladisum","Lyctida","Gorak",			
@@ -228,7 +228,7 @@ Upon declaring war on any major Civilization, gain 150% [Production] in all citi
 "innerColor": [237,245,35],		
 "favoredReligion": "Equalism",		
 "uniqueName": "The Collective",		
-"uniques": ["[+7]% [Production] [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>", "[-25]% Strength <for [Land] units>", "[+1 Production] from every [Tundra]", "[10]% of excess happiness converted to [Production]", "Damage is ignored when determining unit Strength <when attacking>", "Ponies", "Non-Griffonians"],		
+"uniques": ["[+7]% [Production] [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>", "[-25]% Strength <for [Land] units>", "[+1 Production] from every [Tundra]", "[10]% of excess happiness converted to [Production]", "Damage is ignored when determining unit Strength <when attacking>", "Ponies"],		
 "cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown","Ravenskoye","Stavropon","Tailney","Saint Petershoof","Altytown","Red Wheat","Novnikovo","Korki","Sovyenok","Zayatsk","Griffimsk"]
 	}, 
 {		
@@ -261,7 +261,7 @@ Gain a 10% Strength bonus to ALL millitary units when above 10 [Gems], then anot
 
      Gain 2 [Faith], and 3 [Culture], frome every worked [Gems] tile inside your territories",
      
-"uniques": ["[+3]% [Production] from every [Gems] <hidden from users>", "[+1 Happiness] from every [Gemstones] <hidden from users>", "[+2 Faith, +3 Culture] from every [Gems] <hidden from users>", "[+1 Happiness] from every [Gems] <hidden from users>", "[+5]% Strength <for [Military] units> <when above [20] [Gems]>", "[+5]% Strength <for [Military] units> <when above [15] [Gems]>", "[+10]% Strength <for [Military] units> <when above [10] [Gems]>", "[1] Movement <in [Crystallization] tiles>", "[+1]% [Culture] from every [Crystallization] <when above [5] [Gems]> <in cities with a [Crystal Maker]>", "[+1]% [Happiness] from every [Crystallization] <when above [5] [Gems]> <in cities with a [Crystal Heart]>", "Ponies", "Non-Griffonians"]
+"uniques": ["[+3]% [Production] from every [Gems] <hidden from users>", "[+1 Happiness] from every [Gemstones] <hidden from users>", "[+2 Faith, +3 Culture] from every [Gems] <hidden from users>", "[+1 Happiness] from every [Gems] <hidden from users>", "[+5]% Strength <for [Military] units> <when above [20] [Gems]>", "[+5]% Strength <for [Military] units> <when above [15] [Gems]>", "[+10]% Strength <for [Military] units> <when above [10] [Gems]>", "[1] Movement <in [Crystallization] tiles>", "[+1]% [Culture] from every [Crystallization] <when above [5] [Gems]> <in cities with a [Crystal Maker]>", "[+1]% [Happiness] from every [Crystallization] <when above [5] [Gems]> <in cities with a [Crystal Heart]>", "Ponies"]
 "cities": ["Crystal City","Rainbow Falls","Rubrum","Porridge Town","Quebuck","Snowybury","Hedgewards","Canterine","Evergreen","Saraneighvo","Emeraldtop","Ponytown", "Shinyronto", "Crystalpeg", "Buckawa", "Princesston", "Candence"]
 	},
 //+1% [Culture] from every [Crystallization] tiles in cities that have a [Crystal Maker]. 
@@ -288,7 +288,7 @@ Gain a 10% Strength bonus to ALL millitary units when above 10 [Gems], then anot
 "innerColor": [121, 125, 126],		
 "favoredReligion": "Hinduism",		
 "uniqueName": "Och vidare, Olenia!",		
-"uniques": ["[+12]% Strength <for [Sword] units> <before the [Renaissance era]>", "[+10]% [Production] [in all coastal cities]", "[+10]% [Production] [in all cities] <for [Water] units>", "[+10]% Strength <for [Water] units> <when fighting in [Coast] tiles>", "Enables [Water] units to enter ocean tiles <upon discovering [Optics]>", "Free [Trireme] appears <upon entering a Golden Age> <before discovering [Compass]>", "Free [Mooseship] appears <upon constructing [All]> <before the [Industrial era]> <after discovering [Compass]> <during a Golden Age> <for [30] turns>", "[2] free [Mooseship] units appear <upon entering a Golden Age> <after discovering [Compass]> <before the [Industrial era]>", "[+1 Faith, +1 Culture] from every [Fishing Boats]", "Non-Ponies", "Non-Griffonians"]
+"uniques": ["[+12]% Strength <for [Sword] units> <before the [Renaissance era]>", "[+10]% [Production] [in all coastal cities]", "[+10]% [Production] [in all cities] <for [Water] units>", "[+10]% Strength <for [Water] units> <when fighting in [Coast] tiles>", "Enables [Water] units to enter ocean tiles <upon discovering [Optics]>", "Free [Trireme] appears <upon entering a Golden Age> <before discovering [Compass]>", "Free [Mooseship] appears <upon constructing [All]> <before the [Industrial era]> <after discovering [Compass]> <during a Golden Age> <for [30] turns>", "[2] free [Mooseship] units appear <upon entering a Golden Age> <after discovering [Compass]> <before the [Industrial era]>", "[+1 Faith, +1 Culture] from every [Fishing Boats]"]
 "cities": ["Hjortland","Endräkt","Seaddle","Älgstad","Hejna","Mantyreek","Vaverfront","Sitz","Equadoe","Goldenshor","Kesäpuoli","Sakara","Luxbucht","Oslott","Elksburg","Isham","Cervus","Hirvikaupunki","Hovenhamn","Snollinga","Svenholm"]
 	}, 
 /* Only shoulf exist as a CS
@@ -312,7 +312,7 @@ Gain a 10% Strength bonus to ALL millitary units when above 10 [Gems], then anot
 "innerColor": [80,84,109],		
 "favoredReligion": "Equalism",		
 "uniqueName": "Down with the Hierachy!",		
-"uniques": ["[+12]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>", "[+12]% Strength <for [GunpowderMagic] units> <when fighting in [Friendly] tiles>", "Ponies", "Non-Griffonians"]
+"uniques": ["[+12]% Strength <for [Gunpowder] units> <when fighting in [Friendly] tiles>", "[+12]% Strength <for [GunpowderMagic] units> <when fighting in [Friendly] tiles>", "Ponies"]
 "cities": ["Our Town","Nash gorod","My Town","Starlight's Town","Glimmer's Town","Your Town","Equal Town","Our Village","My Village","Sunset's Town","Trixie's Trailer","Equal Village","Gorod Starlayt","Gorod Glimmera","Nobody's Town","Ravnyy","Mine.","Hideout","Not Your Town","Everybody's Town","Basic Town"]
 	}, 
 */
@@ -337,7 +337,7 @@ Gain a 10% Strength bonus to ALL millitary units when above 10 [Gems], then anot
 "innerColor": [255,255,255],		
 "favoredReligion": "Christianity",		
 "uniqueName": "Polar Bear Temper",		
-"uniques": ["[+10]% Strength <for [Military] units> <when fighting in [Tundra] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Snow] tiles>", "[+1 Food, +1 Faith] from every [Snow]", "[+1 Faith, +1 Gold] from every [Tundra]", "Non-Ponies", "Arctic Nations", "Non-Griffonians"]
+"uniques": ["[+10]% Strength <for [Military] units> <when fighting in [Tundra] tiles>", "[+15]% Strength <for [Military] units> <when fighting in [Snow] tiles>", "[+1 Food, +1 Faith] from every [Snow]", "[+1 Faith, +1 Gold] from every [Tundra]", "Arctic Nations"]
 "cities": ["Mathair Fearainn","Polarhill","Pawtovik","Winteryearbypaw","Pawrtic","Polskcow","Coldlaska","Hyper Pawrea","Polarberia","Saint Petersbearg","Winter-on-Don","Chilsk","Wintmara","Paznhy Clavgorod","Beaonezh","Snorilsk","Furchi","Flufbent","Furza","Winta","Santangelsk"]
 	},
 /*
@@ -373,7 +373,7 @@ Gain a 10% Strength bonus to ALL millitary units when above 10 [Gems], then anot
    "favoredReligion": "Christianity",	
 	
    "uniqueName": "The Grand Artic",		
-   "uniques": ["Arctic Nations", "Non-Griffonians", "Non-Ponies", "[+1 Food, +1 Gold] from every [Coast]", "[+1 Culture] from every [Ice]", "[+1 Food] from every [Snow]","[+1 Food] from every [Tundra]", "[-1 Food] from every [{non-[Tundra]}]"],	
+   "uniques": ["Arctic Nations", "[+1 Food, +1 Gold] from every [Coast]", "[+1 Culture] from every [Ice]", "[+1 Food] from every [Snow]","[+1 Food] from every [Tundra]", "[-1 Food] from every [{non-[Tundra]}]"],	
    "cities": ["Dachaigh","Amundsen","Ransen","Ingstad","Sverbruv","Fearann U Deas","Chimincollie","Pingat","Glaser","Iceburg",			
    "Fishiville","Island Up North","Frostile","Wicenstoll"],
 },
