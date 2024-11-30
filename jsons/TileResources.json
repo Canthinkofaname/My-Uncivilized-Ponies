@@ -8,10 +8,10 @@
   "improvedBy": ["Mine", "Crystal Drill"],		
 "improvementStats": {"production": 1},	
 	"uniques": ["Guaranteed with Strategic Balance resource option",				
-	"Generated with weight [100] <in [Featureless] [Grassland] tiles>",					
-"Generated with weight [100] <in [Featureless] [Plains] tiles>",					
-"Minor deposits generated with weight [10] <in [Grassland] [Hill] tiles> <in [Snow] [Hill] tiles> ",		
-			"Minor deposits generated with weight [10] <in [Plains] [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",				
+	"Generated with weight [100] <in [{Featureless} {Grassland}] tiles>",					
+"Generated with weight [100] <in [{Featureless} {Plains}] tiles>",					
+"Minor deposits generated with weight [10] <in [{Grassland} {Hill}] tiles> <in [{Snow} {Hill}] tiles>",		
+			"Minor deposits generated with weight [10] <in [{Plains} {Hill}] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>",				
 	"Minor deposits generated with weight [100] <in [Grassland] tiles>",					
 "Minor deposits generated with weight [20] <in [Grassland] tiles> <in tiles without [Fresh Water]>",				
 	"Minor deposits generated with weight [30] <in [Plains] tiles>"],	
@@ -26,7 +26,7 @@
 "food": 2,		
 "improvement": "Plantation",		
 "uniques": [
-"Generated on every [7] tiles <in [Featureless] [Grassland] tiles>",			
+"Generated on every [7] tiles <in [{Featureless} {Grassland}] tiles>",			
 "Generated with weight [5] <in [Forest] Regions>",										
 "Generated with weight [5] <in [Hybrid] Regions>",					
 "Generated near City States with weight [15]",					
@@ -67,6 +67,6 @@
 		"terrainsCanBeFoundOn": ["Coast"],
 		"food": 1,
 		"improvement": "Fishing Boats",
-		"uniques": ["Generated on every [10] tiles <in [Featureless] [Coast] tiles> <in [Tundra] Regions>",]
+		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles> <in [Tundra] Regions>",]
 	},
 ]

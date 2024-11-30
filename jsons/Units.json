@@ -19,7 +19,7 @@
 "[+300]% Strength <during the [Atomic era]>",
 "[+350]% Strength <during the [Information era]>",
 "[+400]% Strength <during the [Future era]>",
-"Only available <for [Ponies]>",
+"Only available <for [Ponies] Civilizations>",
 ],	
 "strength": 10,
 "range": 2,
@@ -96,7 +96,7 @@
 "obsoleteTech": "Plastics",				
 "upgradesTo": "Magical Infantry",	
 "attackSound": "nonmetalhit"	
-"uniques": ["Only available <for [Ponies]>"]
+"uniques": ["Only available <for [Ponies] Civilizations>"]
 },
 {		
 "name": "Magical Rifleman",		
@@ -324,7 +324,7 @@
 "obsoleteTech": "Steel",				
 "upgradesTo": "Longswordsman",		
 "attackSound": "nonmetalhit"	
-"uniques": ["Only available <for [Arctic Nations]>"]
+"uniques": ["Only available <for [Arctic Nations] Civilizations>"]
 },
 {		
 "name": "Farmer Militia",		
@@ -445,7 +445,7 @@
 "obsoleteTech": "Replaceable Parts",				
 "upgradesTo": "Great War Infantry",		
 "attackSound": "nonmetalhit",
-"uniques": ["[+10]% Strength <when fighting in [Tundra] tiles>", "[+10]% Strength <when fighting in [Snow] tiles>", "Only available <for [Ponies]>"]
+"uniques": ["[+10]% Strength <when fighting in [Tundra] tiles>", "[+10]% Strength <when fighting in [Snow] tiles>", "Only available <for [Ponies] Civilizations>"]
 },
 {		
 "name": "Flying Horse Chariot",		
@@ -457,7 +457,7 @@
 "obsoleteTech": "Chivalry",				
 "upgradesTo": "Knight",		
 "attackSound": "nonmetalhit",
-"uniques": ["Only available <for [Ponies]>", "Ignores terrain cost", "Can pass through impassable tiles", ]
+"uniques": ["Only available <for [Ponies] Civilizations>", "Ignores terrain cost", "Can pass through impassable tiles", ]
 },
 {		
 "name": "Unicorn",		
@@ -470,7 +470,7 @@
 "obsoleteTech": "Education",				
 "upgradesTo": "Magician",		
 "attackSound": "nonmetalhit",
-"uniques": ["Only available <for [Ponies]>", "May withdraw before melee ([10]%)"]
+"uniques": ["Only available <for [Ponies] Civilizations>", "Withdraws before melee combat <with [10]% chance>"]
 },
 {		
 "name": "Magician",		
@@ -483,7 +483,7 @@
 "obsoleteTech": "Industrialization",				
 "upgradesTo": "Gatling Gun",		
 "attackSound": "nonmetalhit",
-"uniques": ["Only available <for [Ponies]>", "May withdraw before melee ([10]%)"]
+"uniques": ["Only available <for [Ponies] Civilizations>", "Withdraws before melee combat <with [10]% chance>"]
 },
 	{
 		"name": "Chariot Archer",
@@ -537,7 +537,7 @@
 		"strength": 5,
 		"cost": 25,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Unavailable <for [Griffonians]>"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "Unavailable <for [Griffonians] Civilizations>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -548,7 +548,7 @@
 		"strength": 5,
 		"cost": 20,
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "[+25]% Strength <when defending>", "Only available <for [Griffonians]>"],
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit", "[+25]% Strength <when defending>", "Only available <for [Griffonians] Civilizations>"],
 		"promotions": ["Ignore terrain cost", "Sentry"],
 "hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -561,7 +561,7 @@
    "requiredTech": "Horseback Riding",
 		"cost": 85,
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Only available <for [Ponies]>", "Can move after attacking","No defensive terrain bonus","[-25]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Only available <for [Ponies] Civilizations>", "Can move after attacking","No defensive terrain bonus","[-25]% Strength <vs cities> <when attacking>"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -575,7 +575,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Unavailable <for [Ponies]>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Unavailable <for [Ponies] Civilizations>"],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
@@ -616,7 +616,7 @@
 		"requiredTech": "Education",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": ["Only available <for [Ponies]>"],
+		"uniques": ["Only available <for [Ponies] Civilizations>"],
 		"attackSound": "nonmetalhit"
 	},
 {
@@ -628,7 +628,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-   "uniques": ["Only available <for [Griffonians]>"],
+   "uniques": ["Only available <for [Griffonians] Civilizations>"],
 		"attackSound": "shot"
 	},
 	{
@@ -653,7 +653,7 @@
 		"strength": 17,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Only available <for [Griffonians]>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Only available <for [Griffonians] Civilizations>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -665,7 +665,7 @@
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Unavailable <for [Griffonians]>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>", "Unavailable <for [Griffonians] Civilizations>"],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
@@ -679,7 +679,7 @@
 		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Infantry",
 		"obsoleteTech": "Plastics",
-   "uniques": ["Unavailable <for [Griffonians]>"],
+   "uniques": ["Unavailable <for [Griffonians] Civilizations>"],
 		"attackSound": "shot"
 	},
 	{
@@ -694,7 +694,7 @@
 		"requiredTech": "Biology",
 		"upgradesTo": "Triplane",
 		"obsoleteTech": "Radar",
-		"uniques": ["[35]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "Only available <for [Griffonians]>"],
+		"uniques": ["[35]% chance to intercept air attacks", "[+100]% Strength <vs [Bomber] units>", "[+100]% Strength <vs [Helicopter] units>", "Only available <for [Griffonians] Civilizations>"],
 		"attackSound": "machinegun"
 	},
 {
@@ -707,7 +707,7 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Unavailable <for [Griffonians]>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Unavailable <for [Griffonians] Civilizations>"],
 		"attackSound": "horse"
 	},
 {
@@ -730,7 +730,7 @@
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <for [Griffonians]>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available <for [Griffonians] Civilizations>"],
 		"attackSound": "horse"
 	},
 
