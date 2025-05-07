@@ -24,14 +24,14 @@
 {
  "name": "Strategic Infiltration", 
 "uniques": [ "[-10]% [Production] [in all cities] <for [Infiltrator] units>", "Comment [Increases Sight of Infiltrator Units]", "[+1] Sight <for [Infiltrator] units>", "Only available <before adopting [Tactical Infiltration]>"], 
-"row": 3, 
+"row": 2, 
 "column": 1,
 "requires": ["Infiltrater Company"],
 },
 {
  "name": "Chameleon Cloaks", 
 "uniques": [ "[-15]% [Production] [in all cities] <for [Infiltrator] units>", "[+15]% Strength <when fighting in [Forest] tiles>"], 
-"row": 5, 
+"row": 3, 
 "column": 1,
 "requires": ["Strategic Infiltration"],
 },
@@ -39,14 +39,14 @@
 {
  "name": "Tactical Infiltration", 
 "uniques": [ "[+10]% [Production] [in all cities] <for [Infiltrator] units>", "Comment [Strengthens Infiltrator Units]", "Only available <before adopting [Strategic Infiltration]>"], 
-"row": 3, 
+"row": 2, 
 "column": 5,
 "requires": ["Infiltrater Company"],
 },
 {
  "name": "Targeted Insertion", 
 "uniques": ["[+7]% [Production] [in all cities] <for [Infiltrator] units>", "Comment [Increases Mobility of Infiltrator Units]"], 
-"row": 5, 
+"row": 3, 
 "column": 5,
 "requires": ["Tactical Infiltration"],
 },
@@ -77,35 +77,35 @@
  "name": "Friendship", 
 "uniques": [ "[-10]% [Production] [in all cities] <for [Military] units>", "[+10]% [Production] [in all cities] <for [Civilian] units>", "[+1 Happiness] per [4] population [in all cities] <when not at war>"], 
  "row": 1,
- "column": 4, //3
+ "column": 3,
 },
 {
  "name": "Cultural Harmonizing", 
 "uniques": ["[+1 Culture] [in capital]", "[+1 Happiness] per [8] population [in all cities]", "Only available <before adopting [Religous Harmonizing]>"],
 "row": 2,
-"column": 2,
+"column": 1,
  "requires": ["Friendship"],
 },
 {
  "name": "Cultural Amalgamation", 
 "uniques": ["[+1 Culture] [in all cities]", "Only available <before adopting [Religous Harmonizing]>"],
-  "row": 4, //5
-  "column": 2, //4
+  "row": 3,
+  "column": 1,
  
  "requires": ["Cultural Harmonizing"],
 },
 {
  "name": "Religous Harmonizing", 
 "uniques": ["[+1 Happiness, +1 Faith] [in all cities]", "[+1 Faith] [in all cities]", "Only available <before adopting [Cultural Harmonizing]>"], 
-  "row": 2, //4
-  "column": 6, //3
+  "row": 2,
+  "column": 5,
   "requires": ["Friendship"],
 },
 {
  "name": "Religous Acceptance & Tolerance", 
 "uniques": ["[+1 Faith] [in annexed cities]", "[+1 Happiness] [in all non-occupied cities]", "Only available <before adopting [Cultural Harmonizing]>"], 
-   "row": 4, //2
-   "column": 6,   //5
+   "row": 3,
+   "column": 5,
  "requires": ["Religous Harmonizing"],
 },
 { 
