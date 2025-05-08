@@ -71,7 +71,7 @@
 "food": 2
 "production": 1
 "turnsToBuild": 5
-"uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Food]", "Only available <for [Arctic Nations]>"]
+"uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Food]", "Only available <for [Arctic Nations] Civilizations>"]
 },
 */
 {		
@@ -90,7 +90,7 @@
 "terrainsCanBeBuiltOn": ["Mountain"],		
 "production": 3
 "turnsToBuild": 5
-"uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Culture, +10 Production]", "Great Improvement", "Only available <for [Griffonians]>",  "Can only be built to improve a resource"]
+"uniques": [ "Pillaging this improvement yields approximately [+90 Gold, +10 Culture, +10 Production]", "Great Improvement", "Only available <for [Griffonians] Civilizations>",  "Can only be built to improve a resource"]
 },
 
  

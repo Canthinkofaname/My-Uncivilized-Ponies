@@ -228,7 +228,7 @@ Upon declaring war on any major Civilization, gain 150% [Production] in all citi
 "innerColor": [237,245,35],		
 "favoredReligion": "Equalism",		
 "uniqueName": "The Collective",		
-"uniques": ["[+7]% [Production] [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>", "[-25]% Strength <for [Land] units>", "[+1 Production] from every [Tundra]", "[10]% of excess happiness converted to [Production]", "Damage is ignored when determining unit Strength <when attacking>", "Ponies"],		
+"uniques": ["[+7]% [Production] [in all cities] <after discovering [Industrialization]>", "[-25]% maintenance costs <for [Land] units>", "[-25]% Strength <for [Land] units>", "[+1 Production] from every [Tundra]", "[10]% of excess happiness converted to [Production]", "No damage penalty for wounded units <when attacking>", "Ponies"],		
 "cities": ["Stalliongrad","Konzan","Zayask","Zlatotsvet","Hoofbeat Town","Caramel Marks","Krasivsk","Altytown","Ravenskoye","Stavropon","Tailney","Saint Petershoof","Altytown","Red Wheat","Novnikovo","Korki","Sovyenok","Zayatsk","Griffimsk"]
 	}, 
 {		
