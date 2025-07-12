@@ -47,7 +47,7 @@
 "name": "Ancient Changeling Tech",				
 "row": 7,						
 	"quote": "' 'Queen' Chrysalis has a good ring to it,doesnt it?' - Queen Chrysalis",
-"uniques": ["Only available <for [Changelings]>"]	
+"uniques": ["Only available <for [Changelings] Civilizations>"]	
 },
 ]
 
@@ -62,7 +62,7 @@
 
 {				
 "name": "Secrets of the Arctic",
-"uniques": ["Only available <for [Arctic Nations]>"]
+"uniques": ["Only available <for [Arctic Nations] Civilizations>"]
 "row": 8,							
 	"quote": "'The world cannot live without the Arctic; it affects every living thing on Earth and acts as a virtual thermostat, reflecting sunlight and cooling the planet.' - Phillipe Cousteau"			
 },

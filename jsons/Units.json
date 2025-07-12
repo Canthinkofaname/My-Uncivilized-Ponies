@@ -496,7 +496,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "Unavailable <for [Ponies]>"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit", "Unavailable <for [Ponies] Civilizations>"],
 		"attackSound": "arrow"
 	},
 {
@@ -527,7 +527,7 @@
 		"requiredResource": "Cattle",
 		"upgradesTo": "Swordsman",
 		"obsoleteTech": "Metal Casting",
-		"uniques": ["Only available <for [Ponies]>", "[+30]% Strength <when defending>", "Can build [Forest] improvements on tiles", "Double movement in [Forest]"],
+		"uniques": ["Only available <for [Ponies] Civilizations>", "[+30]% Strength <when defending>", "Can build [Forest] improvements on tiles", "Double movement in [Forest]"],
 		"attackSound": "nonmetalhit"
 	},
 {

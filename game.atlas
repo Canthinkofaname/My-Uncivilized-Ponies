@@ -1,0 +1,551 @@
+
+game.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+LeaderIcons/Princess Celestia
+  rotate: false
+  xy: 4, 4
+  size: 849, 1241
+  orig: 849, 1241
+  offset: 0, 0
+  index: -1
+LeaderIcons/Princess Luna
+  rotate: false
+  xy: 861, 12
+  size: 841, 1233
+  orig: 841, 1233
+  offset: 0, 0
+  index: -1
+
+game2.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Arctic Fishing Dock
+  rotate: false
+  xy: 4, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Crystal Heart
+  rotate: false
+  xy: 212, 112
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Crystal Maker
+  rotate: false
+  xy: 420, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Igloo
+  rotate: false
+  xy: 1385, 1186
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Industrial Relocation
+  rotate: false
+  xy: 1593, 1394
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Lunar Panels
+  rotate: false
+  xy: 1385, 770
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Orchard
+  rotate: false
+  xy: 628, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Propaganda
+  rotate: false
+  xy: 628, 112
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Railway Innovation
+  rotate: false
+  xy: 836, 168
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Shining's Shield
+  rotate: false
+  xy: 1460, 354
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Stalliongrad Tank Factory
+  rotate: false
+  xy: 1460, 146
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Starlights House
+  rotate: false
+  xy: 1668, 354
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Sweet Apple Acre
+  rotate: false
+  xy: 1668, 146
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Wonderbolt Academy
+  rotate: false
+  xy: 1801, 978
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+LeaderIcons/Queen Chrysalis
+  rotate: false
+  xy: 751, 584
+  size: 626, 1024
+  orig: 626, 1024
+  offset: 0, 0
+  index: -1
+LeaderIcons/Silverstar
+  rotate: false
+  xy: 4, 930
+  size: 739, 1080
+  orig: 739, 1080
+  offset: 0, 0
+  index: -1
+NationIcons/Appleloosa
+  rotate: false
+  xy: 1801, 870
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Assyria
+  rotate: false
+  xy: 112, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Changelings
+  rotate: false
+  xy: 4, 528
+  size: 700, 394
+  orig: 700, 394
+  offset: 0, 0
+  index: -1
+NationIcons/Crete
+  rotate: false
+  xy: 1801, 762
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Equestria
+  rotate: false
+  xy: 1801, 654
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/GAY
+  rotate: false
+  xy: 712, 882
+  size: 30, 40
+  orig: 30, 40
+  offset: 0, 0
+  index: -1
+NationIcons/Lunar Republic
+  rotate: false
+  xy: 328, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Lydia
+  rotate: false
+  xy: 436, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Macedon
+  rotate: false
+  xy: 544, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Olenia
+  rotate: false
+  xy: 1909, 870
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Our Town
+  rotate: false
+  xy: 1909, 762
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Polar Bear Communities
+  rotate: false
+  xy: 1909, 654
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Pontus
+  rotate: false
+  xy: 760, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Scrappe
+  rotate: false
+  xy: 868, 60
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Scrappedagain
+  rotate: false
+  xy: 976, 60
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Sparta
+  rotate: false
+  xy: 1192, 38
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Stalliongrad
+  rotate: false
+  xy: 1300, 38
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/The Crystal Empire
+  rotate: false
+  xy: 1408, 38
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Chameleon Cloaks
+  rotate: false
+  xy: 1983, 1960
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Cultural Amalgamation
+  rotate: false
+  xy: 1875, 1636
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Cultural Harmonizing
+  rotate: false
+  xy: 1801, 596
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Friendship
+  rotate: false
+  xy: 1516, 88
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Infiltrater Company
+  rotate: false
+  xy: 1983, 1902
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Religous Acceptance & Tolerance
+  rotate: false
+  xy: 1859, 596
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Religous Harmonizing
+  rotate: false
+  xy: 1574, 88
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Strategic Infiltration
+  rotate: false
+  xy: 1983, 1844
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Tactical Infiltration
+  rotate: false
+  xy: 1917, 596
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+PolicyIcons/Targeted Insertion
+  rotate: false
+  xy: 1632, 88
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ReligionIcons/Alicornism
+  rotate: false
+  xy: 4, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Equalism
+  rotate: false
+  xy: 1875, 1694
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ReligionIcons/Hiveism
+  rotate: false
+  xy: 751, 1616
+  size: 700, 394
+  orig: 700, 394
+  offset: 0, 0
+  index: -1
+TechIcons/Ancient Changeling Tech
+  rotate: false
+  xy: 1875, 1910
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Basic Fishing
+  rotate: false
+  xy: 1875, 1802
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Magical Theory
+  rotate: false
+  xy: 652, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+TechIcons/Secrets of the Artic
+  rotate: false
+  xy: 1084, 60
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Arctic Killer
+  rotate: false
+  xy: 1459, 1810
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/output-onlinepngtools - 2022-08-13T172418.175
+  rotate: false
+  xy: 1459, 1810
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Bat Warrior
+  rotate: false
+  xy: 4, 112
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Bucker
+  rotate: false
+  xy: 212, 320
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Crystal Guard
+  rotate: false
+  xy: 1667, 1810
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Crystallizer
+  rotate: false
+  xy: 220, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Fallskärmsjägarna
+  rotate: false
+  xy: 420, 112
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Freedom Fighter
+  rotate: false
+  xy: 1459, 1602
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Alicorn
+  rotate: false
+  xy: 1667, 1602
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Earth Pony
+  rotate: false
+  xy: 1385, 1394
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Infiltrator
+  rotate: false
+  xy: 1385, 978
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Jaeger
+  rotate: false
+  xy: 1593, 1186
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magical Bat Infantry
+  rotate: false
+  xy: 1593, 978
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Magical Infantry
+  rotate: false
+  xy: 1593, 770
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Bat Infantry
+  rotate: false
+  xy: 1385, 562
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Olenian Warrior
+  rotate: false
+  xy: 1593, 562
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Raider
+  rotate: false
+  xy: 836, 376
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Royal Marshal
+  rotate: false
+  xy: 1044, 376
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Royal Officer
+  rotate: false
+  xy: 1044, 168
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Sheriff
+  rotate: false
+  xy: 1252, 354
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Stallioneer
+  rotate: false
+  xy: 1252, 146
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Tundra Bear
+  rotate: false
+  xy: 1801, 1394
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/output-onlinepngtools - 2022-08-13T171243.130
+  rotate: false
+  xy: 1801, 1394
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Walrus
+  rotate: false
+  xy: 1801, 1186
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
